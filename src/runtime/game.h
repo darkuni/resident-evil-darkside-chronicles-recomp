@@ -30,3 +30,6 @@
 #define G_NUNCHUK               1             // the Nunchuk is always attached (camera stick; the Zapper types need it)
 #define G_NUNCHUK_LIGHTGUN      1             // controls layout: see dist/README.txt
 #define G_FPS60                 1             // "Frame rate" setting: hold the frame limiter at one retrace (game_ds.cpp)
+#define G_EFB_COPY_TO_RAM       1             // the CPU reads a 32x16 intensity copy each frame for auto-exposure
+#define G_EFB2RAM_MAX_PIXELS    4096          // only small copies (skips readback of the full-screen ones)
+#define G_EFB2RAM_8BIT_ONLY     1             // only the 8-bit (intensity) copies go back to RAM

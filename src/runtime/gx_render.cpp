@@ -1096,8 +1096,18 @@ static void efb_copy_impl(uint32_t val) {
         // Also store the copy in RAM in the GX texture layout, for games whose CPU reads it
         // (RGB565 and RGBA8 copies; G_EFB_COPY_TO_RAM in game.h, EFB2RAM=0 turns it off)
         static const bool to_ram = !getenv("EFB2RAM") || atoi(getenv("EFB2RAM")) != 0;
-        if (to_ram && !zcopy && !inten && (cfmt == 4 || cfmt == 6) && (tw & 3) == 0 && (th & 3) == 0 &&
-            dst >= 0x80000000u && dst + (uint32_t)tw * th * (cfmt == 6 ? 4 : 2) <= 0x93600000u) {
+#ifndef G_EFB2RAM_MAX_PIXELS
+#define G_EFB2RAM_MAX_PIXELS 0x7FFFFFFF
+#endif
+#ifndef G_EFB2RAM_8BIT_ONLY
+#define G_EFB2RAM_8BIT_ONLY 0
+#endif
+        // 8-bit formats (I8 / R8 / A8 / G8 / B8): 8x4 texel blocks of 32 bytes
+        const bool fmt8 = (cfmt == 1 || cfmt == 7 || cfmt == 8 || cfmt == 9 || cfmt == 10);
+        const bool fmt16 = !G_EFB2RAM_8BIT_ONLY && cfmt == 4 && !inten, fmt32 = !G_EFB2RAM_8BIT_ONLY && cfmt == 6 && !inten;
+        const int bpp = fmt8 ? 1 : fmt16 ? 2 : 4;
+        if (to_ram && !zcopy && (fmt8 || fmt16 || fmt32) && (tw * th) <= G_EFB2RAM_MAX_PIXELS &&
+            dst >= 0x80000000u && dst + (uint32_t)tw * th * bpp <= 0x93600000u) {
             static GLuint rbfo = 0;
             if (!rbfo) glGenFramebuffers(1, &rbfo);
             std::vector<uint8_t> px((size_t)tw * RS * th * RS * 4);
@@ -1107,20 +1117,34 @@ static void efb_copy_impl(uint32_t val) {
             glReadPixels(0, 0, tw * RS, th * RS, GL_RGBA, GL_UNSIGNED_BYTE, px.data());
             glBindFramebuffer(GL_FRAMEBUFFER, g_fbo);
             uint8_t* out = MEM + (dst & 0x9FFFFFFFu);
-            int bw = tw / 4;
+            const int bw4 = (tw + 3) / 4, bw8 = (tw + 7) / 8;
             for (int y = 0; y < th; y++)
                 for (int x = 0; x < tw; x++) {
-                    const uint8_t* p = &px[(((size_t)y * RS) * tw * RS + (size_t)x * RS) * 4];
-                    int blk = (y / 4) * bw + x / 4, i = (y & 3) * 4 + (x & 3);
-                    if (cfmt == 4) {
+                    // average the RS x RS block so a scaled EFB still gives the game the right value
+                    int acc[4] = {0, 0, 0, 0};
+                    for (int sy2 = 0; sy2 < RS; sy2++)
+                        for (int sx2 = 0; sx2 < RS; sx2++) {
+                            const uint8_t* q = &px[(((size_t)y * RS + sy2) * tw * RS + (size_t)x * RS + sx2) * 4];
+                            for (int k = 0; k < 4; k++) acc[k] += q[k];
+                        }
+                    uint8_t p[4];
+                    for (int k = 0; k < 4; k++) p[k] = (uint8_t)((acc[k] + RS * RS / 2) / (RS * RS));
+                    if (fmt8) {
+                        // the copy shader already put the chosen channel (or intensity) in every component
+                        out[((y / 4) * bw8 + x / 8) * 32 + (y & 3) * 8 + (x & 7)] = (cfmt == 7) ? p[3] : p[0];
+                    } else if (fmt16) {
+                        int blk = (y / 4) * bw4 + x / 4, i = (y & 3) * 4 + (x & 3);
                         uint16_t v = (uint16_t)((p[0] >> 3) << 11 | (p[1] >> 2) << 5 | (p[2] >> 3));
                         uint8_t* o = out + blk * 32 + i * 2;
                         o[0] = v >> 8; o[1] = v & 255;
                     } else {
+                        int blk = (y / 4) * bw4 + x / 4, i = (y & 3) * 4 + (x & 3);
                         uint8_t* o = out + blk * 64 + i * 2;
                         o[0] = p[3]; o[1] = p[0]; o[32] = p[1]; o[33] = p[2];
                     }
                 }
+            static bool logged = false;
+            if (!logged && fmt8) { logged = true; fprintf(g_log, "[efb2ram] 8-bit copy %dx%d -> %08X\n", tw, th, dst); }
         }
 #endif
         // keep the RAM copy's texture cache entry from shadowing this copy

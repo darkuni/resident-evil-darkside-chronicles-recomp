@@ -25,3 +25,10 @@ render thread.
   minimum at 0x80736D44 (timer 0x80736D10 + 0x34), elapsed retraces (up to 4) at +0x30. The constructor
   fn_802D8298 sets the minimum to 1; fn_802CB794 sets 1 and fn_802CBB3C restores a saved value.
   game_ds.cpp holds it at 1 with the fps60 setting.
+
+## Auto-exposure (EFB copy back to RAM)
+Each gameplay frame the game shrinks the scene into a 32x16 I8 (intensity) EFB copy at 0x80F52080
+and the CPU reads it to set exposure. Without the copy in RAM the game sees stale memory and
+drives exposure up until the scene washes out to white. G_EFB_COPY_TO_RAM with
+G_EFB2RAM_8BIT_ONLY / G_EFB2RAM_MAX_PIXELS 4096 writes only small 8-bit copies back (8x4 texel
+blocks). Writing back the RGBA8 copies too crashed the chapter 1 load, so they stay GPU-only.
