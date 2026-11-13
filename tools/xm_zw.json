@@ -1,0 +1,10346 @@
+{
+"80004000": [
+"80004000",
+"__check_pad3"
+],
+"8000403C": [
+"8000403C",
+"__start"
+],
+"800041A8": [
+"800041A8",
+"__init_registers"
+],
+"80004238": [
+"80004238",
+"__init_data"
+],
+"800042E0": [
+"800042E0",
+"__init_hardware"
+],
+"80004304": [
+"80004304",
+"__flush_cache"
+],
+"80004338": [
+"80004388",
+"__fill_mem"
+],
+"8004B5A4": [
+"8034A5EC",
+"fn_8034A5EC"
+],
+"8004BFD0": [
+"8017B20C",
+"fn_8017B20C"
+],
+"8008B69C": [
+"8026210C",
+"fn_8026210C"
+],
+"800FC9D4": [
+"8005CA98",
+"fn_8005CA98"
+],
+"8012E7A4": [
+"80235350",
+"fn_80235350"
+],
+"8019BA54": [
+"800DB2C0",
+"fn_800DB2C0"
+],
+"8019D478": [
+"800CF91C",
+"fn_800CF91C"
+],
+"8019EAB8": [
+"8024FE98",
+"fn_8024FE98"
+],
+"8019F928": [
+"800753F0",
+"fn_800753F0"
+],
+"802D2930": [
+"802171C8",
+"fn_802171C8"
+],
+"802FCA50": [
+"8004F9F8",
+"fn_8004F9F8"
+],
+"80303ECC": [
+"802671EC",
+"fn_802671EC"
+],
+"803374FC": [
+"8026E84C",
+"fn_8026E84C"
+],
+"80356A40": [
+"8018E364",
+"fn_8018E364"
+],
+"803675FC": [
+"80271908",
+"fn_80271908"
+],
+"80367DA8": [
+"801FD4BC",
+"fn_801FD4BC"
+],
+"80374984": [
+"802896B8",
+"PPCMfhid0"
+],
+"8037498C": [
+"802896C0",
+"fn_802896C0"
+],
+"80374994": [
+"802896C8",
+"PPCMfl2cr"
+],
+"8037499C": [
+"802896D0",
+"PPCMtl2cr"
+],
+"803749A4": [
+"802896D8",
+"PPCMtdec"
+],
+"803749AC": [
+"802896E0",
+"fn_802896E0"
+],
+"803749B4": [
+"802896E8",
+"PPCHalt"
+],
+"803749C8": [
+"802896FC",
+"PPCMtmmcr0"
+],
+"803749D0": [
+"80289704",
+"PPCMtmmcr1"
+],
+"803749D8": [
+"8028970C",
+"PPCMtpmc1"
+],
+"803749E0": [
+"80289714",
+"PPCMtpmc2"
+],
+"803749E8": [
+"8028971C",
+"PPCMtpmc3"
+],
+"803749F0": [
+"80289724",
+"PPCMtpmc4"
+],
+"803749F8": [
+"8028972C",
+"PPCMffpscr"
+],
+"80374A18": [
+"8028974C",
+"PPCMtfpscr"
+],
+"80374A40": [
+"80289774",
+"PPCMfhid2"
+],
+"80374A48": [
+"8028977C",
+"PPCMthid2"
+],
+"80374A5C": [
+"80289784",
+"PPCMtwpar"
+],
+"80374A64": [
+"8028978C",
+"PPCDisableSpeculation"
+],
+"80374A8C": [
+"802897B4",
+"PPCSetFpNonIEEEMode"
+],
+"80374A94": [
+"802897BC",
+"PPCMthid4"
+],
+"80374AE4": [
+"8028980C",
+"DBInit"
+],
+"80374B0C": [
+"80289834",
+"__DBExceptionDestinationAux"
+],
+"80374B54": [
+"8028987C",
+"__DBExceptionDestination"
+],
+"80374B64": [
+"8028988C",
+"__DBIsExceptionMarked"
+],
+"80374BCC": [
+"802898F4",
+"__OSFPRInit"
+],
+"80374CF4": [
+"80289A1C",
+"__OSGetIOSRev"
+],
+"80374FE4": [
+"80289CF8",
+"ClearArena"
+],
+"803751C0": [
+"80289ED4",
+"ClearMEM2Arena"
+],
+"803753A4": [
+"8028A0B8",
+"InquiryCallback"
+],
+"80375C10": [
+"8028A788",
+"OSExceptionInit"
+],
+"80375E90": [
+"8028AA08",
+"__OSDBIntegrator"
+],
+"80375EB8": [
+"8028AA30",
+"__OSSetExceptionHandler"
+],
+"80375ECC": [
+"8028AA44",
+"__OSGetExceptionHandler"
+],
+"80375EDC": [
+"8028AA54",
+"OSExceptionVector"
+],
+"80375F78": [
+"8028AAF0",
+"OSDefaultExceptionHandler"
+],
+"80375FD0": [
+"8028AB48",
+"__OSPSInit"
+],
+"80376024": [
+"8028AB9C",
+"__OSGetDIConfig"
+],
+"80376034": [
+"8028ABAC",
+"OSRegisterVersion"
+],
+"803760C8": [
+"8028AC08",
+"OSGetAppType"
+],
+"803760E8": [
+"8028AC28",
+"__OSInitAlarm"
+],
+"80376150": [
+"8028AC90",
+"InsertAlarm"
+],
+"803763A0": [
+"8028AEE0",
+"OSSetAlarm"
+],
+"80376410": [
+"8028AF50",
+"OSSetPeriodicAlarm"
+],
+"80376494": [
+"8028AFD4",
+"OSCancelAlarm"
+],
+"803765AC": [
+"8028B0EC",
+"DecrementerExceptionCallback"
+],
+"80376828": [
+"8028B368",
+"OnReset"
+],
+"803768C4": [
+"8026F390",
+"fn_8026F390"
+],
+"8037697C": [
+"8028B404",
+"DLInsert"
+],
+"80376A28": [
+"8028B4B0",
+"OSAllocFromHeap"
+],
+"80376B20": [
+"8028B5A8",
+"OSFreeToHeap"
+],
+"80376CE4": [
+"8028B680",
+"OSAllocFromMEM1ArenaLo"
+],
+"80376D18": [
+"8028B6F4",
+"__AIClockInit"
+],
+"80376F38": [
+"8028B914",
+"__OSInitAudioSystem"
+],
+"80377100": [
+"8028BADC",
+"__OSStopAudioSystem"
+],
+"803771CC": [
+"8028BBA8",
+"DCEnable"
+],
+"803771E0": [
+"8028BBBC",
+"DCInvalidateRange"
+],
+"8037720C": [
+"8028BBE8",
+"DCFlushRange"
+],
+"8037723C": [
+"8028BC18",
+"DCStoreRange"
+],
+"8037726C": [
+"8028BC48",
+"DCFlushRangeNoSync"
+],
+"80377298": [
+"8028BC74",
+"DCStoreRangeNoSync"
+],
+"803772C4": [
+"8028BCA0",
+"DCZeroRange"
+],
+"803772F0": [
+"8028BCF8",
+"ICInvalidateRange"
+],
+"80377324": [
+"8028BD2C",
+"ICFlashInvalidate"
+],
+"80377334": [
+"8028BD3C",
+"ICEnable"
+],
+"80377348": [
+"8028BD50",
+"__LCEnable"
+],
+"80377414": [
+"8028BE1C",
+"LCEnable"
+],
+"8037744C": [
+"8028BE54",
+"LCDisable"
+],
+"80377474": [
+"8028BE7C",
+"LCLoadBlocks"
+],
+"80377498": [
+"8028BEA0",
+"LCStoreBlocks"
+],
+"803774BC": [
+"8028BEC4",
+"LCStoreData"
+],
+"8037755C": [
+"8028BF64",
+"LCQueueLength"
+],
+"80377568": [
+"8028BF70",
+"LCQueueWait"
+],
+"8037757C": [
+"8028BF84",
+"DMAErrorHandler"
+],
+"803776C4": [
+"8028C0CC",
+"__OSCacheInit"
+],
+"803777FC": [
+"8028C204",
+"__OSLoadFPUContext"
+],
+"80377920": [
+"8028C328",
+"__OSSaveFPUContext"
+],
+"80377A48": [
+"8028C450",
+"OSSaveFPUContext"
+],
+"80377A50": [
+"8028C458",
+"OSSetCurrentContext"
+],
+"80377AB8": [
+"8028C4C0",
+"OSSaveContext"
+],
+"80377B38": [
+"8028C540",
+"OSLoadContext"
+],
+"80377C10": [
+"8028C618",
+"OSGetStackPointer"
+],
+"80377C18": [
+"8028C620",
+"OSSwitchFiber"
+],
+"80377C48": [
+"8028C650",
+"OSSwitchFiberEx"
+],
+"80377C78": [
+"8028C680",
+"OSClearContext"
+],
+"80377C9C": [
+"8028C6A4",
+"OSInitContext"
+],
+"80377D58": [
+"8028C760",
+"OSDumpContext"
+],
+"80377FB8": [
+"8028C9C0",
+"OSSwitchFPUContext"
+],
+"8037803C": [
+"8028CA44",
+"__OSContextInit"
+],
+"80378088": [
+"8028CC48",
+"OSSetErrorHandler"
+],
+"80378310": [
+"8028CED0",
+"__OSUnhandledException"
+],
+"80378AA4": [
+"8028D340",
+"fn_8028D340"
+],
+"80378AEC": [
+"8028D388",
+"__OSGetExecParams"
+],
+"80379A9C": [
+"8028E160",
+"fn_8028E160"
+],
+"80379C7C": [
+"8028E4F0",
+"fn_8028E4F0"
+],
+"8037A2DC": [
+"8028EB14",
+"fn_8028EB14"
+],
+"8037A8DC": [
+"8028F114",
+"fn_8028F114"
+],
+"8037AA10": [
+"8028F248",
+"fn_8028F248"
+],
+"8037ABB4": [
+"8028F3EC",
+"fn_8028F3EC"
+],
+"8037AC08": [
+"8028F440",
+"OSSetFontEncode"
+],
+"8037AC88": [
+"8028F4C0",
+"ReadFont"
+],
+"8037AF88": [
+"8028F7C0",
+"OSLoadFont"
+],
+"8037B0B0": [
+"8028F8E8",
+"ParseStringS"
+],
+"8037B1AC": [
+"8028F9E4",
+"ParseStringW"
+],
+"8037B368": [
+"8028FBA0",
+"OSGetFontTexel"
+],
+"8037BBA4": [
+"8028FEE8",
+"OSDisableInterrupts"
+],
+"8037BBB8": [
+"8028FEFC",
+"OSEnableInterrupts"
+],
+"8037BBCC": [
+"8028FF10",
+"OSRestoreInterrupts"
+],
+"8037BBF0": [
+"8028FF34",
+"__OSSetInterruptHandler"
+],
+"8037BC04": [
+"8028FF48",
+"__OSGetInterruptHandler"
+],
+"8037BC14": [
+"8028FF58",
+"__OSInterruptInit"
+],
+"8037BCD8": [
+"8029001C",
+"SetInterruptMask"
+],
+"8037BF34": [
+"80290278",
+"__OSMaskInterrupts"
+],
+"8037BFB4": [
+"802902F8",
+"__OSUnmaskInterrupts"
+],
+"8037C034": [
+"80290378",
+"__OSDispatchInterrupt"
+],
+"8037C328": [
+"8029066C",
+"__OSModuleInit"
+],
+"8037C340": [
+"80290684",
+"OSInitMessageQueue"
+],
+"8037C3A0": [
+"802906E4",
+"OSSendMessage"
+],
+"8037C468": [
+"802907AC",
+"OSReceiveMessage"
+],
+"8037C544": [
+"80290888",
+"OSJamMessage"
+],
+"8037C638": [
+"80290988",
+"OnShutdown"
+],
+"8037C674": [
+"802909C4",
+"MEMIntrruptHandler"
+],
+"8037CB08": [
+"80290F54",
+"RealMode"
+],
+"8037CD4C": [
+"8029116C",
+"OSInitMutex"
+],
+"8037CD84": [
+"802911A4",
+"OSLockMutex"
+],
+"8037CE60": [
+"80291280",
+"OSUnlockMutex"
+],
+"8037CF28": [
+"80291348",
+"__OSUnlockAllMutex"
+],
+"8037D0D8": [
+"80291428",
+"OSRegisterShutdownFunction"
+],
+"8037D160": [
+"802914B0",
+"fn_802914B0"
+],
+"8037D210": [
+"80291560",
+"fn_80291560"
+],
+"8037DABC": [
+"80291A80",
+"OSGetResetCode"
+],
+"8037DAEC": [
+"80291AB0",
+"OSResetSystem"
+],
+"8037DB08": [
+"80291ACC",
+"WriteSramCallback"
+],
+"8037DC40": [
+"80291C04",
+"__OSInitSram"
+],
+"8037DE40": [
+"80291E04",
+"UnlockSram"
+],
+"8037E130": [
+"802920F4",
+"__OSReadROM"
+],
+"8037E254": [
+"80292218",
+"OSGetWirelessID"
+],
+"8037E2CC": [
+"80292290",
+"OSSetWirelessID"
+],
+"8037E368": [
+"8029232C",
+"__OSGetRTCFlags"
+],
+"8037E484": [
+"80292448",
+"__OSClearRTCFlags"
+],
+"8037E594": [
+"802926B4",
+"SystemCallVector"
+],
+"8037E5B4": [
+"802926D4",
+"__OSInitSystemCall"
+],
+"8037E618": [
+"80292738",
+"__OSThreadInit"
+],
+"8037E95C": [
+"80292A50",
+"UnsetRun"
+],
+"8037E9C4": [
+"80292AB8",
+"__OSGetEffectivePriority"
+],
+"8037EA00": [
+"80292AF4",
+"SetEffectivePriority"
+],
+"8037EBB4": [
+"80292CA8",
+"__OSPromoteThread"
+],
+"8037EC04": [
+"80292CF8",
+"SelectThread"
+],
+"8037EE2C": [
+"80292F20",
+"__OSReschedule"
+],
+"8037EE44": [
+"80292F38",
+"OSYieldThread"
+],
+"8037EE80": [
+"80292F74",
+"OSCreateThread"
+],
+"8037F0EC": [
+"802931E0",
+"OSExitThread"
+],
+"8037F3B0": [
+"8029349C",
+"OSJoinThread"
+],
+"8037F4F0": [
+"802935DC",
+"OSResumeThread"
+],
+"8037F788": [
+"80293874",
+"OSSuspendThread"
+],
+"8037F91C": [
+"80293A08",
+"OSSleepThread"
+],
+"8037FA08": [
+"80293AF4",
+"fn_80293AF4"
+],
+"8037FD18": [
+"80293BE8",
+"OSGetTime"
+],
+"8037FD30": [
+"80293C00",
+"OSGetTick"
+],
+"8037FD38": [
+"80293C08",
+"__OSGetSystemTime"
+],
+"8037FD9C": [
+"80293C6C",
+"__OSTimeToSystemTime"
+],
+"8037FDF4": [
+"80293CC4",
+"GetDates"
+],
+"8037FF64": [
+"80293E34",
+"OSTicksToCalendarTime"
+],
+"803803CC": [
+"80293FFC",
+"OSUTF8to32"
+],
+"803804DC": [
+"8029410C",
+"OSUTF16to32"
+],
+"8038054C": [
+"8029417C",
+"OSUTF32toANSI"
+],
+"803805C4": [
+"802941F4",
+"OSUTF32toSJIS"
+],
+"80380614": [
+"80294244",
+"__OSInitIPCBuffer"
+],
+"80380804": [
+"802943D4",
+"__OSInitSTM"
+],
+"8038091C": [
+"802944EC",
+"__OSShutdownToSBY"
+],
+"80380994": [
+"80294564",
+"__OSHotReset"
+],
+"80380A04": [
+"802945D4",
+"__OSSetVIForceDimming"
+],
+"80380B3C": [
+"802946CC",
+"__OSUnRegisterStateEvent"
+],
+"80380D20": [
+"802948AC",
+"PlayRecordAlarmCallback"
+],
+"80380D2C": [
+"802948B8",
+"PlayRecordCallback"
+],
+"803811DC": [
+"80294D68",
+"__OSStartPlayRecord"
+],
+"80381230": [
+"80294DBC",
+"__OSStopPlayRecord"
+],
+"80381418": [
+"80294FA4",
+"__OSWriteStateFlags"
+],
+"803814FC": [
+"80295088",
+"__OSReadStateFlags"
+],
+"80381788": [
+"80295744",
+"fn_80295744"
+],
+"80382E6C": [
+"80295A54",
+"__init_cpp"
+],
+"80382EB4": [
+"80295A9C",
+"exit"
+],
+"80382F00": [
+"80295AE8",
+"PSMTXIdentity"
+],
+"80382F2C": [
+"80295B14",
+"PSMTXCopy"
+],
+"80382F60": [
+"80295B48",
+"PSMTXConcat"
+],
+"8038302C": [
+"80295C14",
+"PSMTXConcatArray"
+],
+"803831C4": [
+"80295DAC",
+"fn_80295DAC"
+],
+"8038330C": [
+"80295FBC",
+"PSMTXRotRad"
+],
+"80383388": [
+"80296038",
+"PSMTXRotTrig"
+],
+"80383438": [
+"802960E8",
+"__PSMTXRotAxisRadInternal"
+],
+"803834E8": [
+"80296198",
+"PSMTXRotAxisRad"
+],
+"80383564": [
+"80296214",
+"PSMTXTrans"
+],
+"80383598": [
+"80296248",
+"PSMTXTransApply"
+],
+"803835E4": [
+"80296294",
+"PSMTXScale"
+],
+"8038360C": [
+"802962BC",
+"PSMTXScaleApply"
+],
+"80383664": [
+"80296314",
+"PSMTXQuat"
+],
+"80383708": [
+"802963B8",
+"C_MTXLookAt"
+],
+"8038387C": [
+"8029652C",
+"C_MTXLightFrustum"
+],
+"80383920": [
+"802965D0",
+"C_MTXLightPerspective"
+],
+"80383A18": [
+"802966C8",
+"C_MTXLightOrtho"
+],
+"80383AA0": [
+"80296750",
+"PSMTXMultVec"
+],
+"80383AF4": [
+"802967F8",
+"C_MTXFrustum"
+],
+"80383B90": [
+"80296894",
+"C_MTXPerspective"
+],
+"80383C7C": [
+"80296980",
+"C_MTXOrtho"
+],
+"80383D14": [
+"80296A4C",
+"PSVECAdd"
+],
+"80383D38": [
+"80296AB0",
+"fn_80296AB0"
+],
+"80383D7C": [
+"80296B0C",
+"fn_80296B0C"
+],
+"80383DC0": [
+"80296B50",
+"fn_80296B50"
+],
+"80383DE0": [
+"80296B70",
+"fn_80296B70"
+],
+"80383E1C": [
+"80296BAC",
+"fn_80296BAC"
+],
+"80383EF4": [
+"80296C84",
+"fn_80296C84"
+],
+"80383F1C": [
+"80296CAC",
+"fn_80296CAC"
+],
+"8038400C": [
+"80296D00",
+"fn_80296D00"
+],
+"8038423C": [
+"80296ECC",
+"fn_80296ECC"
+],
+"803843D8": [
+"80297068",
+"__DVDFSInit"
+],
+"80384408": [
+"80297098",
+"DVDConvertPathToEntrynum"
+],
+"80384710": [
+"802973A0",
+"DVDFastOpen"
+],
+"80384C08": [
+"8029742C",
+"DVDReadAsyncPrio"
+],
+"80384CD8": [
+"802974FC",
+"cbForReadAsync"
+],
+"803851A4": [
+"80297514",
+"fn_80297514"
+],
+"803853B0": [
+"802976AC",
+"fn_802976AC"
+],
+"80385528": [
+"80297824",
+"fn_80297824"
+],
+"803856B0": [
+"802979AC",
+"fn_802979AC"
+],
+"803857C0": [
+"80297ABC",
+"fn_80297ABC"
+],
+"803857D4": [
+"80297AD0",
+"fn_80297AD0"
+],
+"80385810": [
+"80297B0C",
+"fn_80297B0C"
+],
+"80385904": [
+"80297C00",
+"fn_80297C00"
+],
+"803859C8": [
+"80297CC4",
+"fn_80297CC4"
+],
+"80385ECC": [
+"802981C8",
+"fn_802981C8"
+],
+"803860AC": [
+"802983A8",
+"fn_802983A8"
+],
+"803863C0": [
+"802986A4",
+"fn_802986A4"
+],
+"803866F8": [
+"802989DC",
+"fn_802989DC"
+],
+"80386D10": [
+"80298F4C",
+"fn_80298F4C"
+],
+"80386E98": [
+"802990D4",
+"fn_802990D4"
+],
+"80386FFC": [
+"80299238",
+"fn_80299238"
+],
+"803871C4": [
+"80299400",
+"fn_80299400"
+],
+"80387358": [
+"80299594",
+"fn_80299594"
+],
+"8038766C": [
+"80299800",
+"fn_80299800"
+],
+"80387750": [
+"802998E4",
+"fn_802998E4"
+],
+"80387BD0": [
+"80299C14",
+"fn_80299C14"
+],
+"80387CA8": [
+"80299CEC",
+"fn_80299CEC"
+],
+"80387E30": [
+"80299E74",
+"fn_80299E74"
+],
+"8038910C": [
+"8029AEFC",
+"fn_8029AEFC"
+],
+"803891F0": [
+"8029AFE0",
+"DVDInquiryAsync"
+],
+"803892C8": [
+"8029B0B8",
+"fn_8029B0B8"
+],
+"80389390": [
+"8029B180",
+"fn_8029B180"
+],
+"8038943C": [
+"8029B22C",
+"fn_8029B22C"
+],
+"803898E4": [
+"8029B6AC",
+"fn_8029B6AC"
+],
+"803899F0": [
+"8029B774",
+"fn_8029B774"
+],
+"80389B18": [
+"8029B89C",
+"fn_8029B89C"
+],
+"80389C4C": [
+"8029B9D0",
+"fn_8029B9D0"
+],
+"80389C78": [
+"8029B9FC",
+"__DVDClearWaitingQueue"
+],
+"80389CB0": [
+"8029BA34",
+"fn_8029BA34"
+],
+"80389D18": [
+"8029BA9C",
+"fn_8029BA9C"
+],
+"80389DB8": [
+"8029BB3C",
+"fn_8029BB3C"
+],
+"80389E10": [
+"8029BB94",
+"fn_8029BB94"
+],
+"80389E70": [
+"8029BBF4",
+"fn_8029BBF4"
+],
+"80389ED0": [
+"8029BC54",
+"fn_8029BC54"
+],
+"80389EFC": [
+"8029BC80",
+"fn_8029BC80"
+],
+"8038A6B0": [
+"8029BE24",
+"fn_8029BE24"
+],
+"8038A8B4": [
+"8029BF5C",
+"fn_8029BF5C"
+],
+"8038AA98": [
+"8029C100",
+"DVDSetAutoFatalMessaging"
+],
+"8038ADB8": [
+"8029C188",
+"fn_8029C188"
+],
+"8038AE70": [
+"8029C240",
+"fn_8029C240"
+],
+"8038AF7C": [
+"8029C2FC",
+"DVDLowInit"
+],
+"8038B1E0": [
+"8029C560",
+"fn_8029C560"
+],
+"8038B368": [
+"8029C6E8",
+"fn_8029C6E8"
+],
+"8038BE3C": [
+"8029CAB4",
+"fn_8029CAB4"
+],
+"8038C164": [
+"8029CDDC",
+"fn_8029CDDC"
+],
+"8038C2CC": [
+"8029CF44",
+"fn_8029CF44"
+],
+"8038C440": [
+"8029D0B8",
+"fn_8029D0B8"
+],
+"8038C8E4": [
+"8029D3C8",
+"fn_8029D3C8"
+],
+"8038CA64": [
+"8029D548",
+"fn_8029D548"
+],
+"8038CC14": [
+"8029D6F8",
+"fn_8029D6F8"
+],
+"8038D510": [
+"8029DD08",
+"__VIRetraceHandler"
+],
+"8038DEC0": [
+"8029E6A8",
+"__VIInit"
+],
+"8038E0D0": [
+"8029E8B8",
+"VIInit"
+],
+"8038E618": [
+"8029EE00",
+"VIWaitForRetrace"
+],
+"8038E66C": [
+"8029EE54",
+"setFbbRegs"
+],
+"8038F27C": [
+"8029FA30",
+"VIConfigurePan"
+],
+"8038F5D0": [
+"8029FD84",
+"VIFlush"
+],
+"8038F6E4": [
+"8029FE98",
+"VISetNextFrameBuffer"
+],
+"8038F750": [
+"8029FF04",
+"fn_8029FF04"
+],
+"8038F7D0": [
+"802A0020",
+"VIGetCurrentLine"
+],
+"8038F860": [
+"802A00B0",
+"VIGetTvFormat"
+],
+"8038F8C0": [
+"802A0110",
+"VIGetScanMode"
+],
+"8038F920": [
+"802A0170",
+"VIGetDTVStatus"
+],
+"8038F95C": [
+"802A01AC",
+"__VIDisplayPositionToXY"
+],
+"8038FB90": [
+"802A0434",
+"VISetTimeToDimming"
+],
+"803905CC": [
+"802A0F64",
+"__VISetYUVSEL"
+],
+"80390670": [
+"802A1008",
+"__VISetFilter4EURGB60"
+],
+"803906B0": [
+"802A1048",
+"__VISetCGMS"
+],
+"80390708": [
+"802A10A0",
+"__VISetWSS"
+],
+"8039076C": [
+"802A1104",
+"__VISetClosedCaption"
+],
+"803907D8": [
+"802A1170",
+"__VISetMacrovision"
+],
+"80391560": [
+"802A1EF8",
+"__VISetGammaImm"
+],
+"80391704": [
+"802A208C",
+"__VISetGamma"
+],
+"8039173C": [
+"802A20A4",
+"__VISetTrapFilter"
+],
+"803917B8": [
+"802A2100",
+"fn_802A2100"
+],
+"8039183C": [
+"802A2184",
+"fn_802A2184"
+],
+"8039184C": [
+"802A2194",
+"fn_802A2194"
+],
+"80391CC8": [
+"802A2608",
+"fn_802A2608"
+],
+"80391E6C": [
+"802A27AC",
+"fn_802A27AC"
+],
+"80391FF4": [
+"802A286C",
+"fn_802A286C"
+],
+"803920C8": [
+"802A2940",
+"fn_802A2940"
+],
+"80392524": [
+"802A2C60",
+"fn_802A2C60"
+],
+"803934B4": [
+"802A2D68",
+"__PADDisableRecalibration"
+],
+"80393554": [
+"802A2E08",
+"AIInitDMA"
+],
+"803935D0": [
+"802A2E84",
+"AIStartDMA"
+],
+"803935F4": [
+"802A2EBC",
+"fn_802A2EBC"
+],
+"80393624": [
+"802A2EDC",
+"AIInit"
+],
+"803937A4": [
+"802A305C",
+"__AIDHandler"
+],
+"8039384C": [
+"802A3104",
+"__AICallbackStackSwitch"
+],
+"803938B0": [
+"802A3168",
+"__AI_SRC_INIT"
+],
+"80393A74": [
+"802A332C",
+"AXInit"
+],
+"80393AE4": [
+"802A3444",
+"fn_802A3444"
+],
+"80393C40": [
+"802A3650",
+"fn_802A3650"
+],
+"80393C5C": [
+"802A366C",
+"fn_802A366C"
+],
+"80393C6C": [
+"802A367C",
+"fn_802A367C"
+],
+"80393CF0": [
+"802A3700",
+"fn_802A3700"
+],
+"80393D6C": [
+"802A377C",
+"fn_802A377C"
+],
+"80393EEC": [
+"802A38FC",
+"fn_802A38FC"
+],
+"80393F88": [
+"802A3998",
+"fn_802A3998"
+],
+"8039428C": [
+"802A3CB0",
+"fn_802A3CB0"
+],
+"803947A8": [
+"802A41A4",
+"fn_802A41A4"
+],
+"8039521C": [
+"802A4C04",
+"fn_802A4C04"
+],
+"8039524C": [
+"802A4C34",
+"fn_802A4C34"
+],
+"80395568": [
+"802A4F44",
+"__AXDSPResumeCallback"
+],
+"803955BC": [
+"802A4F98",
+"fn_802A4F98"
+],
+"803955D0": [
+"802A4FAC",
+"__AXOutInitDSP"
+],
+"803956C0": [
+"802A509C",
+"__AXOutInit"
+],
+"80395928": [
+"802A5338",
+"fn_802A5338"
+],
+"803959EC": [
+"802A53FC",
+"fn_802A53FC"
+],
+"80395A50": [
+"802A5460",
+"fn_802A5460"
+],
+"80395ABC": [
+"802A54CC",
+"fn_802A54CC"
+],
+"80395B28": [
+"802A5538",
+"fn_802A5538"
+],
+"80395CA0": [
+"802A56B0",
+"fn_802A56B0"
+],
+"80395CF8": [
+"802A570C",
+"fn_802A570C"
+],
+"80395E6C": [
+"802A5880",
+"fn_802A5880"
+],
+"803963BC": [
+"802A5DD0",
+"fn_802A5DD0"
+],
+"803966D4": [
+"802A60E8",
+"fn_802A60E8"
+],
+"80396714": [
+"802A6128",
+"__AXVPBInit"
+],
+"80396744": [
+"802A6158",
+"__AXVPBInitCommon"
+],
+"80396A8C": [
+"802A63F8",
+"fn_802A63F8"
+],
+"80396D44": [
+"802A69E4",
+"fn_802A69E4"
+],
+"80396E98": [
+"802A6C44",
+"fn_802A6C44"
+],
+"80397AD4": [
+"802A77C8",
+"__InitParams"
+],
+"80397E84": [
+"802A7AEC",
+"fn_802A7AEC"
+],
+"80398B78": [
+"802A8728",
+"fn_802A8728"
+],
+"8039C0B0": [
+"802A9EC8",
+"fn_802A9EC8"
+],
+"8039C410": [
+"802AA228",
+"fn_802AA228"
+],
+"8039CBCC": [
+"802AA954",
+"fn_802AA954"
+],
+"8039CF50": [
+"802AACD8",
+"fn_802AACD8"
+],
+"8039D268": [
+"802AAFF0",
+"fn_802AAFF0"
+],
+"8039D2B4": [
+"802AB03C",
+"fn_802AB03C"
+],
+"8039D368": [
+"802AB0F0",
+"fn_802AB0F0"
+],
+"8039D3A4": [
+"802AB12C",
+"fn_802AB12C"
+],
+"8039D4B8": [
+"802AB264",
+"fn_802AB264"
+],
+"8039EB78": [
+"802AC924",
+"fn_802AC924"
+],
+"8039EC20": [
+"802ACAA4",
+"fn_802ACAA4"
+],
+"803A02B0": [
+"802AE134",
+"fn_802AE134"
+],
+"803A06EC": [
+"802AE570",
+"fn_802AE570"
+],
+"803A0764": [
+"802B13B0",
+"DSPReadMailFromDSP"
+],
+"803A0778": [
+"802B13C4",
+"DSPSendMailToDSP"
+],
+"803A078C": [
+"802B13D8",
+"DSPInit"
+],
+"803A0854": [
+"802B14A0",
+"DSPAddTask"
+],
+"803A08C4": [
+"802B1550",
+"DSPAssertTask"
+],
+"803A09D0": [
+"802B165C",
+"__DSPHandler"
+],
+"803A0E04": [
+"802B1A90",
+"__DSP_exec_task"
+],
+"803A0FA8": [
+"802B1C34",
+"__DSP_boot_task"
+],
+"803A1134": [
+"802B1DC0",
+"__DSP_insert_task"
+],
+"803A11D0": [
+"802B1E5C",
+"__DSP_remove_task"
+],
+"803A1264": [
+"802B1EF0",
+"__GXDefaultTexRegionCallback"
+],
+"803A1358": [
+"802B1FE4",
+"__GXDefaultTlutRegionCallback"
+],
+"803A137C": [
+"802B2008",
+"__GXShutdown"
+],
+"803A14E8": [
+"802B2174",
+"__GXInitRevisionBits"
+],
+"803A1618": [
+"802B22A4",
+"GXInit"
+],
+"803A2430": [
+"802B30B8",
+"GXCPInterruptHandler"
+],
+"803A2590": [
+"802B3218",
+"GXInitFifoBase"
+],
+"803A261C": [
+"802B32A4",
+"CPGPLinkCheck"
+],
+"803A2714": [
+"802B339C",
+"GXSetCPUFifo"
+],
+"803A28F4": [
+"802B357C",
+"GXSetGPFifo"
+],
+"803A2D70": [
+"802B3858",
+"__GXFifoInit"
+],
+"803A2DEC": [
+"802B38D4",
+"fn_802B38D4"
+],
+"803A2F8C": [
+"802B3A74",
+"fn_802B3A74"
+],
+"803A31F0": [
+"802B3CD8",
+"fn_802B3CD8"
+],
+"803A32A0": [
+"802B3D88",
+"fn_802B3D88"
+],
+"803A33CC": [
+"802B3EB4",
+"fn_802B3EB4"
+],
+"803A3580": [
+"802B4068",
+"fn_802B4068"
+],
+"803A35B4": [
+"802B409C",
+"fn_802B409C"
+],
+"803A3754": [
+"802B423C",
+"fn_802B423C"
+],
+"803A3918": [
+"802B4400",
+"fn_802B4400"
+],
+"803A3998": [
+"802B4480",
+"fn_802B4480"
+],
+"803A3C04": [
+"802B46EC",
+"fn_802B46EC"
+],
+"803A3C54": [
+"802B473C",
+"fn_802B473C"
+],
+"803A3E7C": [
+"802B4964",
+"fn_802B4964"
+],
+"803A3EA0": [
+"802B4988",
+"GXSetMisc"
+],
+"803A3FBC": [
+"802B4A14",
+"fn_802B4A14"
+],
+"803A4120": [
+"802B4B78",
+"fn_802B4B78"
+],
+"803A44B4": [
+"802B4EC4",
+"GXPokeAlphaMode"
+],
+"803A44C4": [
+"802B4ED4",
+"GXPokeAlphaRead"
+],
+"803A44DC": [
+"802B4EEC",
+"GXPokeAlphaUpdate"
+],
+"803A44F0": [
+"802B4F00",
+"GXPokeBlendMode"
+],
+"803A454C": [
+"802B4F5C",
+"GXPokeColorUpdate"
+],
+"803A4560": [
+"802B4F70",
+"GXPokeDstAlpha"
+],
+"803A4578": [
+"802B4F88",
+"GXPokeDither"
+],
+"803A458C": [
+"802B4F9C",
+"GXPokeZMode"
+],
+"803A45EC": [
+"802B4FFC",
+"GXTokenInterruptHandler"
+],
+"803A46B4": [
+"802B50C4",
+"GXFinishInterruptHandler"
+],
+"803A4734": [
+"802B5144",
+"__GXPEInit"
+],
+"803A4798": [
+"802B51A8",
+"__GXSetDirtyState"
+],
+"803A4A10": [
+"802B5420",
+"GXBegin"
+],
+"803A4B5C": [
+"802B556C",
+"__GXSendFlushPrim"
+],
+"803A4C34": [
+"802B5644",
+"GXSetLineWidth"
+],
+"803A4C68": [
+"802B5678",
+"GXSetPointSize"
+],
+"803A4C9C": [
+"802B56AC",
+"GXEnableTexOffsets"
+],
+"803A4CD8": [
+"802B56E8",
+"GXSetCullMode"
+],
+"803A4DE0": [
+"802B57C4",
+"fn_802B57C4"
+],
+"803A4E04": [
+"802B57E8",
+"fn_802B57E8"
+],
+"803A4F20": [
+"802B5904",
+"fn_802B5904"
+],
+"803A4F40": [
+"802B5924",
+"fn_802B5924"
+],
+"803A4F68": [
+"802B594C",
+"GXGetYScaleFactor"
+],
+"803A5198": [
+"802B5B7C",
+"GXSetDispCopyYScale"
+],
+"803A5264": [
+"802B5C48",
+"GXSetCopyClear"
+],
+"803A52DC": [
+"802B5CC0",
+"GXSetCopyFilter"
+],
+"803A54C0": [
+"802B5EA4",
+"GXSetDispCopyGamma"
+],
+"803A54D4": [
+"802B5EB8",
+"GXCopyDisp"
+],
+"803A5610": [
+"802B5FF4",
+"GXCopyTex"
+],
+"803A5768": [
+"802B614C",
+"GXClearBoundingBox"
+],
+"803A57A0": [
+"802B6184",
+"GXInitLightAttn"
+],
+"803A57F8": [
+"802B61C0",
+"GXInitLightSpot"
+],
+"803A5980": [
+"802B6348",
+"GXInitLightDistAttn"
+],
+"803A5A7C": [
+"802B6444",
+"GXInitLightDir"
+],
+"803A5A98": [
+"802B6460",
+"GXGetLightDir"
+],
+"803A5AC0": [
+"802B6488",
+"GXInitSpecularDir"
+],
+"803A5BD8": [
+"802B65A0",
+"fn_802B65A0"
+],
+"803A5BE4": [
+"802B65AC",
+"GXLoadLightObjImm"
+],
+"803A5E10": [
+"802B67D8",
+"GXSetNumChans"
+],
+"803A5E34": [
+"802B67FC",
+"GXSetChanCtrl"
+],
+"803A5ED8": [
+"802B68A0",
+"GXGetTexBufferSize"
+],
+"803A5FFC": [
+"802B69C4",
+"__GetImageTileCount"
+],
+"803A60BC": [
+"802B6A84",
+"GXInitTexObj"
+],
+"803A62C8": [
+"802B6C90",
+"GXInitTexObjCI"
+],
+"803A6310": [
+"802B6CD8",
+"GXInitTexObjLOD"
+],
+"803A6414": [
+"802B6DDC",
+"GXInitTexObjWrapMode"
+],
+"803A64E0": [
+"802B6E6C",
+"fn_802B6E6C"
+],
+"803A64F4": [
+"802B6E80",
+"fn_802B6E80"
+],
+"803A6510": [
+"802B6E9C",
+"fn_802B6E9C"
+],
+"803A651C": [
+"802B6EA8",
+"fn_802B6EA8"
+],
+"803A6534": [
+"802B6EC0",
+"fn_802B6EC0"
+],
+"803A6620": [
+"802B6FAC",
+"fn_802B6FAC"
+],
+"803A6784": [
+"802B7110",
+"fn_802B7110"
+],
+"803A67D8": [
+"802B7164",
+"fn_802B7164"
+],
+"803A6800": [
+"802B718C",
+"fn_802B718C"
+],
+"803A6894": [
+"802B7220",
+"GXInitTexCacheRegion"
+],
+"803A6948": [
+"802B72D4",
+"GXInitTlutRegion"
+],
+"803A6968": [
+"802B72F4",
+"fn_802B72F4"
+],
+"803A6AB8": [
+"802B7364",
+"__SetSURegs"
+],
+"803A6B48": [
+"802B73F4",
+"__GXSetSUTexRegs"
+],
+"803A6CB0": [
+"802B755C",
+"__GXSetTmemConfig"
+],
+"803A7004": [
+"802B78B0",
+"GXSetTevIndirect"
+],
+"803A706C": [
+"802B7918",
+"GXSetIndTexMtx"
+],
+"803A71C0": [
+"802B7A6C",
+"GXSetIndTexCoordScale"
+],
+"803A72C4": [
+"802B7B70",
+"GXSetIndTexOrder"
+],
+"803A7390": [
+"802B7C3C",
+"GXSetNumIndStages"
+],
+"803A73B0": [
+"802B7C5C",
+"GXSetTevDirect"
+],
+"803A73FC": [
+"802B7CA8",
+"__GXSetIndirectMask"
+],
+"803A7450": [
+"802B7CFC",
+"GXSetTevOp"
+],
+"803A74E4": [
+"802B7D90",
+"GXSetTevColorIn"
+],
+"803A7524": [
+"802B7DD0",
+"GXSetTevAlphaIn"
+],
+"803A7614": [
+"802B7EC0",
+"GXSetTevColor"
+],
+"803A7674": [
+"802B7F20",
+"GXSetTevColorS10"
+],
+"803A76D8": [
+"802B7F84",
+"GXSetTevKColor"
+],
+"803A7734": [
+"802B7FE0",
+"GXSetTevKColorSel"
+],
+"803A7784": [
+"802B8030",
+"GXSetTevKAlphaSel"
+],
+"803A77D4": [
+"802B8080",
+"GXSetTevSwapMode"
+],
+"803A7810": [
+"802B80BC",
+"GXSetTevSwapModeTable"
+],
+"803A788C": [
+"802B8138",
+"GXSetAlphaCompare"
+],
+"803A78C4": [
+"802B8170",
+"GXSetZTexture"
+],
+"803A7950": [
+"802B81FC",
+"GXSetTevOrder"
+],
+"803A7AAC": [
+"802B8358",
+"GXSetNumTevStages"
+],
+"803A7CFC": [
+"802B85A8",
+"GXInitFogAdjTable"
+],
+"803A7E5C": [
+"802B8708",
+"GXSetFogRangeAdj"
+],
+"803A7F80": [
+"802B882C",
+"GXSetBlendMode"
+],
+"803A7FD0": [
+"802B887C",
+"GXSetColorUpdate"
+],
+"803A7FFC": [
+"802B88A8",
+"GXSetAlphaUpdate"
+],
+"803A8028": [
+"802B88D4",
+"GXSetZMode"
+],
+"803A805C": [
+"802B8908",
+"GXSetZCompLoc"
+],
+"803A808C": [
+"802B8938",
+"GXSetPixelFmt"
+],
+"803A8134": [
+"802B89E0",
+"GXSetDither"
+],
+"803A8160": [
+"802B8A0C",
+"GXSetDstAlpha"
+],
+"803A8190": [
+"802B8A3C",
+"GXSetFieldMask"
+],
+"803A81C4": [
+"802B8A70",
+"GXSetFieldMode"
+],
+"803A8398": [
+"802B8AE0",
+"GXCallDisplayList"
+],
+"803A840C": [
+"802B8B54",
+"__GXSetProjection"
+],
+"803A8450": [
+"802B8B98",
+"GXSetProjection"
+],
+"803A84B4": [
+"802B8BFC",
+"GXSetProjectionv"
+],
+"803A8500": [
+"802B8C48",
+"GXGetProjectionv"
+],
+"803A8540": [
+"802B8C88",
+"GXLoadPosMtxImm"
+],
+"803A8590": [
+"802B8CD8",
+"GXLoadPosMtxIndx"
+],
+"803A85BC": [
+"802B8D04",
+"GXLoadNrmMtxImm"
+],
+"803A8614": [
+"802B8D5C",
+"GXLoadNrmMtxIndx3x3"
+],
+"803A8648": [
+"802B8D90",
+"GXSetCurrentMtx"
+],
+"803A8668": [
+"802B8DB0",
+"GXLoadTexMtxImm"
+],
+"803A871C": [
+"802B8E64",
+"__GXSetViewport"
+],
+"803A87AC": [
+"802B8EF4",
+"GXSetViewportJitter"
+],
+"803A87E8": [
+"802B8F30",
+"GXSetViewport"
+],
+"803A8844": [
+"802B8F7C",
+"fn_802B8F7C"
+],
+"803A88AC": [
+"802B8FE4",
+"GXSetScissorBoxOffset"
+],
+"803A88E8": [
+"802B9020",
+"GXSetClipMode"
+],
+"803A8910": [
+"802B9048",
+"__GXSetMatrixIndex"
+],
+"803A8998": [
+"802B90D0",
+"GXSetGPMetric"
+],
+"803A91C4": [
+"802B98FC",
+"GXClearGPMetric"
+],
+"803A92B8": [
+"802B99F0",
+"__register_global_object"
+],
+"803A92D0": [
+"802B9A08",
+"__destroy_global_chain"
+],
+"803A9670": [
+"802B9CAC",
+"__construct_new_array"
+],
+"803A9774": [
+"802B9DB0",
+"dtor"
+],
+"803A9830": [
+"802B9E6C",
+"__construct_array"
+],
+"803A9928": [
+"802B9F64",
+"__destroy_arr"
+],
+"803A9A5C": [
+"802B9FDC",
+"__ptmf_test"
+],
+"803A9A8C": [
+"802BA00C",
+"fn_802BA00C"
+],
+"803A9ADC": [
+"802BA034",
+"__cvt_fp2unsigned"
+],
+"803A9B38": [
+"802BA090",
+"__save_fpr"
+],
+"803A9B84": [
+"802BA0DC",
+"__restore_fpr"
+],
+"803A9BD0": [
+"802BA128",
+"__save_gpr"
+],
+"803A9C1C": [
+"802BA174",
+"__restore_gpr"
+],
+"803A9C68": [
+"802BA1C0",
+"__div2u"
+],
+"803A9D54": [
+"802BA2AC",
+"__div2i"
+],
+"803A9E8C": [
+"802BA3E4",
+"__mod2u"
+],
+"803A9F70": [
+"802BA4C8",
+"__mod2i"
+],
+"803AA07C": [
+"802BA5D4",
+"__shl2i"
+],
+"803AA2F4": [
+"802BA5F8",
+"fn_802BA5F8"
+],
+"803AA39C": [
+"802BA6A0",
+"__init_cpp_exceptions"
+],
+"803AB4EC": [
+"802BB5E0",
+"fn_802BB5E0"
+],
+"803AB6E4": [
+"802BB7D8",
+"fn_802BB7D8"
+],
+"803ABBF0": [
+"802BBCDC",
+"fn_802BBCDC"
+],
+"803ABD34": [
+"802BBE20",
+"fn_802BBE20"
+],
+"803AC518": [
+"802BC494",
+"fn_802BC494"
+],
+"803AC5F4": [
+"802BC570",
+"fn_802BC570"
+],
+"803AC718": [
+"802BC694",
+"fn_802BC694"
+],
+"803ACE04": [
+"802BCD1C",
+"__flush_all"
+],
+"803ACE70": [
+"802BCD88",
+"__ull2dec"
+],
+"803AD1D4": [
+"802BD0EC",
+"__str2dec"
+],
+"803AE710": [
+"802BD858",
+"__prep_buffer"
+],
+"803AE834": [
+"802BD880",
+"__flush_buffer"
+],
+"803AEF38": [
+"802BDC40",
+"fclose"
+],
+"803AEFF4": [
+"802BDCFC",
+"fflush"
+],
+"803AF4B4": [
+"802BE0A0",
+"fn_802BE0A0"
+],
+"803AF500": [
+"802BE0EC",
+"fn_802BE0EC"
+],
+"803AF5DC": [
+"802BE108",
+"wcstombs"
+],
+"803AF694": [
+"802BE1C0",
+"memmove"
+],
+"803AF760": [
+"802BE28C",
+"memchr"
+],
+"803AF78C": [
+"802BE2B8",
+"__memrchr"
+],
+"803AF7B8": [
+"802BE2E4",
+"fn_802BE2E4"
+],
+"803AFB34": [
+"802BE600",
+"fn_802BE600"
+],
+"803B0A4C": [
+"802BF534",
+"fn_802BF534"
+],
+"803B1BBC": [
+"802C0688",
+"__FileWrite"
+],
+"803B1C14": [
+"802C06E0",
+"__StringWrite"
+],
+"803B220C": [
+"802C09EC",
+"rand"
+],
+"803B393C": [
+"802C0BEC",
+"strcmp"
+],
+"803B3A58": [
+"802C0D08",
+"strncmp"
+],
+"803B3A98": [
+"802C0D48",
+"strchr"
+],
+"803B62F0": [
+"802C0D78",
+"fn_802C0D78"
+],
+"803B6398": [
+"802C0DD8",
+"fn_802C0DD8"
+],
+"803B6568": [
+"802C0F9C",
+"fn_802C0F9C"
+],
+"803B8274": [
+"802C2C7C",
+"__kernel_cos"
+],
+"803B9A3C": [
+"802C4498",
+"__kernel_sin"
+],
+"803BA0C8": [
+"802C4B30",
+"copysign"
+],
+"803BA30C": [
+"802C4D74",
+"frexp"
+],
+"803BA394": [
+"802C4DFC",
+"ldexp"
+],
+"803BA500": [
+"802C4F68",
+"modf"
+],
+"803BA6C8": [
+"802C513C",
+"tan"
+],
+"803BAC44": [
+"802C5490",
+"SetExiInterruptMask"
+],
+"803BAD34": [
+"802C5580",
+"EXIImm"
+],
+"803BAFB0": [
+"802C57FC",
+"EXIImmEx"
+],
+"803BB054": [
+"802C58A0",
+"EXIDma"
+],
+"803BB14C": [
+"802C5998",
+"EXISync"
+],
+"803BB3C8": [
+"802C5C14",
+"EXISetExiCallback"
+],
+"803BB44C": [
+"802C5C98",
+"__EXIProbe"
+],
+"803BB5CC": [
+"802C5E18",
+"EXIAttach"
+],
+"803BB6E4": [
+"802C5F30",
+"EXIDetach"
+],
+"803BB79C": [
+"802C5FE8",
+"EXISelect"
+],
+"803BB8CC": [
+"802C6118",
+"EXIDeselect"
+],
+"803BB9CC": [
+"802C6218",
+"EXIIntrruptHandler"
+],
+"803BBA84": [
+"802C62D0",
+"TCIntrruptHandler"
+],
+"803BBC9C": [
+"802C64E8",
+"EXTIntrruptHandler"
+],
+"803BBD6C": [
+"802C65B8",
+"EXIInit"
+],
+"803BBF30": [
+"802C677C",
+"EXILock"
+],
+"803BC02C": [
+"802C6878",
+"EXIUnlock"
+],
+"803BC104": [
+"802C6950",
+"UnlockedHandler"
+],
+"803BC12C": [
+"802C6978",
+"EXIGetID"
+],
+"803BC4D8": [
+"802C6D24",
+"ProbeBarnacle"
+],
+"803BC650": [
+"802C6E9C",
+"__OSEnableBarnacle"
+],
+"803BC80C": [
+"802C7058",
+"EXIWriteReg"
+],
+"803BC9EC": [
+"802C71E4",
+"CompleteTransfer"
+],
+"803BCCE0": [
+"802C74D8",
+"SIInterruptHandler"
+],
+"803BD22C": [
+"802C78C4",
+"SIInit"
+],
+"803BD2EC": [
+"802C7984",
+"__SITransfer"
+],
+"803BD514": [
+"802C7B34",
+"fn_802C7B34"
+],
+"803BD528": [
+"802C7B48",
+"SISetXY"
+],
+"803BD584": [
+"802C7BA4",
+"fn_802C7BA4"
+],
+"803BD60C": [
+"802C7C2C",
+"fn_802C7C2C"
+],
+"803BD678": [
+"802C7C98",
+"fn_802C7C98"
+],
+"803BD79C": [
+"802C7DBC",
+"AlarmHandler"
+],
+"803BD828": [
+"802C7E48",
+"SITransfer"
+],
+"803BD994": [
+"802C7FB4",
+"GetTypeCallback"
+],
+"803BDC44": [
+"802C8264",
+"SIGetType"
+],
+"803BDDF8": [
+"802C8418",
+"fn_802C8418"
+],
+"803BDF08": [
+"802C8528",
+"SISetSamplingRate"
+],
+"803BE008": [
+"802CD9F8",
+"gdev_cc_initialize"
+],
+"803BE12C": [
+"802CD89C",
+"gdev_cc_write"
+],
+"803BE4F8": [
+"802CAED4",
+"TRK_flush_cache"
+],
+"803BE9DC": [
+"802CCF08",
+"InitMetroTRK"
+],
+"803BEA74": [
+"802CCFA0",
+"InitMetroTRK_BBA"
+],
+"803BED00": [
+"802CD268",
+"TRKLoadContext"
+],
+"803BED88": [
+"802CD6F0",
+"TRKEXICallBack"
+],
+"803BFBA0": [
+"802CD728",
+"TRKTargetContinue"
+],
+"803C20A8": [
+"802CB02C",
+"TRKInterruptHandler"
+],
+"803C223C": [
+"802CB1C0",
+"TRKExceptionHandler"
+],
+"803C2390": [
+"802CB25C",
+"TRKSwapAndGo"
+],
+"803C2454": [
+"802CB320",
+"TRKInterruptHandlerEnableInterrupts"
+],
+"803C2D80": [
+"802CB374",
+"ReadFPSCR"
+],
+"803C2DA4": [
+"802CB398",
+"WriteFPSCR"
+],
+"803C30B0": [
+"802CDD40",
+"__DBMtrHandler"
+],
+"803C30D4": [
+"802CDD64",
+"__DBIntrHandler"
+],
+"803C30F8": [
+"802CDD88",
+"DBInitComm"
+],
+"803C3154": [
+"802CDDE4",
+"DBInitInterrupts"
+],
+"803C31A8": [
+"802CDE38",
+"DBQueryData"
+],
+"803C324C": [
+"802CDEDC",
+"DBRead"
+],
+"803C32CC": [
+"802CDF5C",
+"DBWrite"
+],
+"803C33E4": [
+"802CE074",
+"__EXI2Imm"
+],
+"803C36CC": [
+"802CE35C",
+"__DBEXIInit"
+],
+"803C3788": [
+"802CE418",
+"__DBEXIReadReg"
+],
+"803C38AC": [
+"802CE53C",
+"__DBEXIWriteReg"
+],
+"803C39B0": [
+"802CE640",
+"__DBEXIReadRam"
+],
+"803C3A90": [
+"802CE720",
+"__DBEXIWriteRam"
+],
+"803C3B70": [
+"802CE800",
+"fn_802CE800"
+],
+"803C3CB0": [
+"802CE940",
+"fn_802CE940"
+],
+"803C3E70": [
+"802CEB00",
+"fn_802CEB00"
+],
+"803C4208": [
+"802CEE70",
+"MEM_ExpAllocFromHead"
+],
+"803C42E4": [
+"802CEF4C",
+"MEM_ExpAllocFromTail"
+],
+"803C43AC": [
+"802CF014",
+"RecycleRegion_"
+],
+"803C4514": [
+"802CF17C",
+"MEMCreateExpHeapEx"
+],
+"803C45F4": [
+"802CF25C",
+"MEMAllocFromExpHeapEx"
+],
+"803C4768": [
+"802CF3D8",
+"fn_802CF3D8"
+],
+"803C4E74": [
+"802CF6EC",
+"EUARTInit"
+],
+"803C4F70": [
+"802CF7E8",
+"InitializeUART"
+],
+"803C4FB8": [
+"802CF830",
+"WriteUARTN"
+],
+"803C5674": [
+"802CFED4",
+"ISFS_ReadDir"
+],
+"803C57C8": [
+"802D0028",
+"ISFS_ReadDirAsync"
+],
+"803C5910": [
+"802D0170",
+"ISFS_GetAttr"
+],
+"803C5A68": [
+"802D02C8",
+"ISFS_GetAttrAsync"
+],
+"803C5B9C": [
+"802D03FC",
+"ISFS_Delete"
+],
+"803C5C74": [
+"802D04D4",
+"ISFS_DeleteAsync"
+],
+"803C5D44": [
+"802D05A4",
+"ISFS_Rename"
+],
+"803C5F4C": [
+"802D06A8",
+"fn_802D06A8"
+],
+"803C626C": [
+"802D09C8",
+"ISFS_Open"
+],
+"803C6334": [
+"802D0A90",
+"ISFS_OpenAsync"
+],
+"803C64BC": [
+"802D0B4C",
+"fn_802D0B4C"
+],
+"803C66D4": [
+"802D0D64",
+"fn_802D0D64"
+],
+"803C6758": [
+"802D0DE8",
+"fn_802D0DE8"
+],
+"803C67E8": [
+"802D0E78",
+"IPCInit"
+],
+"803C687C": [
+"802D0EC4",
+"IPCReadReg"
+],
+"803C688C": [
+"802D0ED4",
+"IPCWriteReg"
+],
+"803C68B4": [
+"802D0EFC",
+"strnlen"
+],
+"803C68E0": [
+"802D0F28",
+"IpcReplyHandler"
+],
+"803C6CE4": [
+"802D1338",
+"IPCCltInit"
+],
+"803C704C": [
+"802D1638",
+"IOS_OpenAsync"
+],
+"803C7164": [
+"802D1750",
+"IOS_Open"
+],
+"803C7284": [
+"802D1870",
+"IOS_CloseAsync"
+],
+"803C7344": [
+"802D1930",
+"IOS_Close"
+],
+"803C73EC": [
+"802D19D8",
+"IOS_ReadAsync"
+],
+"803C74EC": [
+"802D1AD8",
+"IOS_Read"
+],
+"803C75F4": [
+"802D1BE0",
+"IOS_WriteAsync"
+],
+"803C76F4": [
+"802D1CE0",
+"IOS_Write"
+],
+"803C77FC": [
+"802D1DE8",
+"IOS_SeekAsync"
+],
+"803C78DC": [
+"802D1FB0",
+"IOS_IoctlAsync"
+],
+"803C7A14": [
+"802D20E8",
+"fn_802D20E8"
+],
+"803C7B44": [
+"802D2218",
+"fn_802D2218"
+],
+"803C7C80": [
+"802D2354",
+"fn_802D2354"
+],
+"803C7D64": [
+"802D2438",
+"IOS_Ioctlv"
+],
+"803C813C": [
+"802D25FC",
+"iosCreateHeap"
+],
+"803C826C": [
+"802D272C",
+"fn_802D272C"
+],
+"803C8474": [
+"802D2934",
+"iosFree"
+],
+"803C8660": [
+"802D2B20",
+"IPCiProfInit"
+],
+"803C8718": [
+"802D2BD8",
+"IPCiProfQueueReq"
+],
+"803C87A8": [
+"802D2C68",
+"fn_802D2C68"
+],
+"803C8824": [
+"802D2CE4",
+"fn_802D2CE4"
+],
+"803C8AAC": [
+"802D2EF8",
+"fn_802D2EF8"
+],
+"803C8BF4": [
+"802D2FA8",
+"fn_802D2FA8"
+],
+"803C8E74": [
+"802D3228",
+"fn_802D3228"
+],
+"803C8FF4": [
+"802D32D8",
+"fn_802D32D8"
+],
+"803C942C": [
+"802D347C",
+"nandComposePerm"
+],
+"803C9480": [
+"802D34D0",
+"nandSplitPerm"
+],
+"803C950C": [
+"802D355C",
+"nandGetStatus"
+],
+"803C9660": [
+"802D36B0",
+"nandGetStatusCallback"
+],
+"803C979C": [
+"802D3724",
+"NANDPrivateGetStatusAsync"
+],
+"803C9820": [
+"802D37A8",
+"nandOpen"
+],
+"803C9B3C": [
+"802D3AC4",
+"nandOpenCallback"
+],
+"803C9BB4": [
+"802D3B3C",
+"NANDClose"
+],
+"803C9C20": [
+"802D3BA8",
+"NANDCloseAsync"
+],
+"803C9CA8": [
+"802D40E8",
+"nandCloseCallback"
+],
+"803C9D04": [
+"802D4144",
+"nandRemoveTailToken"
+],
+"803C9DD8": [
+"802D4218",
+"nandGetHeadToken"
+],
+"803C9EAC": [
+"802D42EC",
+"nandGetRelativeName"
+],
+"803C9F44": [
+"802D4384",
+"nandConvertPath"
+],
+"803CA0B4": [
+"802D44F4",
+"nandIsUnderPrivatePath"
+],
+"803CA284": [
+"802D4634",
+"nandGenerateAbsPath"
+],
+"803CA478": [
+"802D4A14",
+"fn_802D4A14"
+],
+"803CA65C": [
+"802D4BD8",
+"fn_802D4BD8"
+],
+"803CA9FC": [
+"802D50D8",
+"NANDInitBanner"
+],
+"803CAB90": [
+"802D5250",
+"fn_802D5250"
+],
+"803CAC4C": [
+"802D530C",
+"fn_802D530C"
+],
+"803CB324": [
+"802D5414",
+"SCInit"
+],
+"803CB3C4": [
+"802D54B4",
+"SCCheckStatus"
+],
+"803CB4E0": [
+"802D55D0",
+"SCReloadConfFileAsync"
+],
+"803CB5F4": [
+"802D56E4",
+"OpenCallbackFromReload"
+],
+"803CB6C4": [
+"802D57B4",
+"ReadCallbackFromReload"
+],
+"803CB7AC": [
+"802D589C",
+"CloseCallbackFromReload"
+],
+"803CB838": [
+"802D5928",
+"FinishFromReload"
+],
+"803CB978": [
+"802D5A68",
+"ParseConfBuf"
+],
+"803CBBC4": [
+"802D5CB4",
+"UnpackItem"
+],
+"803CBD5C": [
+"802D5E4C",
+"DeleteItemByID"
+],
+"803CBEEC": [
+"802D5FDC",
+"CreateItemByID"
+],
+"803CC164": [
+"802D6254",
+"SCFindByteArrayItem"
+],
+"803CC244": [
+"802D6334",
+"SCReplaceByteArrayItem"
+],
+"803CC368": [
+"802D6458",
+"SCReplaceIntegerItem"
+],
+"803CC6FC": [
+"802D67EC",
+"SCReplaceU8Item"
+],
+"803CC734": [
+"802D6824",
+"SCFlushAsync"
+],
+"803CC950": [
+"802D6A40",
+"MyNandCallback"
+],
+"803CCCDC": [
+"802D6DCC",
+"SCGetDisplayOffsetH"
+],
+"803CCDB0": [
+"802D6EA0",
+"SCGetLanguage"
+],
+"803CCEC4": [
+"802D6FB4",
+"fn_802D6FB4"
+],
+"803CCF28": [
+"802D7018",
+"fn_802D7018"
+],
+"803CCF98": [
+"802D7070",
+"fn_802D7070"
+],
+"803CD0B0": [
+"802D7188",
+"fn_802D7188"
+],
+"803CD15C": [
+"802D71E4",
+"fn_802D71E4"
+],
+"803CD474": [
+"802D73D4",
+"fn_802D73D4"
+],
+"803CD694": [
+"802D75F4",
+"fn_802D75F4"
+],
+"803CD940": [
+"802D78A0",
+"fn_802D78A0"
+],
+"803CD954": [
+"802D78B4",
+"fn_802D78B4"
+],
+"803CDAF4": [
+"802D7A54",
+"fn_802D7A54"
+],
+"803CDBDC": [
+"802D7B3C",
+"fn_802D7B3C"
+],
+"803CDD4C": [
+"802D7CAC",
+"fn_802D7CAC"
+],
+"803CDD90": [
+"802D7CF0",
+"fn_802D7CF0"
+],
+"803CDF4C": [
+"802D7EAC",
+"fn_802D7EAC"
+],
+"803CDFFC": [
+"802D7F5C",
+"fn_802D7F5C"
+],
+"803CE138": [
+"802D8098",
+"fn_802D8098"
+],
+"803CE278": [
+"802D81D8",
+"fn_802D81D8"
+],
+"803CE318": [
+"802D8278",
+"fn_802D8278"
+],
+"803CE3E4": [
+"802D8344",
+"fn_802D8344"
+],
+"803CE400": [
+"802D8360",
+"fn_802D8360"
+],
+"803CE410": [
+"802D8370",
+"fn_802D8370"
+],
+"803CE758": [
+"802D86B8",
+"fn_802D86B8"
+],
+"803CE8B8": [
+"802D8818",
+"fn_802D8818"
+],
+"803CE974": [
+"802D88D4",
+"fn_802D88D4"
+],
+"803CE988": [
+"802D88E8",
+"fn_802D88E8"
+],
+"803CEAD8": [
+"802D8A38",
+"fn_802D8A38"
+],
+"803CEB74": [
+"802D8AD4",
+"fn_802D8AD4"
+],
+"803CEC00": [
+"802D8B60",
+"fn_802D8B60"
+],
+"803CECEC": [
+"802D8C4C",
+"fn_802D8C4C"
+],
+"803CEE10": [
+"802D8D70",
+"fn_802D8D70"
+],
+"803CEEA0": [
+"802D8E00",
+"fn_802D8E00"
+],
+"803CEF58": [
+"802D8EB8",
+"fn_802D8EB8"
+],
+"803CF004": [
+"802D8F64",
+"fn_802D8F64"
+],
+"803CF028": [
+"802D8F88",
+"fn_802D8F88"
+],
+"803CF070": [
+"802D8FD0",
+"fn_802D8FD0"
+],
+"803CF0A0": [
+"802D9000",
+"fn_802D9000"
+],
+"803CF0C4": [
+"802D9024",
+"fn_802D9024"
+],
+"803CF45C": [
+"802D93BC",
+"fn_802D93BC"
+],
+"803CF608": [
+"802D9568",
+"fn_802D9568"
+],
+"803CF634": [
+"802D9594",
+"fn_802D9594"
+],
+"803CF69C": [
+"802D95FC",
+"fn_802D95FC"
+],
+"803CF6D0": [
+"802D9630",
+"fn_802D9630"
+],
+"803CF700": [
+"802D9660",
+"fn_802D9660"
+],
+"803CF748": [
+"802D969C",
+"uusb_CloseDeviceCB"
+],
+"803D0250": [
+"802DAA88",
+"UUSB_Close"
+],
+"803D02FC": [
+"802DAB34",
+"UUSB_Unregister"
+],
+"803D0340": [
+"802DAB78",
+"bte_hcisu_send"
+],
+"803D0360": [
+"802DAB98",
+"bte_hcisu_task"
+],
+"803D03C4": [
+"802DABFC",
+"bte_hcisu_close"
+],
+"803D0424": [
+"802DAC5C",
+"LogMsg"
+],
+"803D0588": [
+"802DADC0",
+"BTUInterruptHandler"
+],
+"803D05A0": [
+"802DADD8",
+"BTA_Init"
+],
+"803D067C": [
+"802DAEB4",
+"BTA_CleanUp"
+],
+"803D06B0": [
+"802DAEE8",
+"bta_usb_close_evt"
+],
+"803D06E0": [
+"802DAF18",
+"btu_task_init"
+],
+"803D0720": [
+"802DAF58",
+"btu_task_msg_handler"
+],
+"803D0AAC": [
+"802DB2E4",
+"btu_start_timer"
+],
+"803D0B30": [
+"802DB368",
+"bdcpy"
+],
+"803D0B64": [
+"802DB39C",
+"bdcmp"
+],
+"803D0E58": [
+"802DB690",
+"bta_sys_init"
+],
+"803D0EBC": [
+"802DB6F4",
+"bta_sys_event"
+],
+"803D0FA8": [
+"802DB7E0",
+"bta_sys_timer_update"
+],
+"803D0FDC": [
+"802DB814",
+"bta_sys_sendmsg"
+],
+"803D0FF8": [
+"802DB830",
+"bta_sys_start_timer"
+],
+"803D109C": [
+"802DB8D4",
+"ptim_init"
+],
+"803D10E8": [
+"802DB920",
+"ptim_timer_update"
+],
+"803D119C": [
+"802DB9D4",
+"ptim_start_timer"
+],
+"803D123C": [
+"802DBA74",
+"ptim_stop_timer"
+],
+"803D12C0": [
+"802DBAF8",
+"bta_dm_enable"
+],
+"803D13D0": [
+"802DBC08",
+"bta_dm_disable"
+],
+"803D1480": [
+"802DBCB8",
+"bta_dm_disable_timer_cback"
+],
+"803D1544": [
+"802DBD7C",
+"bta_dm_set_visibility"
+],
+"803D158C": [
+"802DBDC4",
+"bta_dm_bond"
+],
+"803D15FC": [
+"802DBE34",
+"bta_dm_pin_reply"
+],
+"803D1698": [
+"802DBED0",
+"bta_dm_auth_reply"
+],
+"803D176C": [
+"802DBFA4",
+"bta_dm_search_start"
+],
+"803D17CC": [
+"802DC004",
+"bta_dm_search_cancel"
+],
+"803D1850": [
+"802DC088",
+"bta_dm_discover"
+],
+"803D1964": [
+"802DC19C",
+"bta_dm_inq_cmpl"
+],
+"803D1B88": [
+"802DC3C0",
+"bta_dm_rmt_name"
+],
+"803D1CF4": [
+"802DC52C",
+"bta_dm_disc_rmt_name"
+],
+"803D1D58": [
+"802DC590",
+"bta_dm_sdp_result"
+],
+"803D1FD8": [
+"802DC810",
+"bta_dm_disc_result"
+],
+"803D2028": [
+"802DC860",
+"bta_dm_search_result"
+],
+"803D20B0": [
+"802DC8E8",
+"bta_dm_search_timer_cback"
+],
+"803D2258": [
+"802DCA90",
+"bta_dm_search_cancel_transac_cmpl"
+],
+"803D22CC": [
+"802DCB04",
+"bta_dm_find_services"
+],
+"803D246C": [
+"802DCCA4",
+"bta_dm_discover_next_device"
+],
+"803D254C": [
+"802DCD84",
+"bta_dm_sdp_callback"
+],
+"803D2594": [
+"802DCDCC",
+"bta_dm_inq_results_cb"
+],
+"803D2624": [
+"802DCE5C",
+"bta_dm_inq_cmpl_cb"
+],
+"803D2670": [
+"802DCEA8",
+"bta_dm_service_search_remname_cback"
+],
+"803D26B0": [
+"802DCEE8",
+"bta_dm_remname_cback"
+],
+"803D273C": [
+"802DCF74",
+"bta_dm_disc_remname_cback"
+],
+"803D27C8": [
+"802DD000",
+"bta_dm_authorize_cback"
+],
+"803D2890": [
+"802DD0C8",
+"bta_dm_pinname_cback"
+],
+"803D2950": [
+"802DD188",
+"bta_dm_pin_cback"
+],
+"803D2A88": [
+"802DD2C0",
+"bta_dm_new_link_key_cback"
+],
+"803D2B24": [
+"802DD35C",
+"bta_dm_authentication_complete_cback"
+],
+"803D2BA8": [
+"802DD3E0",
+"bta_dm_local_addr_cback"
+],
+"803D2BD0": [
+"802DD408",
+"bta_dm_signal_strength"
+],
+"803D2C0C": [
+"802DD444",
+"bta_dm_signal_strength_timer_cback"
+],
+"803D2D00": [
+"802DD538",
+"bta_dm_acl_change_cback"
+],
+"803D2D70": [
+"802DD5A8",
+"bta_dm_acl_change"
+],
+"803D30E4": [
+"802DD91C",
+"bta_dm_l2cap_server_compress_cback"
+],
+"803D31C8": [
+"802DDA00",
+"bta_dm_compress_cback"
+],
+"803D3400": [
+"802DDC38",
+"bta_dm_rm_cback"
+],
+"803D3508": [
+"802DDD40",
+"bta_dm_keep_acl"
+],
+"803D35AC": [
+"802DDDE4",
+"bta_dm_send_hci_reset"
+],
+"803D35FC": [
+"802DDE34",
+"BTA_EnableBluetooth"
+],
+"803D36BC": [
+"802DDEF4",
+"BTA_DmIsDeviceUp"
+],
+"803D36F4": [
+"802DDF2C",
+"BTA_DmSetDeviceName"
+],
+"803D3758": [
+"802DDF90",
+"BTA_DmSetVisibility"
+],
+"803D37B0": [
+"802DDFE8",
+"BTA_DmSearch"
+],
+"803D386C": [
+"802DE0A4",
+"BTA_DmPinReply"
+],
+"803D38F8": [
+"802DE130",
+"BTA_DmAddDevice"
+],
+"803D39E8": [
+"802DE220",
+"BTA_DmRemoveDevice"
+],
+"803D3A68": [
+"802DE2A0",
+"bta_dm_sm_execute"
+],
+"803D3B00": [
+"802DE338",
+"bta_dm_search_sm_execute"
+],
+"803D3BC8": [
+"802DE400",
+"bta_dm_init_pm"
+],
+"803D3C30": [
+"802DE468",
+"bta_dm_disable_pm"
+],
+"803D3C48": [
+"802DE480",
+"bta_dm_pm_cback"
+],
+"803D3FC8": [
+"802DE800",
+"bta_dm_pm_set_mode"
+],
+"803D4348": [
+"802DEB80",
+"bta_dm_pm_btm_cback"
+],
+"803D43C0": [
+"802DEBF8",
+"bta_dm_pm_timer_cback"
+],
+"803D44B8": [
+"802DECF0",
+"bta_dm_pm_btm_status"
+],
+"803D45E4": [
+"802DEE1C",
+"bta_hh_api_enable"
+],
+"803D4758": [
+"802DEF90",
+"bta_hh_api_disable"
+],
+"803D485C": [
+"802DF094",
+"bta_hh_disc_cmpl"
+],
+"803D4900": [
+"802DF138",
+"bta_hh_sdp_cback"
+],
+"803D4A34": [
+"802DF26C",
+"bta_hh_start_sdp"
+],
+"803D4BC8": [
+"802DF400",
+"bta_hh_sdp_cmpl"
+],
+"803D4D30": [
+"802DF568",
+"bta_hh_api_disc_act"
+],
+"803D4D98": [
+"802DF5D0",
+"bta_hh_open_cmpl_act"
+],
+"803D4EC0": [
+"802DF6F8",
+"bta_hh_open_act"
+],
+"803D4F78": [
+"802DF7B0",
+"bta_hh_data_act"
+],
+"803D4FD0": [
+"802DF808",
+"bta_hh_handsk_act"
+],
+"803D5238": [
+"802DFA70",
+"bta_hh_ctrl_dat_act"
+],
+"803D5430": [
+"802DFC68",
+"bta_hh_close_act"
+],
+"803D5630": [
+"802DFE68",
+"bta_hh_get_dscp_act"
+],
+"803D564C": [
+"802DFE84",
+"bta_hh_maint_dev_act"
+],
+"803D57B0": [
+"802DFFE8",
+"bta_hh_get_acl_q_info"
+],
+"803D58CC": [
+"802E0104",
+"bta_hh_write_dev_act"
+],
+"803D5A94": [
+"802E02CC",
+"bta_hh_cback"
+],
+"803D5D2C": [
+"802E0564",
+"BTA_HhEnable"
+],
+"803D5DEC": [
+"802E0624",
+"BTA_HhClose"
+],
+"803D5E50": [
+"802E0688",
+"BTA_HhOpen"
+],
+"803D5F04": [
+"802E073C",
+"BTA_HhSendData"
+],
+"803D5F94": [
+"802E07CC",
+"BTA_HhAddDev"
+],
+"803D603C": [
+"802E0874",
+"BTA_HhRemoveDev"
+],
+"803D60A8": [
+"802E08E0",
+"BTA_HhGetAclQueueInfo"
+],
+"803D60FC": [
+"802E0934",
+"bta_hh_sm_execute"
+],
+"803D6450": [
+"802E0C88",
+"bta_hh_hdl_event"
+],
+"803D659C": [
+"802E0DD4",
+"bta_hh_evt_code"
+],
+"803D6650": [
+"802E0E88",
+"bta_hh_find_cb"
+],
+"803D678C": [
+"802E0FC4",
+"bta_hh_clean_up_kdev"
+],
+"803D680C": [
+"802E1044",
+"bta_hh_add_device_to_list"
+],
+"803D68C8": [
+"802E1100",
+"bta_hh_tod_spt"
+],
+"803D691C": [
+"802E1154",
+"bta_hh_trace_dev_db"
+],
+"803D69FC": [
+"802E1234",
+"btm_acl_init"
+],
+"803D6A18": [
+"802E1250",
+"btm_handle_to_acl_index"
+],
+"803D6A9C": [
+"802E12D4",
+"btm_acl_created"
+],
+"803D6DB0": [
+"802E15E8",
+"btm_acl_removed"
+],
+"803D6E74": [
+"802E16AC",
+"btm_acl_device_down"
+],
+"803D6ED8": [
+"802E1710",
+"BTM_SwitchRole"
+],
+"803D70F4": [
+"802E192C",
+"btm_acl_encrypt_change"
+],
+"803D7264": [
+"802E1A9C",
+"BTM_SetLinkPolicy"
+],
+"803D7464": [
+"802E1C9C",
+"btm_read_link_policy_complete"
+],
+"803D7568": [
+"802E1DA0",
+"btm_read_remote_version_complete"
+],
+"803D75F4": [
+"802E1E2C",
+"btm_read_remote_features_complete"
+],
+"803D7830": [
+"802E2068",
+"BTM_IsAclConnectionUp"
+],
+"803D7908": [
+"802E2140",
+"BTM_GetNumAclLinks"
+],
+"803D7974": [
+"802E21AC",
+"BTM_GetHCIConnHandle"
+],
+"803D7A10": [
+"802E2248",
+"btm_process_clk_off_comp_evt"
+],
+"803D7AAC": [
+"802E22E4",
+"btm_acl_role_changed"
+],
+"803D7CA0": [
+"802E24D8",
+"btm_acl_timeout"
+],
+"803D7CFC": [
+"802E2534",
+"btm_get_max_packet_size"
+],
+"803D7E9C": [
+"802E26D4",
+"BTM_AclRegisterForChanges"
+],
+"803D7EE0": [
+"802E2718",
+"btm_qos_setup_complete"
+],
+"803D7FB8": [
+"802E27F0",
+"BTM_ReadRSSI"
+],
+"803D80F4": [
+"802E292C",
+"BTM_ReadLinkQuality"
+],
+"803D8230": [
+"802E2A68",
+"btm_read_rssi_complete"
+],
+"803D834C": [
+"802E2B84",
+"btm_read_link_quality_complete"
+],
+"803D8464": [
+"802E2C9C",
+"btm_remove_acl"
+],
+"803D8520": [
+"802E2D58",
+"btm_chg_all_acl_pkt_types"
+],
+"803D8740": [
+"802E2F78",
+"BTM_SecAddDevice"
+],
+"803D88C8": [
+"802E3100",
+"BTM_SecDeleteDevice"
+],
+"803D8974": [
+"802E31AC",
+"BTM_SecReadDevName"
+],
+"803D8A14": [
+"802E324C",
+"btm_sec_alloc_dev"
+],
+"803D8B34": [
+"802E336C",
+"btm_find_dev_by_handle"
+],
+"803D8BEC": [
+"802E3424",
+"btm_find_dev"
+],
+"803D8C74": [
+"802E34AC",
+"btm_find_oldest_dev"
+],
+"803D8E0C": [
+"802E3644",
+"btm_dev_init"
+],
+"803D8EAC": [
+"802E36E4",
+"btm_db_reset"
+],
+"803D8F5C": [
+"802E3794",
+"BTM_DeviceReset"
+],
+"803D8FF8": [
+"802E3830",
+"BTM_SendHciReset"
+],
+"803D90A0": [
+"802E38D8",
+"BTM_IsDeviceUp"
+],
+"803D90BC": [
+"802E38F4",
+"BTM_SetAfhChannels"
+],
+"803D91AC": [
+"802E39E4",
+"btm_dev_timeout"
+],
+"803D9444": [
+"802E3C7C",
+"btm_reset_complete"
+],
+"803D9608": [
+"802E3E40",
+"btm_read_hci_buf_size_complete"
+],
+"803D96D0": [
+"802E3F08",
+"btm_read_local_version_complete"
+],
+"803D978C": [
+"802E3FC4",
+"btm_read_local_features_complete"
+],
+"803D9C88": [
+"802E44C0",
+"BTM_SetLocalDeviceName"
+],
+"803D9D40": [
+"802E4578",
+"btm_read_local_name_complete"
+],
+"803D9DCC": [
+"802E4604",
+"BTM_ReadLocalDeviceAddr"
+],
+"803D9E0C": [
+"802E4644",
+"btm_read_local_addr_complete"
+],
+"803D9E54": [
+"802E468C",
+"BTM_ReadLocalVersion"
+],
+"803D9EA0": [
+"802E46D8",
+"BTM_SetDeviceClass"
+],
+"803D9F40": [
+"802E4778",
+"BTM_RegisterForDeviceStatusNotif"
+],
+"803D9F58": [
+"802E4790",
+"BTM_VendorSpecificCommand"
+],
+"803DA054": [
+"802E488C",
+"btm_vsc_complete"
+],
+"803DA0C0": [
+"802E48F8",
+"BTM_RegisterForVSEvents"
+],
+"803DA0F8": [
+"802E4930",
+"btm_vendor_specific_evt"
+],
+"803DA190": [
+"802E49C8",
+"BTM_WritePageTimeout"
+],
+"803DA230": [
+"802E4A68",
+"BTM_ReadStoredLinkKey"
+],
+"803DA308": [
+"802E4B40",
+"BTM_WriteStoredLinkKey"
+],
+"803DA3D8": [
+"802E4C10",
+"BTM_DeleteStoredLinkKey"
+],
+"803DA4A8": [
+"802E4CE0",
+"btm_read_stored_link_key_complete"
+],
+"803DA524": [
+"802E4D5C",
+"btm_write_stored_link_key_complete"
+],
+"803DA580": [
+"802E4DB8",
+"btm_delete_stored_link_key_complete"
+],
+"803DA5E8": [
+"802E4E20",
+"btm_return_link_keys_evt"
+],
+"803DA774": [
+"802E4FAC",
+"btm_report_device_status"
+],
+"803DA794": [
+"802E4FCC",
+"btm_discovery_db_init"
+],
+"803DA80C": [
+"802E5044",
+"btm_discovery_db_reset"
+],
+"803DA8C8": [
+"802E5100",
+"BTM_SetDiscoverability"
+],
+"803DAB4C": [
+"802E5384",
+"BTM_SetInquiryScanType"
+],
+"803DABFC": [
+"802E5434",
+"BTM_SetPageScanType"
+],
+"803DACAC": [
+"802E54E4",
+"BTM_SetInquiryMode"
+],
+"803DAD44": [
+"802E557C",
+"BTM_SetConnectability"
+],
+"803DAEDC": [
+"802E5714",
+"BTM_CancelInquiry"
+],
+"803DAFE4": [
+"802E581C",
+"BTM_StartInquiry"
+],
+"803DB198": [
+"802E59D0",
+"BTM_ReadRemoteDeviceName"
+],
+"803DB280": [
+"802E5AB8",
+"BTM_CancelRemoteDeviceName"
+],
+"803DB2F8": [
+"802E5B30",
+"BTM_InqDbRead"
+],
+"803DB3B8": [
+"802E5BF0",
+"BTM_InqDbFirst"
+],
+"803DB470": [
+"802E5CA8",
+"BTM_InqDbNext"
+],
+"803DB5AC": [
+"802E5DE4",
+"BTM_ClearInqDb"
+],
+"803DB67C": [
+"802E5EB4",
+"btm_inq_db_reset"
+],
+"803DB818": [
+"802E6050",
+"btm_inq_find_bdaddr"
+],
+"803DB8F4": [
+"802E612C",
+"btm_inq_db_new"
+],
+"803DB9F8": [
+"802E6230",
+"btm_set_inq_event_filter"
+],
+"803DBADC": [
+"802E6314",
+"btm_event_filter_complete"
+],
+"803DBCFC": [
+"802E6534",
+"btm_process_inq_results"
+],
+"803DBF74": [
+"802E67AC",
+"btm_process_inq_complete"
+],
+"803DC078": [
+"802E68B0",
+"btm_initiate_rem_name"
+],
+"803DC1C8": [
+"802E6A00",
+"btm_process_remote_name"
+],
+"803DC320": [
+"802E6B58",
+"btm_inq_rmt_name_failed"
+],
+"803DC360": [
+"802E6B98",
+"btm_init"
+],
+"803DC3BC": [
+"802E6BF4",
+"BTM_PmRegister"
+],
+"803DC478": [
+"802E6CB0",
+"BTM_SetPowerMode"
+],
+"803DC648": [
+"802E6E80",
+"BTM_ReadPowerMode"
+],
+"803DC700": [
+"802E6F38",
+"btm_pm_reset"
+],
+"803DC778": [
+"802E6FB0",
+"btm_pm_sm_alloc"
+],
+"803DC7C8": [
+"802E7000",
+"btm_pm_compare_modes"
+],
+"803DC9E4": [
+"802E721C",
+"btm_pm_get_set_mode"
+],
+"803DCB44": [
+"802E737C",
+"btm_pm_snd_md_req"
+],
+"803DCD78": [
+"802E75B0",
+"btm_pm_proc_cmd_status"
+],
+"803DCE28": [
+"802E7660",
+"btm_pm_proc_mode_change"
+],
+"803DD050": [
+"802E7888",
+"btm_sco_init"
+],
+"803DD094": [
+"802E78CC",
+"btm_esco_conn_rsp"
+],
+"803DD270": [
+"802E7AA8",
+"btm_sco_chk_pend_unpark"
+],
+"803DD3FC": [
+"802E7C34",
+"btm_sco_conn_req"
+],
+"803DD5DC": [
+"802E7E14",
+"btm_sco_connected"
+],
+"803DD77C": [
+"802E7FB4",
+"BTM_RemoveSco"
+],
+"803DD834": [
+"802E806C",
+"btm_remove_sco_links"
+],
+"803DD8B8": [
+"802E80F0",
+"btm_sco_removed"
+],
+"803DD9CC": [
+"802E8204",
+"btm_sco_acl_removed"
+],
+"803DDA84": [
+"802E82BC",
+"BTM_ChangeEScoLinkParms"
+],
+"803DDC2C": [
+"802E8464",
+"btm_esco_proc_conn_chg"
+],
+"803DDD30": [
+"802E8568",
+"btm_is_sco_active"
+],
+"803DDDA0": [
+"802E85D8",
+"btm_num_sco_links_active"
+],
+"803DDE00": [
+"802E8638",
+"btm_is_sco_active_by_bdaddr"
+],
+"803DDE88": [
+"802E86C0",
+"BTM_SecRegister"
+],
+"803DDF00": [
+"802E8738",
+"BTM_SecAddRmtNameNotifyCallback"
+],
+"803DDF50": [
+"802E8788",
+"BTM_SecDeleteRmtNameNotifyCallback"
+],
+"803DDFA4": [
+"802E87DC",
+"BTM_SetPinType"
+],
+"803DE054": [
+"802E888C",
+"BTM_SetSecurityLevel"
+],
+"803DE27C": [
+"802E8AB4",
+"BTM_PINCodeReply"
+],
+"803DE340": [
+"802E8B78",
+"BTM_DeviceAuthorized"
+],
+"803DE51C": [
+"802E8D54",
+"BTM_SecBond"
+],
+"803DE8E8": [
+"802E9120",
+"btm_sec_l2cap_access_req"
+],
+"803DED4C": [
+"802E9584",
+"btm_sec_mx_access_request"
+],
+"803DEFE8": [
+"802E9820",
+"btm_sec_conn_req"
+],
+"803DF114": [
+"802E994C",
+"btm_sec_init"
+],
+"803DF130": [
+"802E9968",
+"btm_sec_dev_reset"
+],
+"803DF170": [
+"802E99A8",
+"btm_sec_abort_access_req"
+],
+"803DF224": [
+"802E9A5C",
+"btm_sec_rmt_name_request_complete"
+],
+"803DF50C": [
+"802E9D44",
+"btm_sec_auth_complete"
+],
+"803DF850": [
+"802EA088",
+"btm_sec_mkey_comp_event"
+],
+"803DF94C": [
+"802EA184",
+"btm_sec_encrypt_change"
+],
+"803DFA88": [
+"802EA2C0",
+"btm_sec_is_bonding"
+],
+"803DFAC8": [
+"802EA300",
+"btm_sec_connected"
+],
+"803DFF48": [
+"802EA780",
+"btm_sec_disconnect"
+],
+"803E0004": [
+"802EA83C",
+"btm_sec_disconnected"
+],
+"803E0140": [
+"802EA978",
+"btm_sec_link_key_notification"
+],
+"803E02EC": [
+"802EAB24",
+"btm_sec_link_key_request"
+],
+"803E041C": [
+"802EAC54",
+"btm_sec_pin_code_request_timeout"
+],
+"803E0490": [
+"802EACC8",
+"btm_sec_pin_code_request"
+],
+"803E07EC": [
+"802EB024",
+"btm_sec_update_clock_offset"
+],
+"803E083C": [
+"802EB074",
+"btm_sec_execute_procedure"
+],
+"803E0C1C": [
+"802EB454",
+"btm_sec_start_authorization"
+],
+"803E0D38": [
+"802EB570",
+"btm_sec_collision_timeout"
+],
+"803E0E18": [
+"802EB650",
+"btm_read_trusted_mask"
+],
+"803E0E4C": [
+"802EB684",
+"btu_hcif_process_event"
+],
+"803E1404": [
+"802EBC3C",
+"btu_hcif_send_cmd"
+],
+"803E1590": [
+"802EBDC8",
+"btu_hcif_connection_comp_evt"
+],
+"803E166C": [
+"802EBEA4",
+"btu_hcif_connection_request_evt"
+],
+"803E16F8": [
+"802EBF30",
+"btu_hcif_qos_setup_comp_evt"
+],
+"803E17F8": [
+"802EC030",
+"btu_hcif_esco_connection_comp_evt"
+],
+"803E18D8": [
+"802EC110",
+"btu_hcif_hdl_command_complete"
+],
+"803E1A30": [
+"802EC268",
+"btu_hcif_command_complete_evt"
+],
+"803E1B48": [
+"802EC380",
+"btu_hcif_hdl_command_status"
+],
+"803E1D48": [
+"802EC580",
+"btu_hcif_command_status_evt"
+],
+"803E1E70": [
+"802EC6A8",
+"btu_hcif_cmd_timeout"
+],
+"803E1FC8": [
+"802EC800",
+"btu_hcif_link_key_notification_evt"
+],
+"803E20D4": [
+"802EC90C",
+"BTE_Init"
+],
+"803E2120": [
+"802EC958",
+"WBT_ExtCreateRecord"
+],
+"803E2200": [
+"802ECA38",
+"GAP_Init"
+],
+"803E2260": [
+"802ECA98",
+"gap_conn_init"
+],
+"803E22D0": [
+"802ECB08",
+"gap_connect_ind"
+],
+"803E245C": [
+"802ECC94",
+"gap_connect_cfm"
+],
+"803E2638": [
+"802ECE70",
+"gap_config_ind"
+],
+"803E2774": [
+"802ECFAC",
+"gap_config_cfm"
+],
+"803E2960": [
+"802ED198",
+"gap_disconnect_ind"
+],
+"803E2B58": [
+"802ED390",
+"gap_data_ind"
+],
+"803E2C68": [
+"802ED4A0",
+"gap_congestion_ind"
+],
+"803E2D9C": [
+"802ED5D4",
+"btm_cback"
+],
+"803E2F8C": [
+"802ED7C4",
+"gap_find_addr_name_cb"
+],
+"803E31A4": [
+"802ED9DC",
+"gap_find_addr_inq_cb"
+],
+"803E3358": [
+"802EDB90",
+"gap_convert_btm_status"
+],
+"803E33B8": [
+"802EDBF0",
+"btsnd_hcic_inquiry"
+],
+"803E34C0": [
+"802EDCF8",
+"btsnd_hcic_per_inq_mode"
+],
+"803E3580": [
+"802EDDB8",
+"btsnd_hcic_create_conn"
+],
+"803E3660": [
+"802EDE98",
+"btsnd_hcic_disconnect"
+],
+"803E36E8": [
+"802EDF20",
+"btsnd_hcic_add_SCO_conn"
+],
+"803E37D4": [
+"802EE00C",
+"btsnd_hcic_reject_conn"
+],
+"803E3830": [
+"802EE068",
+"btsnd_hcic_link_key_req_reply"
+],
+"803E3A70": [
+"802EE2A8",
+"btsnd_hcic_pin_code_req_reply"
+],
+"803E3CF4": [
+"802EE52C",
+"btsnd_hcic_change_conn_type"
+],
+"803E3E00": [
+"802EE638",
+"btsnd_hcic_set_conn_encrypt"
+],
+"803E3E8C": [
+"802EE6C4",
+"btsnd_hcic_rmt_name_req"
+],
+"803E4178": [
+"802EE9B0",
+"btsnd_hcic_setup_esco_conn"
+],
+"803E4274": [
+"802EEAAC",
+"btsnd_hcic_accept_esco_conn"
+],
+"803E4470": [
+"802EECA8",
+"btsnd_hcic_sniff_mode"
+],
+"803E4898": [
+"802EF0D0",
+"btsnd_hcic_set_event_filter"
+],
+"803E4B28": [
+"802EF360",
+"btsnd_hcic_write_stored_key"
+],
+"803E4D98": [
+"802EF5D0",
+"btsnd_hcic_change_name"
+],
+"803E4ED8": [
+"802EF710",
+"btsnd_hcic_write_page_tout"
+],
+"803E50B0": [
+"802EF8E8",
+"btsnd_hcic_write_dev_class"
+],
+"803E5138": [
+"802EF970",
+"btsnd_hcic_set_host_buf_size"
+],
+"803E5288": [
+"802EFAC0",
+"btsnd_hcic_write_cur_iac_lap"
+],
+"803E53B4": [
+"802EFBEC",
+"btsnd_hcic_read_buffer_size"
+],
+"803E54B8": [
+"802EFCF0",
+"btsnd_hcic_read_rssi"
+],
+"803E5530": [
+"802EFD68",
+"btsnd_hcic_set_afh_channels"
+],
+"803E59E0": [
+"802F0218",
+"btsnd_hcic_vendor_spec_cmd"
+],
+"803E5AD4": [
+"802F030C",
+"HID_DevInit"
+],
+"803E5B3C": [
+"802F0374",
+"hidd_conn_initiate"
+],
+"803E5BFC": [
+"802F0434",
+"hidd_proc_repage_timeout"
+],
+"803E5CC4": [
+"802F04FC",
+"hidd_pm_set_now"
+],
+"803E5E9C": [
+"802F06D4",
+"hidd_pm_proc_mode_change"
+],
+"803E5FF4": [
+"802F082C",
+"hidd_pm_inact_timeout"
+],
+"803E6040": [
+"802F0878",
+"HID_HostGetSDPRecord"
+],
+"803E6108": [
+"802F0940",
+"hidh_search_callback"
+],
+"803E6558": [
+"802F0D90",
+"HID_HostInit"
+],
+"803E659C": [
+"802F0DD4",
+"HID_HostRegister"
+],
+"803E6618": [
+"802F0E50",
+"HID_HostDeregister"
+],
+"803E66FC": [
+"802F0F34",
+"HID_HostAddDev"
+],
+"803E688C": [
+"802F10C4",
+"HID_HostRemoveDev"
+],
+"803E6954": [
+"802F118C",
+"HID_HostOpenDev"
+],
+"803E69B8": [
+"802F11F0",
+"HID_HostWriteDev"
+],
+"803E6AF8": [
+"802F1330",
+"HID_HostCloseDev"
+],
+"803E6B98": [
+"802F13D0",
+"HID_HostSetSecurityLevel"
+],
+"803E6DC0": [
+"802F15F8",
+"hidh_conn_reg"
+],
+"803E6F18": [
+"802F1750",
+"hidh_conn_disconnect"
+],
+"803E6FBC": [
+"802F17F4",
+"hidh_sec_check_complete_term"
+],
+"803E70EC": [
+"802F1924",
+"hidh_l2cif_connect_ind"
+],
+"803E7344": [
+"802F1B7C",
+"hidh_proc_repage_timeout"
+],
+"803E7490": [
+"802F1CC8",
+"hidh_sec_check_complete_orig"
+],
+"803E76A4": [
+"802F1EDC",
+"hidh_l2cif_connect_cfm"
+],
+"803E79EC": [
+"802F2224",
+"hidh_l2cif_config_ind"
+],
+"803E7C94": [
+"802F24CC",
+"hidh_l2cif_config_cfm"
+],
+"803E7FA0": [
+"802F27D8",
+"hidh_l2cif_disconnect_ind"
+],
+"803E8264": [
+"802F2A9C",
+"hidh_l2cif_disconnect_cfm"
+],
+"803E84AC": [
+"802F2CE4",
+"hidh_l2cif_cong_ind"
+],
+"803E86A4": [
+"802F2EDC",
+"hidh_l2cif_data_ind"
+],
+"803E8A3C": [
+"802F3274",
+"hidh_conn_snd_data"
+],
+"803E8CD8": [
+"802F3510",
+"hidh_conn_initiate"
+],
+"803E8DD4": [
+"802F360C",
+"hidh_conn_dereg"
+],
+"803E8E00": [
+"802F3638",
+"L2CA_Register"
+],
+"803E8F9C": [
+"802F37D4",
+"L2CA_Deregister"
+],
+"803E902C": [
+"802F3864",
+"L2CA_ConnectReq"
+],
+"803E9260": [
+"802F3A98",
+"L2CA_ConnectRsp"
+],
+"803E93F0": [
+"802F3C28",
+"L2CA_ConfigReq"
+],
+"803E94A8": [
+"802F3CE0",
+"L2CA_ConfigRsp"
+],
+"803E96C0": [
+"802F3EF8",
+"L2CA_DataWrite"
+],
+"803E97E4": [
+"802F401C",
+"L2CA_SetIdleTimeout"
+],
+"803E98AC": [
+"802F40E4",
+"L2CA_SetIdleTimeoutByBdAddr"
+],
+"803E99AC": [
+"802F41E4",
+"L2CA_SetTraceLevel"
+],
+"803E99CC": [
+"802F4204",
+"l2c_csm_execute"
+],
+"803E9A18": [
+"802F4250",
+"l2c_csm_closed"
+],
+"803E9CAC": [
+"802F44E4",
+"l2c_csm_orig_w4_sec_comp"
+],
+"803E9E1C": [
+"802F4654",
+"l2c_csm_term_w4_sec_comp"
+],
+"803E9F84": [
+"802F47BC",
+"l2c_csm_w4_l2cap_connect_rsp"
+],
+"803EA1C8": [
+"802F4A00",
+"l2c_csm_w4_l2ca_connect_rsp"
+],
+"803EA3A0": [
+"802F4BD8",
+"l2c_csm_config"
+],
+"803EA768": [
+"802F4FA0",
+"l2c_csm_open"
+],
+"803EA9C4": [
+"802F51FC",
+"l2c_csm_w4_l2cap_disconnect_rsp"
+],
+"803EABA8": [
+"802F53E0",
+"l2c_csm_w4_l2ca_disconnect_rsp"
+],
+"803EAD04": [
+"802F553C",
+"forward_peer_data"
+],
+"803EAEA8": [
+"802F56E0",
+"l2c_link_hci_conn_req"
+],
+"803EAFFC": [
+"802F5834",
+"l2c_link_hci_conn_comp"
+],
+"803EB234": [
+"802F5A6C",
+"l2c_link_sec_comp"
+],
+"803EB2E8": [
+"802F5B20",
+"l2c_link_hci_disc_comp"
+],
+"803EB3A4": [
+"802F5BDC",
+"l2c_link_hci_qos_violation"
+],
+"803EB414": [
+"802F5C4C",
+"l2c_link_timeout"
+],
+"803EB588": [
+"802F5DC0",
+"l2c_link_send_to_lower"
+],
+"803EB690": [
+"802F5EC8",
+"l2c_link_check_send_pkts"
+],
+"803EB95C": [
+"802F6194",
+"l2c_link_adjust_allocation"
+],
+"803EBAF4": [
+"802F632C",
+"l2c_link_process_num_completed_pkts"
+],
+"803EBBD8": [
+"802F6410",
+"l2c_link_processs_num_bufs"
+],
+"803EBBEC": [
+"802F6424",
+"l2cap_link_chk_pkt_start"
+],
+"803EBDBC": [
+"802F65F4",
+"l2cap_link_chk_pkt_end"
+],
+"803EBE28": [
+"802F6660",
+"l2c_link_role_changed"
+],
+"803EBEA8": [
+"802F66E0",
+"l2c_link_role_change_failed"
+],
+"803EBF14": [
+"802F674C",
+"l2c_link_segments_xmitted"
+],
+"803EBFF0": [
+"802F6828",
+"l2c_pin_code_request"
+],
+"803EC034": [
+"802F686C",
+"l2c_init"
+],
+"803EC148": [
+"802F6980",
+"l2c_rcv_acl_data"
+],
+"803EC478": [
+"802F6CB0",
+"process_l2cap_cmd"
+],
+"803ECEE8": [
+"802F7720",
+"l2c_process_timeout"
+],
+"803ECF38": [
+"802F7770",
+"l2c_process_held_packets"
+],
+"803ED064": [
+"802F789C",
+"l2cu_allocate_lcb"
+],
+"803ED138": [
+"802F7970",
+"l2cu_release_lcb"
+],
+"803ED238": [
+"802F7A70",
+"l2cu_find_lcb_by_bd_addr"
+],
+"803ED360": [
+"802F7B98",
+"l2cu_build_header"
+],
+"803ED424": [
+"802F7C5C",
+"l2cu_send_peer_cmd_reject"
+],
+"803ED520": [
+"802F7D58",
+"l2cu_send_peer_connect_req"
+],
+"803ED5E4": [
+"802F7E1C",
+"l2cu_send_peer_connect_rsp"
+],
+"803ED6BC": [
+"802F7EF4",
+"l2cu_reject_connection"
+],
+"803ED77C": [
+"802F7FB4",
+"l2cu_send_peer_config_req"
+],
+"803EDA74": [
+"802F82AC",
+"l2cu_send_peer_config_rsp"
+],
+"803EDD6C": [
+"802F85A4",
+"l2cu_send_peer_config_rej"
+],
+"803EDF20": [
+"802F8758",
+"l2cu_send_peer_disc_req"
+],
+"803EDFF4": [
+"802F882C",
+"l2cu_send_peer_disc_rsp"
+],
+"803EE0B4": [
+"802F88EC",
+"l2cu_send_peer_echo_req"
+],
+"803EE224": [
+"802F8A5C",
+"l2cu_send_peer_echo_rsp"
+],
+"803EE3C0": [
+"802F8BF8",
+"l2cu_send_peer_info_rsp"
+],
+"803EE464": [
+"802F8C9C",
+"l2cu_allocate_ccb"
+],
+"803EE570": [
+"802F8DA8",
+"l2cu_release_ccb"
+],
+"803EE714": [
+"802F8F4C",
+"l2cu_find_ccb_by_cid"
+],
+"803EE770": [
+"802F8FA8",
+"l2cu_allocate_rcb"
+],
+"803EE7CC": [
+"802F9004",
+"l2cu_find_rcb_by_psm"
+],
+"803EE884": [
+"802F90BC",
+"l2cu_process_peer_cfg_req"
+],
+"803EEA0C": [
+"802F9244",
+"l2cu_process_our_cfg_req"
+],
+"803EEB5C": [
+"802F9394",
+"l2cu_device_reset"
+],
+"803EEBC8": [
+"802F9400",
+"l2cu_create_conn"
+],
+"803EECE0": [
+"802F9518",
+"l2cu_create_conn_after_switch"
+],
+"803EEDB0": [
+"802F95E8",
+"l2cu_find_lcb_by_state"
+],
+"803EEE40": [
+"802F9678",
+"l2cu_lcb_disconnecting"
+],
+"803EEF28": [
+"802F9760",
+"RFCOMM_Init"
+],
+"803EEF78": [
+"802F97B0",
+"PORT_StartCnf"
+],
+"803EF0D8": [
+"802F9910",
+"PORT_StartInd"
+],
+"803EF174": [
+"802F99AC",
+"PORT_ParNegInd"
+],
+"803EF324": [
+"802F9B5C",
+"PORT_ParNegCnf"
+],
+"803EF428": [
+"802F9C60",
+"PORT_DlcEstablishInd"
+],
+"803EF568": [
+"802F9DA0",
+"PORT_DlcEstablishCnf"
+],
+"803EF6AC": [
+"802F9EE4",
+"PORT_PortNegInd"
+],
+"803EF7FC": [
+"802FA034",
+"PORT_PortNegCnf"
+],
+"803EF914": [
+"802FA14C",
+"PORT_ControlInd"
+],
+"803EFA8C": [
+"802FA2C4",
+"PORT_ControlCnf"
+],
+"803EFB50": [
+"802FA388",
+"PORT_LineStatusInd"
+],
+"803EFC18": [
+"802FA450",
+"PORT_DlcReleaseInd"
+],
+"803EFC80": [
+"802FA4B8",
+"PORT_CloseInd"
+],
+"803EFD20": [
+"802FA558",
+"Port_TimeOutCloseMux"
+],
+"803EFDB8": [
+"802FA5F0",
+"PORT_DataInd"
+],
+"803EFFB8": [
+"802FA7F0",
+"PORT_FlowInd"
+],
+"803F00E8": [
+"802FA920",
+"port_rfc_send_tx_data"
+],
+"803F01E0": [
+"802FAA18",
+"port_rfc_closed"
+],
+"803F0374": [
+"802FABAC",
+"port_select_mtu"
+],
+"803F04F0": [
+"802FAD28",
+"port_release_port"
+],
+"803F05CC": [
+"802FAE04",
+"port_find_mcb_dlci_port"
+],
+"803F0620": [
+"802FAE58",
+"port_find_dlci_port"
+],
+"803F06A8": [
+"802FAEE0",
+"port_flow_control_user"
+],
+"803F0718": [
+"802FAF50",
+"port_get_signal_changes"
+],
+"803F0780": [
+"802FAFB8",
+"port_flow_control_peer"
+],
+"803F094C": [
+"802FB184",
+"rfcomm_l2cap_if_init"
+],
+"803F09C8": [
+"802FB200",
+"RFCOMM_ConnectInd"
+],
+"803F0A54": [
+"802FB28C",
+"RFCOMM_ConnectCnf"
+],
+"803F0D6C": [
+"802FB5A4",
+"RFCOMM_DisconnectInd"
+],
+"803F0E90": [
+"802FB6C8",
+"RFCOMM_BufDataInd"
+],
+"803F1130": [
+"802FB968",
+"RFCOMM_CongestionStatusInd"
+],
+"803F1264": [
+"802FBA9C",
+"rfc_save_lcid_mcb"
+],
+"803F1280": [
+"802FBAB8",
+"rfc_mx_sm_execute"
+],
+"803F12C4": [
+"802FBAFC",
+"rfc_mx_sm_state_idle"
+],
+"803F14D8": [
+"802FBD10",
+"rfc_mx_sm_state_wait_conn_cnf"
+],
+"803F1694": [
+"802FBECC",
+"rfc_mx_sm_state_configure"
+],
+"803F17BC": [
+"802FBFF4",
+"rfc_mx_sm_sabme_wait_ua"
+],
+"803F1930": [
+"802FC168",
+"rfc_mx_sm_state_wait_sabme"
+],
+"803F1A50": [
+"802FC288",
+"rfc_mx_sm_state_connected"
+],
+"803F1B68": [
+"802FC3A0",
+"rfc_mx_sm_state_disc_wait_ua"
+],
+"803F1CE0": [
+"802FC518",
+"rfc_mx_conf_cnf"
+],
+"803F1DD4": [
+"802FC60C",
+"rfc_mx_conf_ind"
+],
+"803F1EC4": [
+"802FC6FC",
+"rfc_port_sm_execute"
+],
+"803F1F54": [
+"802FC78C",
+"rfc_port_sm_state_closed"
+],
+"803F20C8": [
+"802FC900",
+"rfc_port_sm_sabme_wait_ua"
+],
+"803F2264": [
+"802FCA9C",
+"rfc_port_sm_term_wait_sec_check"
+],
+"803F2420": [
+"802FCC58",
+"rfc_port_sm_orig_wait_sec_check"
+],
+"803F2570": [
+"802FCDA8",
+"rfc_port_sm_opened"
+],
+"803F275C": [
+"802FCF94",
+"rfc_port_sm_disc_wait_ua"
+],
+"803F2878": [
+"802FD0B0",
+"rfc_process_pn"
+],
+"803F2960": [
+"802FD198",
+"rfc_process_rpn"
+],
+"803F2C6C": [
+"802FD4A4",
+"rfc_process_msc"
+],
+"803F2DD8": [
+"802FD610",
+"rfc_process_rls"
+],
+"803F2E70": [
+"802FD6A8",
+"rfc_process_fcon"
+],
+"803F2ED4": [
+"802FD70C",
+"rfc_process_fcoff"
+],
+"803F2F38": [
+"802FD770",
+"rfc_process_l2cap_congestion"
+],
+"803F2FC0": [
+"802FD7F8",
+"rfc_set_port_state"
+],
+"803F3064": [
+"802FD89C",
+"RFCOMM_StartRsp"
+],
+"803F3090": [
+"802FD8C8",
+"RFCOMM_DlcEstablishReq"
+],
+"803F30F8": [
+"802FD930",
+"RFCOMM_DlcEstablishRsp"
+],
+"803F3168": [
+"802FD9A0",
+"RFCOMM_ParNegReq"
+],
+"803F3248": [
+"802FDA80",
+"RFCOMM_ParNegRsp"
+],
+"803F3270": [
+"802FDAA8",
+"RFCOMM_PortNegReq"
+],
+"803F332C": [
+"802FDB64",
+"RFCOMM_PortNegRsp"
+],
+"803F334C": [
+"802FDB84",
+"RFCOMM_ControlReq"
+],
+"803F33F0": [
+"802FDC28",
+"RFCOMM_FlowReq"
+],
+"803F3494": [
+"802FDCCC",
+"RFCOMM_LineStatusReq"
+],
+"803F352C": [
+"802FDD64",
+"RFCOMM_DlcReleaseReq"
+],
+"803F3558": [
+"802FDD90",
+"RFCOMM_DataReq"
+],
+"803F3640": [
+"802FDE78",
+"rfc_send_ua"
+],
+"803F36F0": [
+"802FDF28",
+"rfc_send_dm"
+],
+"803F3864": [
+"802FE09C",
+"rfc_send_buf_uih"
+],
+"803F39FC": [
+"802FE234",
+"rfc_send_pn"
+],
+"803F3BEC": [
+"802FE424",
+"rfc_send_msc"
+],
+"803F3D0C": [
+"802FE544",
+"rfc_send_rls"
+],
+"803F3DBC": [
+"802FE5F4",
+"rfc_send_rpn"
+],
+"803F3ED8": [
+"802FE710",
+"rfc_send_test"
+],
+"803F3F80": [
+"802FE7B8",
+"rfc_send_credit"
+],
+"803F4040": [
+"802FE878",
+"rfc_parse_data"
+],
+"803F45B4": [
+"802FEDEC",
+"rfc_process_mx_message"
+],
+"803F4BD8": [
+"802FF410",
+"rfc_calc_fcs"
+],
+"803F4C10": [
+"802FF448",
+"rfc_check_fcs"
+],
+"803F4C5C": [
+"802FF494",
+"rfc_alloc_multiplexer_channel"
+],
+"803F4DB4": [
+"802FF5EC",
+"rfc_release_multiplexer_channel"
+],
+"803F4E3C": [
+"802FF674",
+"rfc_timer_start"
+],
+"803F4EB0": [
+"802FF6E8",
+"rfc_timer_stop"
+],
+"803F4F08": [
+"802FF740",
+"rfc_port_timer_start"
+],
+"803F4F88": [
+"802FF7C0",
+"rfc_port_timer_stop"
+],
+"803F4FE0": [
+"802FF818",
+"rfc_check_mcb_active"
+],
+"803F50A4": [
+"802FF8DC",
+"rfcomm_process_timeout"
+],
+"803F50E0": [
+"802FF918",
+"rfc_sec_check_complete"
+],
+"803F5134": [
+"802FF96C",
+"rfc_port_closed"
+],
+"803F528C": [
+"802FFAC4",
+"rfc_inc_credit"
+],
+"803F5318": [
+"802FFB50",
+"rfc_dec_credit"
+],
+"803F5354": [
+"802FFB8C",
+"rfc_check_send_cmd"
+],
+"803F53B8": [
+"802FFBF0",
+"SDP_InitDiscoveryDb"
+],
+"803F5730": [
+"802FFF68",
+"SDP_ServiceSearchRequest"
+],
+"803F578C": [
+"802FFFC4",
+"SDP_ServiceSearchAttributeRequest"
+],
+"803F57F0": [
+"80300028",
+"SDP_FindAttributeInRec"
+],
+"803F5818": [
+"80300050",
+"SDP_FindServiceInDb"
+],
+"803F58E4": [
+"8030011C",
+"SDP_FindServiceUUIDInDb"
+],
+"803F59EC": [
+"80300224",
+"SDP_SetLocalDiRecord"
+],
+"803F5D4C": [
+"80300584",
+"SDP_GetLocalDiRecord"
+],
+"803F61FC": [
+"80300A34",
+"SDP_SetTraceLevel"
+],
+"803F6220": [
+"80300A58",
+"sdp_db_service_search"
+],
+"803F635C": [
+"80300B94",
+"find_uuid_in_seq"
+],
+"803F6434": [
+"80300C6C",
+"sdp_db_find_record"
+],
+"803F6490": [
+"80300CC8",
+"sdp_db_find_attr_in_rec"
+],
+"803F64D0": [
+"80300D08",
+"SDP_CreateRecord"
+],
+"803F65B0": [
+"80300DE8",
+"SDP_DeleteRecord"
+],
+"803F66C4": [
+"80300EFC",
+"SDP_AddAttribute"
+],
+"803F6A5C": [
+"80301294",
+"SDP_AddUuidSequence"
+],
+"803F6B34": [
+"8030136C",
+"SDP_AddServiceClassIdList"
+],
+"803F6CB0": [
+"803014E8",
+"SDP_DeleteAttribute"
+],
+"803F6EEC": [
+"80301724",
+"sdpu_build_uuid_seq"
+],
+"803F6FD8": [
+"80301810",
+"sdp_snd_service_search_req"
+],
+"803F7108": [
+"80301940",
+"sdp_disc_connected"
+],
+"803F713C": [
+"80301974",
+"sdp_disc_server_rsp"
+],
+"803F727C": [
+"80301AB4",
+"process_service_search_rsp"
+],
+"803F73C4": [
+"80301BFC",
+"process_service_attr_rsp"
+],
+"803F766C": [
+"80301EA4",
+"process_service_search_attr_rsp"
+],
+"803F7940": [
+"80302178",
+"save_attr_seq"
+],
+"803F7B2C": [
+"80302364",
+"add_record"
+],
+"803F7BCC": [
+"80302404",
+"add_attr"
+],
+"803F8164": [
+"8030299C",
+"sdp_init"
+],
+"803F8304": [
+"80302B3C",
+"sdp_connect_ind"
+],
+"803F83C8": [
+"80302C00",
+"sdp_connect_cfm"
+],
+"803F8558": [
+"80302D90",
+"sdp_config_ind"
+],
+"803F8694": [
+"80302ECC",
+"sdp_config_cfm"
+],
+"803F8810": [
+"80303048",
+"sdp_disconnect_ind"
+],
+"803F8908": [
+"80303140",
+"sdp_data_ind"
+],
+"803F89DC": [
+"80303214",
+"sdp_conn_originate"
+],
+"803F8AF0": [
+"80303328",
+"sdp_disconnect"
+],
+"803F8B8C": [
+"803033C4",
+"sdp_disconnect_cfm"
+],
+"803F8C48": [
+"80303480",
+"sdp_conn_timeout"
+],
+"803F8CD0": [
+"80303508",
+"sdp_server_handle_client_req"
+],
+"803F8E24": [
+"8030365C",
+"process_service_search"
+],
+"803F9234": [
+"80303A6C",
+"process_service_attr_req"
+],
+"803F95C4": [
+"80303DFC",
+"process_service_search_attr_req"
+],
+"803F9A70": [
+"803042A8",
+"sdpu_allocate_ccb"
+],
+"803F9B1C": [
+"80304354",
+"sdpu_build_attrib_seq"
+],
+"803F9CEC": [
+"80304524",
+"sdpu_build_attrib_entry"
+],
+"803F9E40": [
+"80304678",
+"sdpu_build_n_send_error"
+],
+"803F9F7C": [
+"803047B4",
+"sdpu_extract_uid_seq"
+],
+"803FA2CC": [
+"80304B04",
+"sdpu_extract_attr_seq"
+],
+"803FA51C": [
+"80304D54",
+"sdpu_get_len_from_type"
+],
+"803FA5EC": [
+"80304E24",
+"sdpu_is_base_uuid"
+],
+"803FA6CC": [
+"80304F04",
+"sdpu_compare_uuid_arrays"
+],
+"803FA940": [
+"80305178",
+"sdpu_compare_uuid_with_attr"
+],
+"803FA9D0": [
+"80305208",
+"sdpu_sort_attr_list"
+],
+"803FAA20": [
+"80305258",
+"USB_LOG"
+],
+"803FAAC8": [
+"80305300",
+"USB_ERR"
+],
+"803FAB74": [
+"803053AC",
+"IUSB_OpenLib"
+],
+"803FBE88": [
+"8030626C",
+"IUSB_WriteCtrlMsgAsync"
+],
+"803FDFA4": [
+"80308268",
+"fn_80308268"
+],
+"803FF0E8": [
+"80309324",
+"WPADGetAccGravityUnit"
+],
+"803FF1C0": [
+"803093FC",
+"DisconnectCallback"
+],
+"803FF2A4": [
+"803094E4",
+"WPADProbe"
+],
+"803FF598": [
+"803097A0",
+"__infoCallback"
+],
+"803FF5EC": [
+"803097F4",
+"WPADGetInfoAsync"
+],
+"803FF80C": [
+"80309A14",
+"WPADControlMotor"
+],
+"803FF8D8": [
+"80309AE0",
+"WPADEnableMotor"
+],
+"803FF90C": [
+"80309B14",
+"WPADIsMotorEnabled"
+],
+"803FF940": [
+"80309B48",
+"WPADControlLed"
+],
+"803FFB28": [
+"80309D30",
+"WPADSaveConfig"
+],
+"80400028": [
+"8030A380",
+"WPADControlSpeaker"
+],
+"80401678": [
+"8030B9D0",
+"WPADSetSpeakerVolume"
+],
+"804016C8": [
+"8030BA20",
+"IsBusyStream"
+],
+"80401800": [
+"8030BB58",
+"WPADCanSendStreamData"
+],
+"80401884": [
+"8030BBDC",
+"WPADSendStreamData"
+],
+"80403098": [
+"8030D328",
+"WPADiSendWriteDataCmd"
+],
+"8040324C": [
+"8030D4DC",
+"WPADiSendWriteData"
+],
+"80403404": [
+"8030D694",
+"WPADiSendReadData"
+],
+"804035B0": [
+"8030D840",
+"WPADiClearQueue"
+],
+"804078AC": [
+"80312354",
+"WPADiCreateKey"
+],
+"80407F9C": [
+"80312A44",
+"WPADiCreateKeyFor3rd"
+],
+"80408694": [
+"8031313C",
+"WPADiDecode"
+],
+"80408B44": [
+"803134EC",
+"SyncFlushCallback"
+],
+"8040A178": [
+"80313564",
+"DeleteFlushCallback"
+],
+"8040A1D0": [
+"8031424C",
+"WUDiTerminateDevice"
+],
+"8040A7DC": [
+"803144EC",
+"WUDiClearUnregisteredDevice"
+],
+"8040BDC0": [
+"80314F44",
+"WUDRegisterAllocator"
+],
+"8040C030": [
+"8031511C",
+"fn_8031511C"
+],
+"8040C06C": [
+"80315158",
+"fn_80315158"
+],
+"8040C0B4": [
+"803151A0",
+"fn_803151A0"
+],
+"8040C3F4": [
+"803154C0",
+"WUDSetDisableChannel"
+],
+"8040C598": [
+"80315664",
+"WUDSetVisibility"
+],
+"8040D0D4": [
+"80315EF0",
+"WUDiGetDevInfo"
+],
+"8040DAF8": [
+"80316798",
+"CleanupCallback"
+],
+"8040DB2C": [
+"803167CC",
+"WUDSecurityCallback"
+],
+"8040E534": [
+"80317244",
+"WUDDeviceStatusCallback"
+],
+"8040EA18": [
+"80317674",
+"_WUDGetDevAddr"
+],
+"8040EB24": [
+"80317780",
+"_WUDGetLinkNumber"
+],
+"8040F254": [
+"80317CA4",
+"bta_hh_co_data"
+],
+"8040F408": [
+"803180A0",
+"fn_803180A0"
+],
+"8040F9C0": [
+"8031857C",
+"calc_acc_horizon"
+],
+"8040FB54": [
+"80318710",
+"calc_acc_vertical"
+],
+"804100D0": [
+"80318E3C",
+"select_2obj_first"
+],
+"804102B8": [
+"80319024",
+"select_2obj_continue"
+],
+"804104E0": [
+"8031924C",
+"select_1obj_first"
+],
+"80410694": [
+"80319400",
+"select_1obj_continue"
+],
+"80411240": [
+"80319DB4",
+"clamp_stick_circle"
+],
+"80411368": [
+"80319EDC",
+"clamp_stick_cross"
+],
+"804134E8": [
+"80317D58",
+"fn_80317D58"
+],
+"804137C0": [
+"8031BAA4",
+"fn_8031BAA4"
+],
+"804138D4": [
+"8031BBB8",
+"fn_8031BBB8"
+],
+"804138F4": [
+"8031BBD8",
+"fn_8031BBD8"
+],
+"804139D4": [
+"8031B12C",
+"ARCInitHandle"
+],
+"80413A74": [
+"8031B1CC",
+"ARCOpen"
+],
+"80413D18": [
+"8031B470",
+"ARCFastOpen"
+],
+"80413D68": [
+"8031B4C0",
+"ARCConvertPathToEntrynum"
+],
+"80413FCC": [
+"8031B724",
+"entryToPath"
+],
+"804143C8": [
+"8031B8EC",
+"ARCGetStartAddrInMem"
+],
+"804143EC": [
+"8031B910",
+"fn_8031B910"
+],
+"80414444": [
+"8031B968",
+"fn_8031B968"
+],
+"804144C0": [
+"8031B9E4",
+"fn_8031B9E4"
+],
+"804649B8": [
+"8031BCB8",
+"fn_8031BCB8"
+],
+"804649F0": [
+"8031BCF0",
+"fn_8031BCF0"
+],
+"80464A10": [
+"8031BD10",
+"fn_8031BD10"
+],
+"80464BBC": [
+"8031BEBC",
+"fn_8031BEBC"
+],
+"80464C6C": [
+"8031BF6C",
+"fn_8031BF6C"
+],
+"80464E30": [
+"8031C130",
+"fn_8031C130"
+],
+"80465090": [
+"8031C390",
+"fn_8031C390"
+],
+"804651B4": [
+"8031C4B4",
+"fn_8031C4B4"
+],
+"804651E0": [
+"8031C4E0",
+"fn_8031C4E0"
+],
+"8046534C": [
+"8031C5AC",
+"fn_8031C5AC"
+],
+"80465378": [
+"8031C5D8",
+"fn_8031C5D8"
+],
+"80465524": [
+"8031C784",
+"fn_8031C784"
+],
+"8046562C": [
+"8031C88C",
+"fn_8031C88C"
+],
+"804656AC": [
+"8031C90C",
+"fn_8031C90C"
+],
+"80465880": [
+"8031CAE0",
+"fn_8031CAE0"
+],
+"804658BC": [
+"8031CB04",
+"fn_8031CB04"
+],
+"80465C94": [
+"8031CDA8",
+"fn_8031CDA8"
+],
+"80465D0C": [
+"8031CE20",
+"fn_8031CE20"
+],
+"80465DDC": [
+"8031CEF0",
+"fn_8031CEF0"
+],
+"80465F10": [
+"8031D024",
+"fn_8031D024"
+],
+"804660B0": [
+"8031D1C4",
+"fn_8031D1C4"
+],
+"804661C4": [
+"8031D2D8",
+"fn_8031D2D8"
+],
+"804662BC": [
+"8031D3D0",
+"fn_8031D3D0"
+],
+"80466300": [
+"8031D414",
+"fn_8031D414"
+],
+"80466414": [
+"8031D528",
+"fn_8031D528"
+],
+"80466524": [
+"8031D638",
+"fn_8031D638"
+],
+"80466590": [
+"8031D6A4",
+"fn_8031D6A4"
+],
+"8046664C": [
+"8031D760",
+"fn_8031D760"
+],
+"804667E4": [
+"8031D8C8",
+"fn_8031D8C8"
+],
+"804669B4": [
+"8031DA90",
+"playSound__Q210homebutton10ControllerFi"
+],
+"80466A50": [
+"8031DB2C",
+"isPlayingSoundId__Q210homebutton10ControllerCFi"
+],
+"80466AC0": [
+"8031DB9C",
+"updateSound__Q210homebutton10ControllerFv"
+],
+"80466D0C": [
+"8031DDE8",
+"startMotor__Q210homebutton10ControllerFv"
+],
+"80466D70": [
+"8031DE4C",
+"stopMotor__Q210homebutton10ControllerFv"
+],
+"80466DA0": [
+"8031DE7C",
+"fn_8031DE7C"
+],
+"80466E24": [
+"8031DF00",
+"fn_8031DF00"
+],
+"80466E48": [
+"8031DF24",
+"fn_8031DF24"
+],
+"80466E6C": [
+"8031DF48",
+"fn_8031DF48"
+],
+"80466E8C": [
+"8031DF68",
+"fn_8031DF68"
+],
+"80467120": [
+"8031E1EC",
+"fn_8031E1EC"
+],
+"804671DC": [
+"8031E2A8",
+"fn_8031E2A8"
+],
+"804675CC": [
+"8031E5DC",
+"fn_8031E5DC"
+],
+"80467658": [
+"8031E668",
+"fn_8031E668"
+],
+"8046770C": [
+"8031E71C",
+"fn_8031E71C"
+],
+"8046773C": [
+"8031E74C",
+"fn_8031E74C"
+],
+"80467758": [
+"8031E768",
+"fn_8031E768"
+],
+"80467914": [
+"8031E924",
+"fn_8031E924"
+],
+"80467F94": [
+"8031EF68",
+"fn_8031EF68"
+],
+"804685D8": [
+"80327280",
+"fn_80327280"
+],
+"80468B10": [
+"8031FA7C",
+"fn_8031FA7C"
+],
+"804695D0": [
+"80320558",
+"fn_80320558"
+],
+"80469AF4": [
+"80320930",
+"fn_80320930"
+],
+"80469E24": [
+"80320C54",
+"fn_80320C54"
+],
+"8046BD5C": [
+"803229DC",
+"fn_803229DC"
+],
+"8046C0B4": [
+"80322BDC",
+"fn_80322BDC"
+],
+"8046C1BC": [
+"80322CE4",
+"fn_80322CE4"
+],
+"8046C288": [
+"80322DB0",
+"fn_80322DB0"
+],
+"8046D4A4": [
+"80323FC8",
+"fn_80323FC8"
+],
+"8046D76C": [
+"80324290",
+"fn_80324290"
+],
+"8046E59C": [
+"803250C0",
+"fn_803250C0"
+],
+"80470298": [
+"80326D6C",
+"fn_80326D6C"
+],
+"804709F0": [
+"80327438",
+"fn_80327438"
+],
+"80470AE0": [
+"80327528",
+"fn_80327528"
+],
+"80470CB0": [
+"803276F8",
+"fn_803276F8"
+],
+"80470CE8": [
+"80327730",
+"fn_80327730"
+],
+"80470D74": [
+"803277BC",
+"fn_803277BC"
+],
+"80470EBC": [
+"80327904",
+"fn_80327904"
+],
+"80470FBC": [
+"80327A04",
+"fn_80327A04"
+],
+"80471078": [
+"80327AC0",
+"fn_80327AC0"
+],
+"80471268": [
+"80327CB0",
+"fn_80327CB0"
+],
+"8047158C": [
+"80327FD4",
+"fn_80327FD4"
+],
+"80471668": [
+"803280B0",
+"fn_803280B0"
+],
+"804717B0": [
+"803281F8",
+"fn_803281F8"
+],
+"8047180C": [
+"80328254",
+"fn_80328254"
+],
+"80471888": [
+"803282D0",
+"fn_803282D0"
+],
+"804719AC": [
+"803283F4",
+"fn_803283F4"
+],
+"80471AD4": [
+"8032851C",
+"fn_8032851C"
+],
+"80471AFC": [
+"80328544",
+"fn_80328544"
+],
+"80471B44": [
+"8032858C",
+"fn_8032858C"
+],
+"80471B94": [
+"803285DC",
+"fn_803285DC"
+],
+"80471C1C": [
+"80328664",
+"fn_80328664"
+],
+"804725A0": [
+"80328FE8",
+"fn_80328FE8"
+],
+"80472750": [
+"80329198",
+"fn_80329198"
+],
+"80472890": [
+"803292D8",
+"fn_803292D8"
+],
+"8047294C": [
+"80329394",
+"fn_80329394"
+],
+"80472A58": [
+"803294A0",
+"fn_803294A0"
+],
+"80472B00": [
+"80329548",
+"fn_80329548"
+],
+"80472C78": [
+"803296C0",
+"fn_803296C0"
+],
+"80472E18": [
+"80329860",
+"fn_80329860"
+],
+"80472E60": [
+"803298A8",
+"fn_803298A8"
+],
+"80472F88": [
+"803299D0",
+"fn_803299D0"
+],
+"8047328C": [
+"80329CD4",
+"fn_80329CD4"
+],
+"804734F4": [
+"80329F3C",
+"fn_80329F3C"
+],
+"80473560": [
+"80329FA8",
+"fn_80329FA8"
+],
+"80473704": [
+"8032A14C",
+"fn_8032A14C"
+],
+"80473924": [
+"8032A36C",
+"fn_8032A36C"
+],
+"80473A3C": [
+"8032A484",
+"fn_8032A484"
+],
+"80473C4C": [
+"8032A694",
+"fn_8032A694"
+],
+"80474E98": [
+"8032B8E0",
+"fn_8032B8E0"
+],
+"80474F48": [
+"8032B990",
+"fn_8032B990"
+],
+"804756C0": [
+"8032C108",
+"fn_8032C108"
+],
+"804756D4": [
+"8032C11C",
+"fn_8032C11C"
+],
+"804756F4": [
+"8032C13C",
+"fn_8032C13C"
+],
+"8047574C": [
+"8032C194",
+"fn_8032C194"
+],
+"804757DC": [
+"8032C224",
+"fn_8032C224"
+],
+"80475930": [
+"8032C378",
+"fn_8032C378"
+],
+"804759B4": [
+"8032C3FC",
+"fn_8032C3FC"
+],
+"80475A08": [
+"8032C450",
+"fn_8032C450"
+],
+"80475BE4": [
+"8032C62C",
+"fn_8032C62C"
+],
+"80476AB4": [
+"8032D4FC",
+"fn_8032D4FC"
+],
+"80476C48": [
+"8032D690",
+"fn_8032D690"
+],
+"80476D58": [
+"8032D7A0",
+"fn_8032D7A0"
+],
+"80476E80": [
+"8032D8C8",
+"fn_8032D8C8"
+],
+"80477004": [
+"8032DA4C",
+"fn_8032DA4C"
+],
+"804772A4": [
+"8032DCEC",
+"fn_8032DCEC"
+],
+"80477628": [
+"8032E070",
+"fn_8032E070"
+],
+"804778A8": [
+"8032E2F0",
+"fn_8032E2F0"
+],
+"8047797C": [
+"8032E3C4",
+"fn_8032E3C4"
+],
+"804779F4": [
+"8032E43C",
+"fn_8032E43C"
+],
+"80477AAC": [
+"8032E4F4",
+"fn_8032E4F4"
+],
+"80477BB4": [
+"8032E5FC",
+"fn_8032E5FC"
+],
+"80477CBC": [
+"8032E704",
+"fn_8032E704"
+],
+"80477CCC": [
+"8032E714",
+"fn_8032E714"
+],
+"80477DF4": [
+"8032E83C",
+"fn_8032E83C"
+],
+"80477EC4": [
+"8032E90C",
+"fn_8032E90C"
+],
+"80477F10": [
+"8032E958",
+"fn_8032E958"
+],
+"80478310": [
+"8032ED58",
+"fn_8032ED58"
+],
+"804785C4": [
+"8032F00C",
+"fn_8032F00C"
+],
+"8047882C": [
+"8032F274",
+"fn_8032F274"
+],
+"80478D94": [
+"8032F7DC",
+"fn_8032F7DC"
+],
+"804791F8": [
+"8032FC40",
+"fn_8032FC40"
+],
+"80479274": [
+"8032FCBC",
+"fn_8032FCBC"
+],
+"80479430": [
+"8032FE78",
+"fn_8032FE78"
+],
+"80479768": [
+"803301B0",
+"fn_803301B0"
+],
+"804798F0": [
+"80330338",
+"fn_80330338"
+],
+"80479B00": [
+"80330548",
+"fn_80330548"
+],
+"80479D40": [
+"80330788",
+"fn_80330788"
+],
+"8047A274": [
+"80330CBC",
+"fn_80330CBC"
+],
+"8047A850": [
+"80331298",
+"fn_80331298"
+],
+"8047AF18": [
+"80331960",
+"fn_80331960"
+],
+"8047BDA0": [
+"803327E8",
+"fn_803327E8"
+],
+"8047BE14": [
+"8033285C",
+"fn_8033285C"
+],
+"8047BE74": [
+"803328BC",
+"fn_803328BC"
+],
+"8047C1A8": [
+"80332BF0",
+"fn_80332BF0"
+],
+"8047C424": [
+"80332E6C",
+"fn_80332E6C"
+],
+"8047CEE0": [
+"80333928",
+"fn_80333928"
+],
+"8047D030": [
+"80333A78",
+"fn_80333A78"
+],
+"8047D190": [
+"80333BD8",
+"fn_80333BD8"
+],
+"8047D320": [
+"80333D68",
+"fn_80333D68"
+],
+"8047D52C": [
+"80333F74",
+"fn_80333F74"
+],
+"8047D6B4": [
+"803340FC",
+"fn_803340FC"
+],
+"8047D938": [
+"80334380",
+"fn_80334380"
+],
+"8047DF4C": [
+"80334994",
+"fn_80334994"
+],
+"8047F0D0": [
+"80335B18",
+"fn_80335B18"
+],
+"8047F240": [
+"80335C88",
+"fn_80335C88"
+],
+"8047F45C": [
+"80335EA4",
+"fn_80335EA4"
+],
+"8047F694": [
+"803360DC",
+"fn_803360DC"
+],
+"8047FA70": [
+"803364B8",
+"fn_803364B8"
+],
+"8047FB88": [
+"803365D0",
+"fn_803365D0"
+],
+"804802D8": [
+"80336D20",
+"fn_80336D20"
+],
+"80480A28": [
+"80337470",
+"fn_80337470"
+],
+"80482804": [
+"802AE9F4",
+"fn_802AE9F4"
+],
+"80482854": [
+"802AEA44",
+"fn_802AEA44"
+],
+"80482C90": [
+"802AF570",
+"fn_802AF570"
+],
+"80482FC4": [
+"802AFB58",
+"fn_802AFB58"
+],
+"804830DC": [
+"802AFF0C",
+"fn_802AFF0C"
+],
+"80483464": [
+"802B0330",
+"fn_802B0330"
+],
+"80483898": [
+"802B0764",
+"fn_802B0764"
+],
+"80483E74": [
+"802B0E8C",
+"fn_802B0E8C"
+],
+"804841EC": [
+"802B1248",
+"fn_802B1248"
+],
+"80484334": [
+"80372F8C",
+"GetLineHeight__Q34nw4r2ut17TextWriterBase<w>CFv"
+],
+"8048439C": [
+"80372FF4",
+"CalcStringWidth__Q34nw4r2ut17TextWriterBase<w>CFPCwi"
+],
+"8048442C": [
+"80373060",
+"CalcStringRect__Q34nw4r2ut17TextWriterBase<w>CFPQ34nw4r2ut4RectPCwi"
+],
+"804844C4": [
+"803730F8",
+"Print__Q34nw4r2ut17TextWriterBase<w>FPCwi"
+],
+"80484570": [
+"803731A4",
+"CalcLineRectImpl__Q34nw4r2ut17TextWriterBase<w>FPQ34nw4r2ut4RectPPCwi"
+],
+"80484674": [
+"803732A8",
+"CalcStringRectImpl__Q34nw4r2ut17TextWriterBase<w>FPQ34nw4r2ut4RectPCwi"
+],
+"80484708": [
+"8037333C",
+"PrintImpl__Q34nw4r2ut17TextWriterBase<w>FPCwi"
+],
+"804848A4": [
+"803734D8",
+"fn_803734D8"
+],
+"804848C4": [
+"803734F0",
+"Draw__Q34nw4r2ef9DrawOrderFPQ34nw4r2ef6EffectRCQ34nw4r2ef8DrawInfo"
+],
+"80484948": [
+"80373574",
+"Add__Q34nw4r2ef9DrawOrderFPQ34nw4r2ef6EffectPQ34nw4r2ef15ParticleManager"
+],
+"804849C0": [
+"803735EC",
+"Remove__Q34nw4r2ef9DrawOrderFPQ34nw4r2ef6EffectPQ34nw4r2ef15ParticleManager"
+],
+"804849D0": [
+"803735FC",
+"__ct__Q34nw4r2ef6EffectFv"
+],
+"80484A34": [
+"80373660",
+"__dt__Q34nw4r2ef6EffectFv"
+],
+"80484A94": [
+"803736C0",
+"Initialize__Q34nw4r2ef6EffectFPQ34nw4r2ef12EffectSystemPQ34nw4r2ef15EmitterResourceUs"
+],
+"80484BD8": [
+"80373804",
+"Closing__Q34nw4r2ef6EffectFPQ34nw4r2ef7Emitter"
+],
+"804853E4": [
+"80373FB8",
+"Draw__Q34nw4r2ef6EffectFRCQ34nw4r2ef8DrawInfo"
+],
+"804854BC": [
+"80373FF0",
+"fn_80373FF0"
+],
+"8048554C": [
+"80374080",
+"fn_80374080"
+],
+"80485624": [
+"80374158",
+"fn_80374158"
+],
+"80485788": [
+"803742A8",
+"fn_803742A8"
+],
+"8048581C": [
+"8037433C",
+"fn_8037433C"
+],
+"80485924": [
+"80374444",
+"fn_80374444"
+],
+"8048596C": [
+"8037448C",
+"fn_8037448C"
+],
+"80485B64": [
+"803746B0",
+"fn_803746B0"
+],
+"80485E1C": [
+"803748E0",
+"fn_803748E0"
+],
+"80485EA0": [
+"80374964",
+"fn_80374964"
+],
+"80485F28": [
+"803749EC",
+"fn_803749EC"
+],
+"8048611C": [
+"80374AA0",
+"fn_80374AA0"
+],
+"8048636C": [
+"80374CF0",
+"fn_80374CF0"
+],
+"80486454": [
+"80374DD8",
+"fn_80374DD8"
+],
+"80487438": [
+"80375E5C",
+"fn_80375E5C"
+],
+"80487534": [
+"80375F58",
+"fn_80375F58"
+],
+"80487978": [
+"8037639C",
+"fn_8037639C"
+],
+"80487B30": [
+"80376554",
+"fn_80376554"
+],
+"80487BB8": [
+"803765DC",
+"fn_803765DC"
+],
+"80488338": [
+"80376E6C",
+"fn_80376E6C"
+],
+"80488380": [
+"80376EB4",
+"fn_80376EB4"
+],
+"8048B840": [
+"8037A324",
+"fn_8037A324"
+],
+"8048BE14": [
+"8037A8F8",
+"fn_8037A8F8"
+],
+"8048BF78": [
+"8037AA5C",
+"fn_8037AA5C"
+],
+"8048CD18": [
+"8037B7FC",
+"fn_8037B7FC"
+],
+"8048D060": [
+"8037BB44",
+"fn_8037BB44"
+],
+"8048D3AC": [
+"8037BE90",
+"fn_8037BE90"
+],
+"8048D4C4": [
+"8037BFA8",
+"fn_8037BFA8"
+],
+"8048D5A4": [
+"8037C088",
+"fn_8037C088"
+],
+"8048D66C": [
+"8037C150",
+"fn_8037C150"
+],
+"8048D778": [
+"8037C25C",
+"fn_8037C25C"
+],
+"8048D868": [
+"8037C34C",
+"fn_8037C34C"
+],
+"80491810": [
+"8037F668",
+"Closing__Q34nw4r2ef15ParticleManagerFPQ34nw4r2ef8Particle"
+],
+"8049189C": [
+"8037F77C",
+"RetireParticleAll__Q34nw4r2ef15ParticleManagerFv"
+],
+"80491AEC": [
+"8037F9B4",
+"CreateParticle__Q34nw4r2ef15ParticleManagerFUsQ34nw4r4math4VEC3Q34nw4r4math4VEC3PCQ34nw4r4math5MTX34fPCQ34nw4r2ef21EmitterInheritSettingPQ34nw4r2ef8ParticleUs"
+],
+"8049315C": [
+"80380D50",
+"Draw__Q34nw4r2ef15ParticleManagerFRCQ34nw4r2ef8DrawInfo"
+],
+"80493518": [
+"80381108",
+"BeginCalc__Q34nw4r2ef15ParticleManagerFb"
+],
+"80493584": [
+"80381174",
+"EndCalc__Q34nw4r2ef15ParticleManagerFv"
+],
+"804936C0": [
+"803812AC",
+"Draw_ModifyColor__Q34nw4r2ef15ParticleManagerFPQ34nw4r2ef8ParticleP8_GXColorP8_GXColor"
+],
+"80493AF0": [
+"803816E8",
+"breffRelocate__Q24nw4r2efFPQ34nw4r2ef13EffectProject"
+],
+"80493D0C": [
+"80381904",
+"breffIndexOf__Q24nw4r2efFPQ34nw4r2ef13EffectProjectUs"
+],
+"80493DA0": [
+"80381998",
+"breftRelocate__Q24nw4r2efFPQ34nw4r2ef14TextureProject"
+],
+"80493EE4": [
+"80381ADC",
+"Add__Q34nw4r2ef8ResourceFPUc"
+],
+"80493F60": [
+"80381C0C",
+"fn_80381C0C"
+],
+"80494004": [
+"80381CB0",
+"fn_80381CB0"
+],
+"804941A8": [
+"80381D78",
+"fn_80381D78"
+],
+"80494224": [
+"80381DF4",
+"fn_80381DF4"
+],
+"80494344": [
+"80381F14",
+"fn_80381F14"
+],
+"8049474C": [
+"80382354",
+"fn_80382354"
+],
+"8049479C": [
+"803823A4",
+"fn_803823A4"
+],
+"80494924": [
+"80382614",
+"fn_80382614"
+],
+"80494BA4": [
+"80382938",
+"fn_80382938"
+],
+"8049506C": [
+"80382DE8",
+"fn_80382DE8"
+],
+"804956A4": [
+"80382E70",
+"fn_80382E70"
+],
+"804956CC": [
+"80382EC4",
+"fn_80382EC4"
+],
+"80495BD4": [
+"80383434",
+"fn_80383434"
+],
+"80495CB4": [
+"80383514",
+"fn_80383514"
+],
+"80495E30": [
+"80383690",
+"fn_80383690"
+],
+"80495FB0": [
+"80383810",
+"fn_80383810"
+],
+"804960E8": [
+"80383948",
+"fn_80383948"
+],
+"80496148": [
+"803839A8",
+"fn_803839A8"
+],
+"80498394": [
+"80385CF0",
+"fn_80385CF0"
+],
+"80499FBC": [
+"80387898",
+"Create__Q34nw4r2ef19DrawStrategyBuilderFUl"
+],
+"8049A360": [
+"80387C3C",
+"__ct__Q34nw4r2ef16DrawStrategyImplFv"
+],
+"8049A750": [
+"80387FBC",
+"fn_80387FBC"
+],
+"8049C28C": [
+"803896B8",
+"fn_803896B8"
+],
+"8049C2BC": [
+"803896E8",
+"fn_803896E8"
+],
+"8049C304": [
+"80389730",
+"fn_80389730"
+],
+"8049C334": [
+"80389760",
+"fn_80389760"
+],
+"8049C5B8": [
+"803899D0",
+"fn_803899D0"
+],
+"8049E13C": [
+"8038B5A4",
+"fn_8038B5A4"
+],
+"8049E1B8": [
+"8038B620",
+"fn_8038B620"
+],
+"8049E28C": [
+"8038B6F4",
+"fn_8038B6F4"
+],
+"8049E364": [
+"8038B7CC",
+"fn_8038B7CC"
+],
+"8049F86C": [
+"8038CC5C",
+"fn_8038CC5C"
+],
+"8049FA74": [
+"8038CE18",
+"fn_8038CE18"
+],
+"8049FAEC": [
+"8038CE90",
+"GetElderParticle__Q34nw4r2ef16DrawStrategyImplFPQ34nw4r2ef15ParticleManagerPQ34nw4r2ef8Particle"
+],
+"8049FB90": [
+"8038CE9C",
+"GetMoveDir__Q34nw4r2ef8ParticleFPQ34nw4r4math4VEC3"
+],
+"8049FF58": [
+"8038D294",
+"fn_8038D294"
+],
+"8049FF9C": [
+"8038D2D8",
+"fn_8038D2D8"
+],
+"804A08D0": [
+"8038DC60",
+"fn_8038DC60"
+],
+"804A094C": [
+"8038DCDC",
+"fn_8038DCDC"
+],
+"804A2118": [
+"8038F52C",
+"fn_8038F52C"
+],
+"804A5E0C": [
+"80392AF0",
+"fn_80392AF0"
+],
+"804A5E30": [
+"80392B14",
+"DrawSectionEnd_BSpline__Q34nw4r2ef24DrawSmoothStripeStrategyFRCQ44nw4r2ef24DrawSmoothStripeStrategy6VertexRCQ44nw4r2ef24DrawSmoothStripeStrategy6VertexRCQ44nw4r2ef24DrawSmoothStripeStrategy6Vertexi"
+],
+"804A6C64": [
+"8039391C",
+"GetDrawOrder__Q34nw4r2ef24DrawSmoothStripeStrategyCFRCQ34nw4r2ef18EmitterDrawSetting"
+],
+"804A6C80": [
+"80393938",
+"DrawSmoothStripe_BSpline_ConnectRing__Q34nw4r2ef24DrawSmoothStripeStrategyFPQ44nw4r2ef24DrawSmoothStripeStrategy18AheadContextStripeiiRCQ34nw4r4math4VEC3RCQ34nw4r4math4VEC3"
+],
+"804A7544": [
+"803941FC",
+"GetYoungestDrawParticle__Q34nw4r2ef16DrawStrategyImplFPQ34nw4r2ef15ParticleManager"
+],
+"804A758C": [
+"80394244",
+"fn_80394244"
+],
+"804A75D4": [
+"80394268",
+"__ct__Q44nw4r2ef24DrawSmoothStripeStrategy6VertexFRCQ34nw4r4math4VEC3RCQ34nw4r4math4VEC3f"
+],
+"804A760C": [
+"803942A0",
+"__as__Q44nw4r2ef24DrawSmoothStripeStrategy6VertexFRCQ44nw4r2ef24DrawSmoothStripeStrategy6Vertex"
+],
+"804A7948": [
+"803945D4",
+"DrawSmoothStripeTube_BSpline_ConnectRing__Q34nw4r2ef24DrawSmoothStripeStrategyFPQ44nw4r2ef24DrawSmoothStripeStrategy18AheadContextStripeii"
+],
+"804A9FC4": [
+"8033AD78",
+"fn_8033AD78"
+],
+"804AA014": [
+"8033ADC8",
+"fn_8033ADC8"
+],
+"804AA094": [
+"8033ADF0",
+"fn_8033ADF0"
+],
+"804AA154": [
+"8033AE1C",
+"fn_8033AE1C"
+],
+"804AA22C": [
+"8033AEF4",
+"fn_8033AEF4"
+],
+"804AA300": [
+"8033AFC8",
+"fn_8033AFC8"
+],
+"804AA37C": [
+"8033B044",
+"fn_8033B044"
+],
+"804AA3E4": [
+"8033B0AC",
+"fn_8033B0AC"
+],
+"804AB53C": [
+"8033B7A4",
+"Bind__Q34nw4r3g3d7ResFileFQ34nw4r3g3d7ResFile"
+],
+"804AB770": [
+"8033BBD8",
+"Init__Q34nw4r3g3d7ResFileFv"
+],
+"804ACCB8": [
+"8033D434",
+"fn_8033D434"
+],
+"804AD250": [
+"8033DAB4",
+"fn_8033DAB4"
+],
+"804AD418": [
+"8033DC18",
+"fn_8033DC18"
+],
+"804AD7A4": [
+"8033E20C",
+"fn_8033E20C"
+],
+"804AD87C": [
+"8033E2E4",
+"fn_8033E2E4"
+],
+"804AE524": [
+"8033E348",
+"CallDisplayList__Q34nw4r3g3d6ResTevCFb"
+],
+"804AE57C": [
+"8033E3A0",
+"CopyTo__Q34nw4r3g3d6ResTevFPv"
+],
+"804AE8B8": [
+"8033E6A8",
+"CopyTo__Q34nw4r3g3d9ResTexObjCFPv"
+],
+"804AE9EC": [
+"8033E7DC",
+"CopyTo__Q34nw4r3g3d10ResTlutObjCFPv"
+],
+"804AEA74": [
+"8033E864",
+"CopyTo__Q34nw4r3g3d9ResTexSrtCFPv"
+],
+"804AEC88": [
+"8033E938",
+"fn_8033E938"
+],
+"804AECBC": [
+"8033E96C",
+"fn_8033E96C"
+],
+"804AECD8": [
+"8033E988",
+"fn_8033E988"
+],
+"804AED5C": [
+"8033E9F8",
+"fn_8033E9F8"
+],
+"804AEDA4": [
+"8033EA40",
+"fn_8033EA40"
+],
+"804AEE10": [
+"8033EAAC",
+"fn_8033EAAC"
+],
+"804AF010": [
+"8033EB68",
+"fn_8033EB68"
+],
+"804AF028": [
+"8033EB80",
+"fn_8033EB80"
+],
+"804AF0E4": [
+"8033EC3C",
+"fn_8033EC3C"
+],
+"804AF178": [
+"8033ECD0",
+"fn_8033ECD0"
+],
+"804AF230": [
+"8033ED88",
+"fn_8033ED88"
+],
+"804AF2B4": [
+"8033EE0C",
+"fn_8033EE0C"
+],
+"804AF2E8": [
+"8033EE40",
+"fn_8033EE40"
+],
+"804AF5A8": [
+"8033F100",
+"fn_8033F100"
+],
+"804AF798": [
+"8033F2F0",
+"fn_8033F2F0"
+],
+"804AF960": [
+"8033F464",
+"fn_8033F464"
+],
+"804AF998": [
+"8033F49C",
+"fn_8033F49C"
+],
+"804AFA58": [
+"8033F55C",
+"fn_8033F55C"
+],
+"804AFAB4": [
+"8033F5B8",
+"fn_8033F5B8"
+],
+"804AFD7C": [
+"8033F688",
+"Bind__Q34nw4r3g3d6ResMatFQ34nw4r3g3d7ResFile"
+],
+"804AFE44": [
+"8033FB88",
+"Init__Q34nw4r3g3d6ResMatFv"
+],
+"804AFEA8": [
+"8033FBEC",
+"Bind__Q34nw4r3g3d14ResTexPlttInfoFQ34nw4r3g3d7ResFileQ34nw4r3g3d9ResTexObjQ34nw4r3g3d10ResTlutObj"
+],
+"804B035C": [
+"80340068",
+"SetArray__Q34nw4r3g3d9ResVtxClrF7_GXAttr"
+],
+"804B04B0": [
+"80340184",
+"SetArray__Q34nw4r3g3d12ResVtxFurPosFUs"
+],
+"804B05F0": [
+"803402A0",
+"GetTexObjParam__Q34nw4r3g3d6ResTexCFPPvPUsPUsP9_GXTexFmtPfPfPUc"
+],
+"804B06AC": [
+"8034035C",
+"GetTexObjCIParam__Q34nw4r3g3d6ResTexCFPPvPUsPUsP11_GXCITexFmtPfPfPUc"
+],
+"804B078C": [
+"80340418",
+"Init__Q34nw4r3g3d6ResTexFv"
+],
+"804B0934": [
+"80340554",
+"CalcChrAnmResult__Q34nw4r3g3d7ResNodeCFPQ34nw4r3g3d12ChrAnmResult"
+],
+"804B0B24": [
+"803406BC",
+"GetResKeyFrameAnmResult__Q34nw4r3g3d6detailFPCQ34nw4r3g3d18ResKeyFrameAnmDataf"
+],
+"804B0C50": [
+"803407E8",
+"GetResColorAnmResult__Q34nw4r3g3d6detailFPCQ34nw4r3g3d21ResColorAnmFramesDataf"
+],
+"804B0D50": [
+"803408E8",
+"GetAnmResult__Q34nw4r3g3d9ResAnmVisCFUlf"
+],
+"804B0E70": [
+"80340A08",
+"GetAnmResult__Q34nw4r3g3d9ResAnmClrCFPQ34nw4r3g3d12ClrAnmResultUlf"
+],
+"804B0FDC": [
+"80340B74",
+"SearchFrame__Q34nw4r3g3d30@unnamed@g3d_resanmtexpat_cpp@FPCQ34nw4r3g3d19ResAnmTexPatAnmDataf"
+],
+"804B1088": [
+"80340C20",
+"GetAnmResult__Q34nw4r3g3d12ResAnmTexPatCFPQ34nw4r3g3d15TexPatAnmResultUlf"
+],
+"804B1208": [
+"80340DA0",
+"Bind__Q34nw4r3g3d12ResAnmTexPatFQ34nw4r3g3d7ResFile"
+],
+"804B1378": [
+"803410B0",
+"GetAnmResult__Q34nw4r3g3d12ResAnmTexSrtCFPQ34nw4r3g3d15TexSrtAnmResultUlf"
+],
+"804B178C": [
+"803414C4",
+"GetAnmScale__Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPQ34nw4r4math4VEC3PCQ34nw4r3g3d17ResAnmChrNodeDataPCQ44nw4r3g3d17ResAnmChrNodeData7AnmDataf"
+],
+"804B1A44": [
+"8034177C",
+"CalcAnimationFVS<Q44nw4r3g3d27@unnamed@g3d_resanmchr_cpp@46CAnmFmtTraits<Q34nw4r3g3d18ResAnmChrFVS96Data>>__Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPCQ34nw4r3g3d16ResAnmChrFVSDataf_f"
+],
+"804B1B70": [
+"803418A8",
+"CalcAnimationFVS<Q44nw4r3g3d27@unnamed@g3d_resanmchr_cpp@46CAnmFmtTraits<Q34nw4r3g3d18ResAnmChrFVS48Data>>__Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPCQ34nw4r3g3d16ResAnmChrFVSDataf_f"
+],
+"804B1CE0": [
+"80341A18",
+"CalcAnimationFVS<Q44nw4r3g3d27@unnamed@g3d_resanmchr_cpp@46CAnmFmtTraits<Q34nw4r3g3d18ResAnmChrFVS32Data>>__Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPCQ34nw4r3g3d16ResAnmChrFVSDataf_f"
+],
+"804B1EA0": [
+"80341BD8",
+"GetAnmRotation__Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPQ34nw4r4math5MTX34PQ34nw4r4math4VEC3RCQ34nw4r3g3d17ResAnmChrInfoDataPCQ34nw4r3g3d17ResAnmChrNodeDataPCQ44nw4r3g3d17ResAnmChrNodeData7AnmDataf"
+],
+"804B28FC": [
+"80342634",
+"GetAnmTranslation__Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPQ34nw4r4math4VEC3PCQ34nw4r3g3d17ResAnmChrNodeDataPCQ44nw4r3g3d17ResAnmChrNodeData7AnmDataf"
+],
+"804B2B6C": [
+"803428A4",
+"GetAnmResult___Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPQ34nw4r3g3d12ChrAnmResultRCQ34nw4r3g3d17ResAnmChrInfoDataPCQ34nw4r3g3d17ResAnmChrNodeDataf"
+],
+"804B2B84": [
+"803428BC",
+"GetAnmResult_T__Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPQ34nw4r3g3d12ChrAnmResultRCQ34nw4r3g3d17ResAnmChrInfoDataPCQ34nw4r3g3d17ResAnmChrNodeDataf"
+],
+"804B2C10": [
+"80342948",
+"GetAnmResult_R__Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPQ34nw4r3g3d12ChrAnmResultRCQ34nw4r3g3d17ResAnmChrInfoDataPCQ34nw4r3g3d17ResAnmChrNodeDataf"
+],
+"804B2C7C": [
+"803429B4",
+"GetAnmResult_S__Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPQ34nw4r3g3d12ChrAnmResultRCQ34nw4r3g3d17ResAnmChrInfoDataPCQ34nw4r3g3d17ResAnmChrNodeDataf"
+],
+"804B2CBC": [
+"803429F4",
+"GetAnmResult_RT__Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPQ34nw4r3g3d12ChrAnmResultRCQ34nw4r3g3d17ResAnmChrInfoDataPCQ34nw4r3g3d17ResAnmChrNodeDataf"
+],
+"804B2D64": [
+"80342A9C",
+"GetAnmResult_SR__Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPQ34nw4r3g3d12ChrAnmResultRCQ34nw4r3g3d17ResAnmChrInfoDataPCQ34nw4r3g3d17ResAnmChrNodeDataf"
+],
+"804B2E00": [
+"80342B38",
+"GetAnmResult_ST__Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPQ34nw4r3g3d12ChrAnmResultRCQ34nw4r3g3d17ResAnmChrInfoDataPCQ34nw4r3g3d17ResAnmChrNodeDataf"
+],
+"804B2E98": [
+"80342BD0",
+"GetAnmResult_SRT__Q34nw4r3g3d27@unnamed@g3d_resanmchr_cpp@FPQ34nw4r3g3d12ChrAnmResultRCQ34nw4r3g3d17ResAnmChrInfoDataPCQ34nw4r3g3d17ResAnmChrNodeDataf"
+],
+"804B2F50": [
+"80342C88",
+"GetAnmResult__Q34nw4r3g3d9ResAnmChrCFPQ34nw4r3g3d12ChrAnmResultUlf"
+],
+"804B2FD0": [
+"80342ED8",
+"fn_80342ED8"
+],
+"804B300C": [
+"80342F14",
+"fn_80342F14"
+],
+"804B30B0": [
+"80342FB8",
+"fn_80342FB8"
+],
+"804B34BC": [
+"80343268",
+"fn_80343268"
+],
+"804B3628": [
+"803433D4",
+"GetAnmResult__Q34nw4r3g3d14ResAnmAmbLightCFPQ34nw4r3g3d17AmbLightAnmResultf"
+],
+"804B36F8": [
+"803434A4",
+"GetAnmResult__Q34nw4r3g3d11ResAnmLightCFPQ34nw4r3g3d14LightAnmResultf"
+],
+"804B3AF0": [
+"8034389C",
+"GetAnmResult__Q34nw4r3g3d9ResAnmFogCFPQ34nw4r3g3d12FogAnmResultf"
+],
+"804B3C50": [
+"80343A1C",
+"GetAnmResult__Q34nw4r3g3d12ResAnmCameraCFPQ34nw4r3g3d15CameraAnmResultf"
+],
+"804B47E4": [
+"803446B0",
+"fn_803446B0"
+],
+"804B4DF4": [
+"80344868",
+"fn_80344868"
+],
+"804B4E84": [
+"803448F8",
+"Construct__Q34nw4r3g3d12AnmObjVisResFP12MEMAllocatorPiQ34nw4r3g3d9ResAnmVisQ34nw4r3g3d6ResMdl"
+],
+"804B4FD4": [
+"80344A48",
+"SetFrame__Q34nw4r3g3d12AnmObjVisResFf"
+],
+"804B5050": [
+"80344AC4",
+"UpdateFrame__Q34nw4r3g3d12AnmObjVisResFv"
+],
+"804B51D8": [
+"80344C4C",
+"GetResult__Q34nw4r3g3d12AnmObjVisResFUl"
+],
+"804B520C": [
+"80344C80",
+"ApplyVisAnmResult__Q24nw4r3g3dFQ34nw4r3g3d6ResMdlPQ34nw4r3g3d9AnmObjVis"
+],
+"804B52C8": [
+"80344D3C",
+"ApplyVisAnmResult__Q24nw4r3g3dFPUcQ34nw4r3g3d6ResMdlPQ34nw4r3g3d9AnmObjVis"
+],
+"804B5B88": [
+"803455FC",
+"ApplyClrAnmResult__Q24nw4r3g3dFQ34nw4r3g3d10ResMatChanQ34nw4r3g3d14ResMatTevColorPCQ34nw4r3g3d12ClrAnmResult"
+],
+"804B60B8": [
+"80345B2C",
+"__ad__Q34nw4r2ut5ColorCFUl"
+],
+"804B60C8": [
+"80345B3C",
+"__or__Q34nw4r2ut5ColorCFUl"
+],
+"804B7268": [
+"803462B8",
+"fn_803462B8"
+],
+"804B7334": [
+"80346384",
+"fn_80346384"
+],
+"804B948C": [
+"803477B8",
+"Bind__Q34nw4r3g3d13AnmObjChrNodeFQ34nw4r3g3d6ResMdlUlQ44nw4r3g3d9AnmObjChr10BindOption"
+],
+"804B9644": [
+"80347970",
+"Release__Q34nw4r3g3d13AnmObjChrNodeFQ34nw4r3g3d6ResMdlUlQ44nw4r3g3d9AnmObjChr10BindOption"
+],
+"804B98F8": [
+"80347CB0",
+"fn_80347CB0"
+],
+"804BA5F0": [
+"80348868",
+"Bind__Q34nw4r3g3d12AnmObjChrResFQ34nw4r3g3d6ResMdlUlQ44nw4r3g3d9AnmObjChr10BindOption"
+],
+"804BA7E8": [
+"80348A60",
+"Release__Q34nw4r3g3d12AnmObjChrResFQ34nw4r3g3d6ResMdlUlQ44nw4r3g3d9AnmObjChr10BindOption"
+],
+"804BB4B0": [
+"80347B3C",
+"Construct__Q34nw4r3g3d14AnmObjChrBlendFP12MEMAllocatorPUlQ34nw4r3g3d6ResMdli"
+],
+"804BC4C4": [
+"80349048",
+"fn_80349048"
+],
+"804BC744": [
+"803492C8",
+"fn_803492C8"
+],
+"804BCB50": [
+"80349688",
+"fn_80349688"
+],
+"804BCCE4": [
+"8034981C",
+"fn_8034981C"
+],
+"804BCE30": [
+"80349968",
+"fn_80349968"
+],
+"804BCE90": [
+"803499C8",
+"fn_803499C8"
+],
+"804BCEBC": [
+"803499F4",
+"fn_803499F4"
+],
+"804BCF88": [
+"80349AC0",
+"fn_80349AC0"
+],
+"804BD0C0": [
+"80349BF8",
+"fn_80349BF8"
+],
+"804BD128": [
+"80349C60",
+"fn_80349C60"
+],
+"804BD2B8": [
+"80349DF0",
+"fn_80349DF0"
+],
+"804BD368": [
+"80349EA0",
+"fn_80349EA0"
+],
+"804BD4C8": [
+"8034A000",
+"fn_8034A000"
+],
+"804BD55C": [
+"8034A094",
+"fn_8034A094"
+],
+"804BD5E8": [
+"8034A120",
+"fn_8034A120"
+],
+"804BD674": [
+"8034A1AC",
+"fn_8034A1AC"
+],
+"804BD700": [
+"8034A238",
+"fn_8034A238"
+],
+"804BD738": [
+"8034A270",
+"fn_8034A270"
+],
+"804BD77C": [
+"8034A2B4",
+"fn_8034A2B4"
+],
+"804BD9F0": [
+"8034A528",
+"fn_8034A528"
+],
+"804BDA3C": [
+"8034A574",
+"Destroy__Q34nw4r3g3d6G3dObjFv"
+],
+"804BDB50": [
+"8034A64C",
+"PlayPolicy_Loop__Q24nw4r3g3dFfff"
+],
+"804BDC00": [
+"8034A6FC",
+"GDSetGenMode2__Q34nw4r3g3d4fifoFUcUcUcUc11_GXCullMode"
+],
+"804BDC80": [
+"8034A77C",
+"GDSetCullMode__Q34nw4r3g3d4fifoF11_GXCullMode"
+],
+"804BDCB0": [
+"8034A7AC",
+"GDSetTexCoordScale2__Q34nw4r3g3d4fifoF13_GXTexCoordIDUsUcUcUsUcUc"
+],
+"804BDD20": [
+"8034A81C",
+"GDSetIndTexMtx__Q34nw4r3g3d4fifoFUlRCQ34nw4r4math5MTX34"
+],
+"804BDFB8": [
+"8034AAB4",
+"GDResetCurrentMtx__Q34nw4r3g3d4fifoFv"
+],
+"804BE014": [
+"8034AB10",
+"GDSetCurrentMtx__Q34nw4r3g3d4fifoFPCUl"
+],
+"804BE090": [
+"8034AB8C",
+"GDLoadTexMtxImm3x3__Q34nw4r3g3d4fifoFRCQ34nw4r4math5MTX33Ul"
+],
+"804BE110": [
+"8034AC0C",
+"Copy32ByteBlocks__Q34nw4r3g3d6detailFPvPCvUl"
+],
+"804BE1EC": [
+"8034ACE8",
+"ZeroMemory32ByteBlocks__Q34nw4r3g3d6detailFPvUl"
+],
+"804BE334": [
+"8034ADB0",
+"EnvironmentMapping__Q44nw4r3g3d6detail19ScnDependentMtxFuncFPQ34nw4r4math5MTX34ScSc"
+],
+"804BE718": [
+"8034B194",
+"ProjectionMapping__Q44nw4r3g3d6detail19ScnDependentMtxFuncFPQ34nw4r4math5MTX34ScSc"
+],
+"804BE844": [
+"8034B2C0",
+"EnvironmentSpecularMapping__Q44nw4r3g3d6detail19ScnDependentMtxFuncFPQ34nw4r4math5MTX34ScSc"
+],
+"804BECA0": [
+"8034B71C",
+"FifoSend__Q44nw4r3g3d8G3DState13IndTexMtxInfoCFv"
+],
+"804BED68": [
+"8034B7D8",
+"SetLightSetting__Q54nw4r3g3d8G3DState23@unnamed@g3d_state_cpp@10LightStateFRCQ34nw4r3g3d12LightSetting"
+],
+"804BF078": [
+"8034B8CC",
+"LoadLightSet__Q54nw4r3g3d8G3DState23@unnamed@g3d_state_cpp@10LightStateFiPUlPUlPUlPUlPQ34nw4r3g3d11AmbLightObj"
+],
+"804BF490": [
+"8034BCE4",
+"__ct__Q54nw4r3g3d8G3DState23@unnamed@g3d_state_cpp@14CameraMtxStateFv"
+],
+"804BF528": [
+"8034BD7C",
+"LoadResMatMisc__Q34nw4r3g3d8G3DStateFQ34nw4r3g3d10ResMatMisc"
+],
+"804BF598": [
+"8034BDEC",
+"LoadResTexObj__Q34nw4r3g3d8G3DStateFQ34nw4r3g3d9ResTexObj"
+],
+"804BF800": [
+"8034C054",
+"LoadResTlutObj__Q34nw4r3g3d8G3DStateFQ34nw4r3g3d10ResTlutObj"
+],
+"804BF94C": [
+"8034C1A0",
+"LoadResGenMode__Q34nw4r3g3d8G3DStateFQ34nw4r3g3d10ResGenMode"
+],
+"804BFB18": [
+"8034C36C",
+"LoadResTev__Q34nw4r3g3d8G3DStateFQ34nw4r3g3d6ResTev"
+],
+"804BFE80": [
+"8034C6D4",
+"LoadResMatIndMtxAndScale__Q34nw4r3g3d8G3DStateFQ34nw4r3g3d20ResMatIndMtxAndScale"
+],
+"804BFF38": [
+"8034C78C",
+"LoadResMatIndMtxAndScale__Q34nw4r3g3d8G3DStateFQ34nw4r3g3d20ResMatIndMtxAndScaleRQ44nw4r3g3d8G3DState8IndMtxOp"
+],
+"804C0108": [
+"8034C95C",
+"LoadResMatChan__Q34nw4r3g3d8G3DStateFQ34nw4r3g3d10ResMatChanUlUlUlUl8_GXColorb"
+],
+"804C0834": [
+"8034D088",
+"LoadResMatTexCoordGen__Q34nw4r3g3d8G3DStateFQ34nw4r3g3d17ResMatTexCoordGen"
+],
+"804C08C4": [
+"8034D118",
+"LoadResTexSrt__Q34nw4r3g3d8G3DStateFQ34nw4r3g3d9ResTexSrt"
+],
+"804C0B70": [
+"8034D3C4",
+"LoadResShpPrePrimitive__Q34nw4r3g3d8G3DStateFQ34nw4r3g3d6ResShp"
+],
+"804C1004": [
+"8034D8B0",
+"SetViewPosNrmMtxArray__Q34nw4r3g3d8G3DStateFPCQ34nw4r4math5MTX34PCQ34nw4r4math5MTX33PCQ34nw4r4math5MTX34"
+],
+"804C1184": [
+"8034DA04",
+"fn_8034DA04"
+],
+"804C1228": [
+"8034DAA8",
+"fn_8034DAA8"
+],
+"804C12E8": [
+"8034DB68",
+"fn_8034DB68"
+],
+"804C13C8": [
+"8034DB78",
+"fn_8034DB78"
+],
+"804C143C": [
+"8034DBA8",
+"fn_8034DBA8"
+],
+"804C1498": [
+"8034DC04",
+"fn_8034DC04"
+],
+"804C1544": [
+"8034DCB0",
+"fn_8034DCB0"
+],
+"804C15F8": [
+"8034DCCC",
+"fn_8034DCCC"
+],
+"804C1970": [
+"8034E020",
+"fn_8034E020"
+],
+"804C1AD4": [
+"8034E184",
+"fn_8034E184"
+],
+"804C1B24": [
+"8034E1D4",
+"fn_8034E1D4"
+],
+"804C1CD0": [
+"8034E380",
+"fn_8034E380"
+],
+"804C1F64": [
+"8034E614",
+"fn_8034E614"
+],
+"804C1FCC": [
+"8034E67C",
+"fn_8034E67C"
+],
+"804C2460": [
+"8034EB10",
+"fn_8034EB10"
+],
+"804C4EDC": [
+"80351250",
+"CalcTexMtx__Q24nw4r3g3dFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4FlagQ44nw4r3g3d13TexSrtTypedef13TexMatrixMode"
+],
+"804C4F64": [
+"803512D8",
+"fn_803512D8"
+],
+"804C5004": [
+"8035136C",
+"fn_8035136C"
+],
+"804C5ABC": [
+"80351C0C",
+"fn_80351C0C"
+],
+"804C5FD8": [
+"80352128",
+"fn_80352128"
+],
+"804C6878": [
+"8035297C",
+"DrawResMdlDirectly__Q24nw4r3g3dFQ34nw4r3g3d6ResMdlPCQ34nw4r4math5MTX34PCQ34nw4r4math5MTX33PCQ34nw4r4math5MTX34PCUcPCUcPQ34nw4r3g3d21DrawResMdlReplacementUl"
+],
+"804C6AA0": [
+"80352BA4",
+"FrontToBack__Q34nw4r3g3d22@unnamed@g3d_draw_cpp@FRCQ54nw4r3g3d6detail7workmem4MdlZRCQ54nw4r3g3d6detail7workmem4MdlZ"
+],
+"804C6ADC": [
+"80352BE0",
+"BackToFront__Q34nw4r3g3d22@unnamed@g3d_draw_cpp@FRCQ54nw4r3g3d6detail7workmem4MdlZRCQ54nw4r3g3d6detail7workmem4MdlZ"
+],
+"804C6B40": [
+"80352C44",
+"sort<PQ54nw4r3g3d6detail7workmem4MdlZ,PFRCQ54nw4r3g3d6detail7workmem4MdlZRCQ54nw4r3g3d6detail7workmem4MdlZ_b>__3stdFPQ54nw4r3g3d6detail7workmem4MdlZPQ54nw4r3g3d6detail7workmem4MdlZPFRCQ54nw4r3g3d6detail7workmem4MdlZRCQ54nw4r3g3d6detail7workmem4MdlZ_b_v"
+],
+"804C70FC": [
+"80353200",
+"sort<PQ54nw4r3g3d6detail7workmem4MdlZ,RPFRCQ54nw4r3g3d6detail7workmem4MdlZRCQ54nw4r3g3d6detail7workmem4MdlZ_b>__3stdFPQ54nw4r3g3d6detail7workmem4MdlZPQ54nw4r3g3d6detail7workmem4MdlZRPFRCQ54nw4r3g3d6detail7workmem4MdlZRCQ54nw4r3g3d6detail7workmem4MdlZ_b_v"
+],
+"804C76B8": [
+"803537BC",
+"__sort132<RPFRCQ54nw4r3g3d6detail7workmem4MdlZRCQ54nw4r3g3d6detail7workmem4MdlZ_b,PQ54nw4r3g3d6detail7workmem4MdlZ>__3stdFPQ54nw4r3g3d6detail7workmem4MdlZPQ54nw4r3g3d6detail7workmem4MdlZPQ54nw4r3g3d6detail7workmem4MdlZRPFRCQ54nw4r3g3d6detail7workmem4MdlZRCQ54nw4r3g3d6detail7workmem4MdlZ_b_v"
+],
+"804C7920": [
+"80353A24",
+"Init__Q34nw4r3g3d6CameraFv"
+],
+"804C7970": [
+"80353A74",
+"Init__Q34nw4r3g3d6CameraFUsUsUsUsUsUs"
+],
+"804C7A8C": [
+"80353B90",
+"SetPosition__Q34nw4r3g3d6CameraFRCQ34nw4r4math4VEC3"
+],
+"804C7AC0": [
+"80353BC4",
+"fn_80353BC4"
+],
+"804C7AF0": [
+"80353C34",
+"SetPosture__Q34nw4r3g3d6CameraFRCQ44nw4r3g3d6Camera11PostureInfo"
+],
+"804C7D10": [
+"80353E54",
+"fn_80353E54"
+],
+"804C7DC4": [
+"80353F50",
+"SetPerspective__Q34nw4r3g3d6CameraFffff"
+],
+"804C7E7C": [
+"80354014",
+"fn_80354014"
+],
+"804C7E9C": [
+"80354034",
+"fn_80354034"
+],
+"804C7EB4": [
+"8035404C",
+"SetViewport__Q34nw4r3g3d6CameraFffff"
+],
+"804C7F50": [
+"803540E8",
+"SetViewportZRange__Q34nw4r3g3d6CameraFff"
+],
+"804C7F68": [
+"80354134",
+"GetViewport__Q34nw4r3g3d6CameraCFPfPfPfPfPfPf"
+],
+"804C7FD8": [
+"803541A4",
+"GetCameraMtx__Q34nw4r3g3d6CameraCFPQ34nw4r4math5MTX34"
+],
+"804C8038": [
+"80354204",
+"GetProjectionMtx__Q34nw4r3g3d6CameraCFPQ34nw4r4math5MTX44"
+],
+"804C8114": [
+"803542E0",
+"GetProjectionTexMtx__Q34nw4r3g3d6CameraCFPQ34nw4r4math5MTX34"
+],
+"804C81E4": [
+"803543B0",
+"GetEnvironmentTexMtx__Q34nw4r3g3d6CameraCFPQ34nw4r4math5MTX34"
+],
+"804C8264": [
+"80354430",
+"GXSetViewport__Q34nw4r3g3d6CameraCFv"
+],
+"804C82E8": [
+"803544B4",
+"GXSetProjection__Q34nw4r3g3d6CameraCFv"
+],
+"804C83B0": [
+"8035457C",
+"GXSetScissor__Q34nw4r3g3d6CameraCFv"
+],
+"804C83D4": [
+"803545A0",
+"GXSetScissorBoxOffset__Q34nw4r3g3d6CameraCFv"
+],
+"804C83F0": [
+"803545BC",
+"UpdateCameraMtx__Q34nw4r3g3d6CameraCFv"
+],
+"804C87F4": [
+"803549C0",
+"CalcTexMtx_Basic__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag"
+],
+"804C8950": [
+"80354B1C",
+"CalcWorldMtx_Basic__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34PQ34nw4r4math4VEC3PCQ34nw4r4math5MTX34PCQ34nw4r4math4VEC3UlPCQ34nw4r3g3d12ChrAnmResult"
+],
+"804C8AF0": [
+"80354CBC",
+"MakeTexSrtMtx_R__Q54nw4r3g3d6detail3dcc22@unnamed@g3d_maya_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C8BBC": [
+"80354D88",
+"MakeTexSrtMtx_SR__Q54nw4r3g3d6detail3dcc22@unnamed@g3d_maya_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C8C78": [
+"80354E44",
+"MakeTexSrtMtx_RT__Q54nw4r3g3d6detail3dcc22@unnamed@g3d_maya_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C8D78": [
+"80354F44",
+"MakeTexSrtMtx_SRT__Q54nw4r3g3d6detail3dcc22@unnamed@g3d_maya_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C8E54": [
+"80355020",
+"ProductTexSrtMtx_S__Q54nw4r3g3d6detail3dcc22@unnamed@g3d_maya_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C8ECC": [
+"80355098",
+"ProductTexSrtMtx_R__Q54nw4r3g3d6detail3dcc22@unnamed@g3d_maya_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C8FFC": [
+"803551C8",
+"ProductTexSrtMtx_T__Q54nw4r3g3d6detail3dcc22@unnamed@g3d_maya_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C9024": [
+"803551F0",
+"ProductTexSrtMtx_SR__Q54nw4r3g3d6detail3dcc22@unnamed@g3d_maya_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C91B8": [
+"80355384",
+"ProductTexSrtMtx_RT__Q54nw4r3g3d6detail3dcc22@unnamed@g3d_maya_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C93A0": [
+"8035556C",
+"ProductTexSrtMtx_SRT__Q54nw4r3g3d6detail3dcc22@unnamed@g3d_maya_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C97B0": [
+"80355978",
+"MakeTexSrtMtx_R__Q54nw4r3g3d6detail3dcc21@unnamed@g3d_xsi_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C9870": [
+"80355A38",
+"MakeTexSrtMtx_SR__Q54nw4r3g3d6detail3dcc21@unnamed@g3d_xsi_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C9910": [
+"80355AD8",
+"MakeTexSrtMtx_RT__Q54nw4r3g3d6detail3dcc21@unnamed@g3d_xsi_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C9A28": [
+"80355BF0",
+"MakeTexSrtMtx_SRT__Q54nw4r3g3d6detail3dcc21@unnamed@g3d_xsi_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C9AF0": [
+"80355CB8",
+"ProductTexSrtMtx_S__Q54nw4r3g3d6detail3dcc21@unnamed@g3d_xsi_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C9B68": [
+"80355D30",
+"ProductTexSrtMtx_R__Q54nw4r3g3d6detail3dcc21@unnamed@g3d_xsi_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C9C9C": [
+"80355E64",
+"ProductTexSrtMtx_SR__Q54nw4r3g3d6detail3dcc21@unnamed@g3d_xsi_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C9DD8": [
+"80355FA0",
+"ProductTexSrtMtx_RT__Q54nw4r3g3d6detail3dcc21@unnamed@g3d_xsi_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804C9F8C": [
+"80356154",
+"ProductTexSrtMtx_SRT__Q54nw4r3g3d6detail3dcc21@unnamed@g3d_xsi_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804CA338": [
+"803564FC",
+"MakeTexSrtMtx_S__Q54nw4r3g3d6detail3dcc24@unnamed@g3d_3dsmax_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804CA380": [
+"80356544",
+"MakeTexSrtMtx_R__Q54nw4r3g3d6detail3dcc24@unnamed@g3d_3dsmax_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804CA464": [
+"80356628",
+"MakeTexSrtMtx_SR__Q54nw4r3g3d6detail3dcc24@unnamed@g3d_3dsmax_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804CA518": [
+"803566DC",
+"MakeTexSrtMtx_RT__Q54nw4r3g3d6detail3dcc24@unnamed@g3d_3dsmax_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804CA5E4": [
+"803567A8",
+"MakeTexSrtMtx_ST__Q54nw4r3g3d6detail3dcc24@unnamed@g3d_3dsmax_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804CA63C": [
+"80356800",
+"MakeTexSrtMtx_SRT__Q54nw4r3g3d6detail3dcc24@unnamed@g3d_3dsmax_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804CA708": [
+"803568CC",
+"ProductTexSrtMtx_S__Q54nw4r3g3d6detail3dcc24@unnamed@g3d_3dsmax_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804CA788": [
+"8035694C",
+"ProductTexSrtMtx_R__Q54nw4r3g3d6detail3dcc24@unnamed@g3d_3dsmax_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804CA8D0": [
+"80356A94",
+"ProductTexSrtMtx_SR__Q54nw4r3g3d6detail3dcc24@unnamed@g3d_3dsmax_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804CAA14": [
+"80356BD8",
+"ProductTexSrtMtx_RT__Q54nw4r3g3d6detail3dcc24@unnamed@g3d_3dsmax_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804CAB54": [
+"80356D18",
+"ProductTexSrtMtx_ST__Q54nw4r3g3d6detail3dcc24@unnamed@g3d_3dsmax_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804CABE8": [
+"80356DAC",
+"ProductTexSrtMtx_SRT__Q54nw4r3g3d6detail3dcc24@unnamed@g3d_3dsmax_cpp@FPQ34nw4r4math5MTX34RCQ34nw4r3g3d6TexSrt"
+],
+"804CADE8": [
+"80356FAC",
+"CalcWorldMtx__Q34nw4r3g3d6ScnObjFPCQ34nw4r4math5MTX34PUl"
+],
+"804CAE90": [
+"80357054",
+"CalcViewMtx__Q34nw4r3g3d6ScnObjFPCQ34nw4r4math5MTX34"
+],
+"804CAEA4": [
+"80357068",
+"__ct__Q34nw4r3g3d6ScnObjFP12MEMAllocator"
+],
+"804CAF90": [
+"80357154",
+"__dt__Q34nw4r3g3d6ScnObjFv"
+],
+"804CB014": [
+"803571D8",
+"SetScnObjOption__Q34nw4r3g3d6ScnObjFUlUl"
+],
+"804CB1AC": [
+"80357370",
+"GetScnObjOption__Q34nw4r3g3d6ScnObjCFUlPUl"
+],
+"804CB27C": [
+"80357440",
+"SetMtx__Q34nw4r3g3d6ScnObjFQ44nw4r3g3d6ScnObj13ScnObjMtxTypePCQ34nw4r4math5MTX34"
+],
+"804CB308": [
+"803574CC",
+"GetMtx__Q34nw4r3g3d6ScnObjCFQ44nw4r3g3d6ScnObj13ScnObjMtxTypePQ34nw4r4math5MTX34"
+],
+"804CB354": [
+"80357518",
+"GetValueForSortOpa__Q34nw4r3g3d6ScnObjCFv"
+],
+"804CB3F0": [
+"8035756C",
+"fn_8035756C"
+],
+"804CB404": [
+"80357580",
+"fn_80357580"
+],
+"804CB488": [
+"80357604",
+"fn_80357604"
+],
+"804CB4E8": [
+"80357664",
+"fn_80357664"
+],
+"804CB520": [
+"8035769C",
+"fn_8035769C"
+],
+"804CB568": [
+"803576E4",
+"fn_803576E4"
+],
+"804CB5B4": [
+"80357730",
+"fn_80357730"
+],
+"804CB6A8": [
+"80357824",
+"fn_80357824"
+],
+"804CB6E8": [
+"80357864",
+"fn_80357864"
+],
+"804CBAAC": [
+"80357B6C",
+"fn_80357B6C"
+],
+"804CBBE4": [
+"80357CA4",
+"fn_80357CA4"
+],
+"804CBCFC": [
+"80357DBC",
+"fn_80357DBC"
+],
+"804CBD38": [
+"80357DF8",
+"fn_80357DF8"
+],
+"804CC194": [
+"80358254",
+"fn_80358254"
+],
+"804CC320": [
+"803583E0",
+"fn_803583E0"
+],
+"804CC3DC": [
+"8035849C",
+"fn_8035849C"
+],
+"804CC460": [
+"80358520",
+"fn_80358520"
+],
+"804CC4D0": [
+"80358590",
+"fn_80358590"
+],
+"804CC694": [
+"80358754",
+"fn_80358754"
+],
+"804CC7CC": [
+"8035888C",
+"fn_8035888C"
+],
+"804CC974": [
+"80358A94",
+"fn_80358A94"
+],
+"804CCA48": [
+"80358B00",
+"SetGlbSettings__Q34nw4r3g3d7ScnRootFv"
+],
+"804CCC68": [
+"80358D20",
+"CalcAnmScn__Q34nw4r3g3d7ScnRootFv"
+],
+"804CCDF0": [
+"80358EA8",
+"CalcWorld__Q34nw4r3g3d7ScnRootFv"
+],
+"804CCE74": [
+"80358F10",
+"CalcView__Q34nw4r3g3d7ScnRootFv"
+],
+"804CCEEC": [
+"80358F88",
+"GatherDrawScnObj__Q34nw4r3g3d7ScnRootFv"
+],
+"804CCFD8": [
+"80359074",
+"ZSort__Q34nw4r3g3d7ScnRootFv"
+],
+"804CD120": [
+"803591BC",
+"fn_803591BC"
+],
+"804CD14C": [
+"803591E8",
+"__ct__Q34nw4r3g3d7ScnRootFP12MEMAllocatorPQ34nw4r3g3d13IScnObjGatherPPQ34nw4r3g3d6ScnObjUlUlUlPQ34nw4r3g3d8LightObjPQ34nw4r3g3d11AmbLightObjPQ34nw4r3g3d12LightSetData"
+],
+"804CD248": [
+"803592E4",
+"fn_803592E4"
+],
+"804CD2C4": [
+"80359360",
+"Add__Q34nw4r3g3d12ScnObjGatherFPQ34nw4r3g3d6ScnObjbb"
+],
+"804CD444": [
+"803594E0",
+"LessZSortOpa__Q34nw4r3g3d25@unnamed@g3d_scnroot_cpp@FPCQ34nw4r3g3d6ScnObjPCQ34nw4r3g3d6ScnObj"
+],
+"804CD484": [
+"80359520",
+"LessZSortXlu__Q34nw4r3g3d25@unnamed@g3d_scnroot_cpp@FPCQ34nw4r3g3d6ScnObjPCQ34nw4r3g3d6ScnObj"
+],
+"804CD4C4": [
+"80359560",
+"sort<PPQ34nw4r3g3d6ScnObj,PFPCQ34nw4r3g3d6ScnObjPCQ34nw4r3g3d6ScnObj_b>__3stdFPPQ34nw4r3g3d6ScnObjPPQ34nw4r3g3d6ScnObjPFPCQ34nw4r3g3d6ScnObjPCQ34nw4r3g3d6ScnObj_b_v"
+],
+"804CD844": [
+"803598E0",
+"sort<PPQ34nw4r3g3d6ScnObj,RPFPCQ34nw4r3g3d6ScnObjPCQ34nw4r3g3d6ScnObj_b>__3stdFPPQ34nw4r3g3d6ScnObjPPQ34nw4r3g3d6ScnObjRPFPCQ34nw4r3g3d6ScnObjPCQ34nw4r3g3d6ScnObj_b_v"
+],
+"804CDBC4": [
+"80359C60",
+"__sort132<RPFPCQ34nw4r3g3d6ScnObjPCQ34nw4r3g3d6ScnObj_b,PPQ34nw4r3g3d6ScnObj>__3stdFPPQ34nw4r3g3d6ScnObjPPQ34nw4r3g3d6ScnObjPPQ34nw4r3g3d6ScnObjRPFPCQ34nw4r3g3d6ScnObjPCQ34nw4r3g3d6ScnObj_b_v"
+],
+"804CDE44": [
+"80359EE0",
+"Sort__Q34nw4r3g3d12ScnObjGatherFPFPCQ34nw4r3g3d6ScnObjPCQ34nw4r3g3d6ScnObj_bPFPCQ34nw4r3g3d6ScnObjPCQ34nw4r3g3d6ScnObj_b"
+],
+"804CE0B4": [
+"8035A150",
+"ScnMdlSmpl_CalcPosture__Q34nw4r3g3d12ScnMdlSimpleFUlPCQ34nw4r4math5MTX34"
+],
+"804CE310": [
+"8035A3AC",
+"ScnMdlSmpl_G3DPROC_GATHER_SCNOBJ__Q34nw4r3g3d12ScnMdlSimpleFUlPQ34nw4r3g3d13IScnObjGather"
+],
+"804CE344": [
+"8035A3E0",
+"ScnMdlSmpl_G3DPROC_CALC_VIEW__Q34nw4r3g3d12ScnMdlSimpleFUlPCQ34nw4r4math5MTX34"
+],
+"804CE690": [
+"8035A72C",
+"G3dProc__Q34nw4r3g3d12ScnMdlSimpleFUlUlPv"
+],
+"804CEF20": [
+"8035AFBC",
+"SetScnObjOption__Q34nw4r3g3d12ScnMdlSimpleFUlUl"
+],
+"804CEF68": [
+"8035B004",
+"GetScnObjOption__Q34nw4r3g3d12ScnMdlSimpleCFUlPUl"
+],
+"804CEFA8": [
+"8035B044",
+"SetAnmObj__Q34nw4r3g3d12ScnMdlSimpleFPQ34nw4r3g3d6AnmObjQ44nw4r3g3d12ScnMdlSimple10AnmObjType"
+],
+"804CF5A4": [
+"8035B640",
+"RemoveAnmObj__Q34nw4r3g3d12ScnMdlSimpleFPQ34nw4r3g3d6AnmObj"
+],
+"804CF71C": [
+"8035B7B8",
+"RemoveAnmObj__Q34nw4r3g3d12ScnMdlSimpleFQ44nw4r3g3d12ScnMdlSimple10AnmObjType"
+],
+"804CF8D8": [
+"8035B974",
+"UpdateFrame__Q34nw4r3g3d12ScnMdlSimpleFv"
+],
+"804CFA10": [
+"8035BA6C",
+"GetViewPosMtxArray__Q34nw4r3g3d12ScnMdlSimpleFv"
+],
+"804CFA9C": [
+"8035BAF8",
+"__ct__Q34nw4r3g3d12ScnMdlSimpleFP12MEMAllocatorQ34nw4r3g3d6ResMdlPQ34nw4r4math5MTX34PUlPQ34nw4r4math5MTX34PQ34nw4r4math5MTX33PQ34nw4r4math5MTX34ii"
+],
+"804CFCB4": [
+"8035BD10",
+"__dt__Q34nw4r3g3d12ScnMdlSimpleFv"
+],
+"804CFFFC": [
+"8035C084",
+"fn_8035C084"
+],
+"804D0378": [
+"8035C304",
+"fn_8035C304"
+],
+"804D0434": [
+"8035C3C0",
+"fn_8035C3C0"
+],
+"804D172C": [
+"8035D618",
+"G3dProc__Q34nw4r3g3d6ScnMdlFUlUlPv"
+],
+"804D1BE0": [
+"8035DACC",
+"SetScnObjOption__Q34nw4r3g3d6ScnMdlFUlUl"
+],
+"804D1C28": [
+"8035DB14",
+"GetScnObjOption__Q34nw4r3g3d6ScnMdlCFUlPUl"
+],
+"804D1C70": [
+"8035DB5C",
+"InitBuffer__Q34nw4r3g3d6ScnMdlFv"
+],
+"804D2024": [
+"8035DF10",
+"CleanMatBuffer__Q34nw4r3g3d6ScnMdlFUlUl"
+],
+"804D2370": [
+"8035E25C",
+"SetAnmObj__Q34nw4r3g3d6ScnMdlFPQ34nw4r3g3d6AnmObjQ44nw4r3g3d12ScnMdlSimple10AnmObjType"
+],
+"804D24D4": [
+"8035E3C0",
+"RemoveAnmObj__Q34nw4r3g3d6ScnMdlFPQ34nw4r3g3d6AnmObj"
+],
+"804D26CC": [
+"8035E5B8",
+"RemoveAnmObj__Q34nw4r3g3d6ScnMdlFQ44nw4r3g3d12ScnMdlSimple10AnmObjType"
+],
+"804D285C": [
+"8035E638",
+"__dt__Q34nw4r3g3d6ScnMdlFv"
+],
+"804D2980": [
+"8035E75C",
+"CalcMaterialDirectly__Q24nw4r3g3dFQ34nw4r3g3d6ResMdlPQ34nw4r3g3d12AnmObjTexPatPQ34nw4r3g3d12AnmObjTexSrtPQ34nw4r3g3d12AnmObjMatClr"
+],
+"804D2D90": [
+"8035EB6C",
+"G3dInit__Q24nw4r3g3dFb"
+],
+"804D3184": [
+"8035EC70",
+"Init__Q34nw4r3g3d3FogFv"
+],
+"804D31F4": [
+"8035ECE0",
+"CopyTo__Q34nw4r3g3d3FogCFPv"
+],
+"804D3248": [
+"8035ED34",
+"fn_8035ED34"
+],
+"804D32D0": [
+"8035EDBC",
+"SetFogRangeAdjParam__Q34nw4r3g3d3FogFUsUsRCQ34nw4r4math5MTX44"
+],
+"804D32F0": [
+"8035EDDC",
+"SetGP__Q34nw4r3g3d3FogCFv"
+],
+"804D3528": [
+"8035EE64",
+"Clear__Q34nw4r3g3d8LightObjFv"
+],
+"804D353C": [
+"8035EE78",
+"InitLightColor__Q34nw4r3g3d8LightObjF8_GXColor"
+],
+"804D3584": [
+"8035EEC0",
+"InitLightPos__Q34nw4r3g3d8LightObjFfff"
+],
+"804D3700": [
+"8035F03C",
+"InitLightAttnK__Q34nw4r3g3d8LightObjFfff_8035F03C"
+],
+"804D3740": [
+"8035F07C",
+"InitLightShininess__Q34nw4r3g3d8LightObjFf"
+],
+"804D3908": [
+"8035F128",
+"__ct__Q34nw4r3g3d12LightSettingFPQ34nw4r3g3d8LightObjPQ34nw4r3g3d11AmbLightObjUlPQ34nw4r3g3d12LightSetDataUl"
+],
+"804D3D44": [
+"8035F564",
+"Import__Q34nw4r3g3d12LightSettingFRCQ34nw4r3g3d12LightSetting"
+],
+"804D3ED4": [
+"8035F6F4",
+"ApplyViewMtx__Q34nw4r3g3d12LightSettingFRCQ34nw4r4math5MTX34Ul"
+],
+"804D3FF4": [
+"8035F814",
+"SelectLightObj__Q34nw4r3g3d8LightSetFUli"
+],
+"804D4064": [
+"8035F884",
+"SelectAmbLightObj__Q34nw4r3g3d8LightSetFi"
+],
+"804D40CC": [
+"8035F8EC",
+"CalcVtx__Q24nw4r3g3dFQ34nw4r3g3d6ResMdlPQ34nw4r3g3d9AnmObjShpPPQ34nw4r3g3d13ResVtxPosDataPPQ34nw4r3g3d13ResVtxNrmDataPPQ34nw4r3g3d13ResVtxClrData"
+],
+"804D48C4": [
+"803600E4",
+"fn_803600E4"
+],
+"804D4E28": [
+"8036086C",
+"fn_8036086C"
+],
+"804D53AC": [
+"80360DF0",
+"fn_80360DF0"
+],
+"804D5BD0": [
+"803613FC",
+"fn_803613FC"
+],
+"804D62EC": [
+"80361A44",
+"fn_80361A44"
+],
+"804D636C": [
+"80361AC4",
+"fn_80361AC4"
+],
+"804D63C4": [
+"80361B1C",
+"fn_80361B1C"
+],
+"804D6800": [
+"80361CE4",
+"fn_80361CE4"
+],
+"804D69B0": [
+"80361E94",
+"fn_80361E94"
+],
+"804D6DE0": [
+"8036237C",
+"fn_8036237C"
+],
+"804D7C9C": [
+"80362E4C",
+"fn_80362E4C"
+],
+"804DB07C": [
+"80365964",
+"fn_80365964"
+],
+"804DB184": [
+"80365A6C",
+"fn_80365A6C"
+],
+"804DB3A0": [
+"80365D7C",
+"fn_80365D7C"
+],
+"804DBA04": [
+"801E4220",
+"fn_801E4220"
+],
+"804DBA34": [
+"803663EC",
+"fn_803663EC"
+],
+"804DBA40": [
+"803663F8",
+"fn_803663F8"
+],
+"804DBA4C": [
+"80366404",
+"fn_80366404"
+],
+"804DBA58": [
+"80366410",
+"fn_80366410"
+],
+"804DBA64": [
+"8036641C",
+"fn_8036641C"
+],
+"804DBA70": [
+"80366428",
+"fn_80366428"
+],
+"804DBA7C": [
+"80366434",
+"fn_80366434"
+],
+"804DBA88": [
+"80366440",
+"fn_80366440"
+],
+"804DBA94": [
+"8036644C",
+"fn_8036644C"
+],
+"804DBAA0": [
+"80366458",
+"fn_80366458"
+],
+"804DBAAC": [
+"80366464",
+"fn_80366464"
+],
+"804DBAB8": [
+"80366470",
+"fn_80366470"
+],
+"804DBAE4": [
+"8036649C",
+"fn_8036649C"
+],
+"804DBAF8": [
+"803664B0",
+"fn_803664B0"
+],
+"804DBB0C": [
+"803664C4",
+"fn_803664C4"
+],
+"804DBBC4": [
+"8036657C",
+"fn_8036657C"
+],
+"804DBD00": [
+"803666B8",
+"fn_803666B8"
+],
+"804DBD28": [
+"803666E0",
+"fn_803666E0"
+],
+"804DBD98": [
+"80366750",
+"fn_80366750"
+],
+"804DBE44": [
+"803667FC",
+"fn_803667FC"
+],
+"804DC5E8": [
+"80366F88",
+"fn_80366F88"
+],
+"804DC60C": [
+"80366FAC",
+"fn_80366FAC"
+],
+"804DC638": [
+"80366FD8",
+"fn_80366FD8"
+],
+"804DC66C": [
+"8036700C",
+"fn_8036700C"
+],
+"804DC6A8": [
+"80367048",
+"fn_80367048"
+],
+"804DC6EC": [
+"8036708C",
+"fn_8036708C"
+],
+"804DC738": [
+"803670D8",
+"fn_803670D8"
+],
+"804DC78C": [
+"8036712C",
+"fn_8036712C"
+],
+"804DC7E8": [
+"80367188",
+"fn_80367188"
+],
+"804DC888": [
+"80367228",
+"fn_80367228"
+],
+"804DC918": [
+"803672B8",
+"fn_803672B8"
+],
+"804DC9A0": [
+"80367340",
+"fn_80367340"
+],
+"804DCAC0": [
+"80367460",
+"fn_80367460"
+],
+"804DCB84": [
+"80367524",
+"fn_80367524"
+],
+"804DCD64": [
+"80367704",
+"fn_80367704"
+],
+"804DDD94": [
+"803686DC",
+"fn_803686DC"
+],
+"804DDE04": [
+"8036874C",
+"fn_8036874C"
+],
+"804DDEF0": [
+"80368838",
+"fn_80368838"
+],
+"804DE0A0": [
+"803689A8",
+"fn_803689A8"
+],
+"804DE170": [
+"80368A78",
+"fn_80368A78"
+],
+"804DE224": [
+"80368B2C",
+"fn_80368B2C"
+],
+"804DE30C": [
+"80368C14",
+"fn_80368C14"
+],
+"804DE4D4": [
+"80368DDC",
+"fn_80368DDC"
+],
+"804DE4EC": [
+"80368DF4",
+"fn_80368DF4"
+],
+"804DE520": [
+"80368E28",
+"fn_80368E28"
+],
+"804DE5A4": [
+"80368EAC",
+"fn_80368EAC"
+],
+"804DE9F8": [
+"803692C0",
+"fn_803692C0"
+],
+"804DEBE4": [
+"803694AC",
+"fn_803694AC"
+],
+"804DF7A8": [
+"803699A8",
+"fn_803699A8"
+],
+"804DF874": [
+"80369A74",
+"fn_80369A74"
+],
+"804DF9B4": [
+"80369BB4",
+"fn_80369BB4"
+],
+"804DFA20": [
+"80369C20",
+"fn_80369C20"
+],
+"804DFA90": [
+"80369C90",
+"fn_80369C90"
+],
+"804DFBC0": [
+"80369D64",
+"fn_80369D64"
+],
+"804DFD00": [
+"80369EA4",
+"fn_80369EA4"
+],
+"804DFE20": [
+"80369FAC",
+"fn_80369FAC"
+],
+"804DFF58": [
+"8036A098",
+"fn_8036A098"
+],
+"804E0F80": [
+"8036A98C",
+"fn_8036A98C"
+],
+"804E100C": [
+"8036AA18",
+"fn_8036AA18"
+],
+"804E1098": [
+"8036AAA4",
+"fn_8036AAA4"
+],
+"804E1228": [
+"8036AC14",
+"fn_8036AC14"
+],
+"804E1378": [
+"8036AD64",
+"fn_8036AD64"
+],
+"804E15D4": [
+"8036AF0C",
+"fn_8036AF0C"
+],
+"804E161C": [
+"8036AF70",
+"MTX33Identity__Q24nw4r4mathFPQ34nw4r4math5MTX33"
+],
+"804E1640": [
+"8036AF94",
+"MTX34ToMTX33__Q24nw4r4mathFPQ34nw4r4math5MTX33PCQ34nw4r4math5MTX34"
+],
+"804E1674": [
+"8036B090",
+"MTX34Zero__Q24nw4r4mathFPQ34nw4r4math5MTX34"
+],
+"804E17A8": [
+"8036B0B0",
+"MTX34Scale__Q24nw4r4mathFPQ34nw4r4math5MTX34PCQ34nw4r4math5MTX34PCQ34nw4r4math4VEC3"
+],
+"804E17FC": [
+"8036B104",
+"MTX34Trans__Q24nw4r4mathFPQ34nw4r4math5MTX34PCQ34nw4r4math5MTX34PCQ34nw4r4math4VEC3"
+],
+"804E1868": [
+"8036B170",
+"MTX34RotAxisFIdx__Q24nw4r4mathFPQ34nw4r4math5MTX34PCQ34nw4r4math4VEC3f"
+],
+"804E1A00": [
+"8036B2F4",
+"VEC3TransformNormal__Q24nw4r4mathFPQ34nw4r4math4VEC3PCQ34nw4r4math5MTX34PCQ34nw4r4math4VEC3"
+],
+"804E1A90": [
+"8036B384",
+"MTX44Identity__Q24nw4r4mathFPQ34nw4r4math5MTX44"
+],
+"804E1AC4": [
+"8036B3B8",
+"MTX44Copy__Q24nw4r4mathFPQ34nw4r4math5MTX44PCQ34nw4r4math5MTX44"
+],
+"804E1CE0": [
+"8036B3FC",
+"fn_8036B3FC"
+],
+"804E1D9C": [
+"8036B4B8",
+"fn_8036B4B8"
+],
+"804E1F74": [
+"8036B690",
+"fn_8036B690"
+],
+"804E2028": [
+"8036B744",
+"fn_8036B744"
+],
+"804E3358": [
+"8036C08C",
+"fn_8036C08C"
+],
+"804E9F28": [
+"80226324",
+"fn_80226324"
+],
+"804F2DF0": [
+"802728F0",
+"fn_802728F0"
+],
+"80501FCC": [
+"801E49B0",
+"__dt__Q44nw4r3snd6detail11TaskManagerFv"
+],
+"80507C04": [
+"8036C2B8",
+"List_Insert__Q24nw4r2utFPQ34nw4r2ut4ListPvPv"
+],
+"80507DB0": [
+"8036C464",
+"List_GetPrev__Q24nw4r2utFPCQ34nw4r2ut4ListPCv"
+],
+"80507E98": [
+"8036C54C",
+"Clear__Q44nw4r2ut6detail12LinkListImplFv"
+],
+"80507F08": [
+"8036C5BC",
+"Erase__Q44nw4r2ut6detail12LinkListImplFPQ34nw4r2ut12LinkListNode"
+],
+"80509228": [
+"8036CE40",
+"fn_8036CE40"
+],
+"80509288": [
+"8036CEA0",
+"fn_8036CEA0"
+],
+"80509300": [
+"8036CF18",
+"fn_8036CF18"
+],
+"80509370": [
+"8036CF88",
+"fn_8036CF88"
+],
+"805093BC": [
+"8036CFD4",
+"fn_8036CFD4"
+],
+"80509E80": [
+"8036D9EC",
+"fn_8036D9EC"
+],
+"8050A0E0": [
+"8036DC4C",
+"fn_8036DC4C"
+],
+"8050AB38": [
+"8036E6A4",
+"fn_8036E6A4"
+],
+"8050ADB8": [
+"8036E888",
+"Print__Q34nw4r2ut10CharWriterFUs"
+],
+"8050AEE8": [
+"8036E9B8",
+"PrintGlyph__Q34nw4r2ut10CharWriterFfffRCQ34nw4r2ut5Glyph"
+],
+"8050B164": [
+"8036EC34",
+"UpdateVertexColor__Q34nw4r2ut10CharWriterFv"
+],
+"8050B2B4": [
+"8036ED84",
+"SetupGXWithColorMapping__Q34nw4r2ut10CharWriterFQ34nw4r2ut5ColorQ34nw4r2ut5Color"
+],
+"8050BE80": [
+"8036F6A8",
+"CalcLineRectImpl__Q34nw4r2ut17TextWriterBase<c>FPQ34nw4r2ut4RectPPCci"
+],
+"8050C508": [
+"8036FD68",
+"CalcStringRectImpl__Q34nw4r2ut17TextWriterBase<c>FPQ34nw4r2ut4RectPCci"
+],
+"8050D8F4": [
+"803715B8",
+"fn_803715B8"
+],
+"8050DF7C": [
+"80371C40",
+"fn_80371C40"
+],
+"8050F264": [
+"80372F08",
+"__dt__Q34nw4r2ut17TextWriterBase<w>Fv"
+],
+"805197B0": [
+"80295728",
+"fn_80295728"
+],
+"80579A18": [
+"80037088",
+"fn_80037088"
+],
+"805B8F40": [
+"802510C0",
+"fn_802510C0"
+],
+"805D7B3C": [
+"80272B5C",
+"fn_80272B5C"
+],
+"80634960": [
+"8002F68C",
+"fn_8002F68C"
+],
+"80662C1C": [
+"802625D4",
+"fn_802625D4"
+],
+"806863E0": [
+"800A47F8",
+"fn_800A47F8"
+],
+"80004028": [
+"80004028",
+"__set_debug_bba"
+],
+"80004034": [
+"80004034",
+"__get_debug_bba"
+],
+"80382E4C": [
+"80295A34",
+"__init_user"
+],
+"800043EC": [
+"8000443C",
+"memset"
+],
+"80376C94": [
+"8028B630",
+"OSGetArenaHi"
+],
+"80376CAC": [
+"8028B648",
+"OSGetArenaLo"
+],
+"80376C8C": [
+"8028B628",
+"OSGetMEM2ArenaHi"
+],
+"80376CA4": [
+"8028B640",
+"OSGetMEM2ArenaLo"
+],
+"80374B7C": [
+"802898A4",
+"DBPrintf"
+],
+"8037E8E4": [
+"802929D8",
+"OSDisableScheduler"
+],
+"8037E920": [
+"80292A14",
+"OSEnableScheduler"
+],
+"80374974": [
+"802896A8",
+"PPCMfmsr"
+],
+"8037497C": [
+"802896B0",
+"PPCMtmsr"
+],
+"8037D0C4": [
+"80291414",
+"fn_80291414"
+],
+"803A91D4": [
+"802B990C",
+"strlen"
+],
+"8038F7C8": [
+"8029FF7C",
+"fn_8029FF7C"
+],
+"8037E89C": [
+"802929BC",
+"OSInitThreadQueue"
+],
+"8037E8AC": [
+"802929CC",
+"OSGetCurrentThread"
+],
+"8037E120": [
+"802920E4",
+"__OSSyncSram"
+],
+"80377AAC": [
+"8028C4B4",
+"OSGetCurrentContext"
+],
+"80376140": [
+"8028AC80",
+"OSCreateAlarm"
+],
+"803C9A4C": [
+"802D39D4",
+"NANDOpenAsync"
+],
+"803C8D1C": [
+"802D30D0",
+"fn_802D30D0"
+],
+"803C8DFC": [
+"802D31B0",
+"fn_802D31B0"
+],
+"803C8D94": [
+"802D3148",
+"fn_802D3148"
+],
+"803C9934": [
+"802D38BC",
+"NANDOpen"
+],
+"803C8CB4": [
+"802D3068",
+"fn_802D3068"
+],
+"803C99C0": [
+"802D3948",
+"NANDPrivateOpen"
+],
+"8038D20C": [
+"8029DA08",
+"fn_8029DA08"
+],
+"8038AAF4": [
+"8029C15C",
+"fn_8029C15C"
+],
+"8038C434": [
+"8029D0AC",
+"fn_8029D0AC"
+],
+"8038BFD0": [
+"8029CC48",
+"fn_8029CC48"
+],
+"8038D1F0": [
+"8029D9EC",
+"fn_8029D9EC"
+],
+"8038CD90": [
+"8029D874",
+"fn_8029D874"
+],
+"8038D204": [
+"8029DA00",
+"DVDLowMaskCoverInterrupt"
+],
+"8038CDB8": [
+"8029D884",
+"fn_8029D884"
+],
+"803C8A34": [
+"802D2E80",
+"fn_802D2E80"
+],
+"803C68A4": [
+"802D0EEC",
+"IPCGetBufferLo"
+],
+"803C689C": [
+"802D0EE4",
+"IPCGetBufferHi"
+],
+"803C68AC": [
+"802D0EF4",
+"IPCSetBufferLo"
+],
+"803BDFE0": [
+"802C8600",
+"SIRefreshSamplingRate"
+],
+"80389C6C": [
+"8029B9F0",
+"fn_8029B9F0"
+],
+"803CCE70": [
+"802D6F60",
+"fn_802D6F60"
+],
+"80393B90": [
+"802A34F0",
+"fn_802A34F0"
+],
+"803935E4": [
+"802A2EAC",
+"AIGetDMABytesLeft"
+],
+"803A0744": [
+"802B1390",
+"DSPCheckMailToDSP"
+],
+"80395E64": [
+"802A5878",
+"fn_802A5878"
+],
+"803A084C": [
+"802B1498",
+"DSPCheckInit"
+],
+"80393510": [
+"802A2DC4",
+"AIRegisterDMACallback"
+],
+"803947A0": [
+"802A419C",
+"fn_802A419C"
+],
+"80393AD0": [
+"802A3430",
+"fn_802A3430"
+],
+"803979C0": [
+"802A76B4",
+"__FreeDelayLine"
+],
+"80397728": [
+"802A741C",
+"__AllocDelayLine"
+],
+"8039789C": [
+"802A7590",
+"__BzeroDelayLines"
+],
+"803951F4": [
+"802A4BDC",
+"fn_802A4BDC"
+],
+"80398A64": [
+"802A8614",
+"fn_802A8614"
+],
+"803987CC": [
+"802A837C",
+"fn_802A837C"
+],
+"80398940": [
+"802A84F0",
+"fn_802A84F0"
+],
+"8039C608": [
+"802AA420",
+"fn_802AA420"
+],
+"8039D25C": [
+"802AAFE4",
+"fn_802AAFE4"
+],
+"8039D158": [
+"802AAEE0",
+"fn_802AAEE0"
+],
+"80393AC8": [
+"802A3428",
+"fn_802A3428"
+],
+"80396D3C": [
+"802A69DC",
+"fn_802A69DC"
+],
+"803A0980": [
+"802B160C",
+"__DSP_debug_printf"
+],
+"803A0754": [
+"802B13A0",
+"DSPCheckMailFromDSP"
+],
+"803A6508": [
+"802B6E94",
+"fn_802B6E94"
+],
+"803A6528": [
+"802B6EB4",
+"fn_802B6EB4"
+],
+"803A2D2C": [
+"802B3814",
+"GXSetBreakPtCallback"
+],
+"803A45A8": [
+"802B4FB8",
+"GXSetDrawSyncCallback"
+],
+"803A4670": [
+"802B5080",
+"GXSetDrawDoneCallback"
+],
+"803A742C": [
+"802B7CD8",
+"__GXFlushTextureState"
+],
+"803A2C84": [
+"802B380C",
+"fn_802B380C"
+],
+"803A9430": [
+"802B9A64",
+"fn_802B9A64"
+],
+"803A9424": [
+"802B9A58",
+"fn_802B9A58"
+],
+"803C2BD4": [
+"802CB3E4",
+"TRKTargetSetStopped"
+],
+"803C4E54": [
+"802CF6CC",
+"fn_802CF6CC"
+],
+"803C4D60": [
+"802CF5D8",
+"fn_802CF5D8"
+],
+"803C4D78": [
+"802CF5F0",
+"fn_802CF5F0"
+],
+"803C4DE8": [
+"802CF660",
+"fn_802CF660"
+],
+"80380604": [
+"80294234",
+"__OSGetIPCBufferHi"
+],
+"8038060C": [
+"8029423C",
+"__OSGetIPCBufferLo"
+],
+"803CA080": [
+"802D44C0",
+"nandIsPrivatePath"
+],
+"803C6178": [
+"802D08D4",
+"fn_802D08D4"
+],
+"803C6084": [
+"802D07E0",
+"fn_802D07E0"
+],
+"803CA10C": [
+"802D454C",
+"nandIsInitialized"
+],
+"803C5580": [
+"802CFDE0",
+"ISFS_CreateDirAsync"
+],
+"803C548C": [
+"802CFCEC",
+"ISFS_CreateDir"
+],
+"803CA9F0": [
+"802D50CC",
+"fn_802D50CC"
+],
+"803C9AC4": [
+"802D3A4C",
+"NANDPrivateOpenAsync"
+],
+"803C9120": [
+"802D3404",
+"fn_802D3404"
+],
+"803CC554": [
+"802D6644",
+"SCFindS8Item"
+],
+"803CC480": [
+"802D6570",
+"SCFindU8Item"
+],
+"803CD2C8": [
+"802D7350",
+"fn_802D7350"
+],
+"803CC628": [
+"802D6718",
+"SCFindU32Item"
+],
+"803CEFFC": [
+"802D8F5C",
+"fn_802D8F5C"
+],
+"80408AA4": [
+"8031344C",
+"App_MEMalloc"
+],
+"803D0034": [
+"802DA4F8",
+"UUSB_Read"
+],
+"803D04E0": [
+"802DAD18",
+"LogMsg_0"
+],
+"803FAC6C": [
+"803054A4",
+"IUSB_CloseLib"
+],
+"803E20A8": [
+"802EC8E0",
+"btu_init_core"
+],
+"803D03F8": [
+"802DAC30",
+"BTE_InitStack"
+],
+"803D04F8": [
+"802DAD30",
+"LogMsg_1"
+],
+"803D358C": [
+"802DDDC4",
+"bta_dm_immediate_disable"
+],
+"803CEB60": [
+"802D8AC0",
+"fn_802D8AC0"
+],
+"803D7820": [
+"802E2058",
+"BTM_SetDefaultLinkSuperTout"
+],
+"803D7454": [
+"802E1C8C",
+"BTM_SetDefaultLinkPolicy"
+],
+"803D0C04": [
+"802DB43C",
+"bta_sys_rm_register"
+],
+"803D0C14": [
+"802DB44C",
+"bta_sys_compress_register"
+],
+"803D102C": [
+"802DB864",
+"bta_sys_disable"
+],
+"803DAECC": [
+"802E5704",
+"BTM_IsInquiryActive"
+],
+"803D1018": [
+"802DB850",
+"bta_sys_stop_timer"
+],
+"803D7964": [
+"802E219C",
+"btm_get_acl_disc_reason_code"
+],
+"8040F2B0": [
+"80317D00",
+"bta_dm_co_get_compress_memory"
+],
+"803D0528": [
+"802DAD60",
+"LogMsg_3"
+],
+"803E4F10": [
+"802EF748",
+"btsnd_hcic_write_scan_enable"
+],
+"803D0FC8": [
+"802DB800",
+"bta_sys_register"
+],
+"803D0C24": [
+"802DB45C",
+"bta_sys_pm_register"
+],
+"803D127C": [
+"802DBAB4",
+"utl_freebuf"
+],
+"8040F290": [
+"80317CE0",
+"bta_hh_co_open"
+],
+"803D0C34": [
+"802DB46C",
+"bta_sys_conn_open"
+],
+"803D0510": [
+"802DAD48",
+"LogMsg_2"
+],
+"803D0DF0": [
+"802DB628",
+"bta_sys_idle"
+],
+"803D0E24": [
+"802DB65C",
+"bta_sys_busy"
+],
+"8040F2A0": [
+"80317CF0",
+"bta_hh_co_close"
+],
+"803D0CF8": [
+"802DB530",
+"bta_sys_conn_close"
+],
+"803D0DBC": [
+"802DB5F4",
+"bta_sys_sco_close"
+],
+"803D0540": [
+"802DAD78",
+"LogMsg_4"
+],
+"803D0570": [
+"802DADA8",
+"LogMsg_6"
+],
+"803E40FC": [
+"802EE934",
+"btsnd_hcic_read_rmt_clk_offset"
+],
+"803E4080": [
+"802EE8B8",
+"btsnd_hcic_rmt_ver_req"
+],
+"803E51F4": [
+"802EFA2C",
+"btsnd_hcic_write_link_super_tout"
+],
+"803E4004": [
+"802EE83C",
+"btsnd_hcic_rmt_features_req"
+],
+"803E46F8": [
+"802EEF30",
+"btsnd_hcic_switch_role"
+],
+"803D9F30": [
+"802E4768",
+"BTM_ReadLocalFeatures"
+],
+"803E47A8": [
+"802EEFE0",
+"btsnd_hcic_write_policy_set"
+],
+"803D0B1C": [
+"802DB354",
+"btu_stop_timer"
+],
+"803E543C": [
+"802EFC74",
+"btsnd_hcic_get_link_quality"
+],
+"803E483C": [
+"802EF074",
+"btsnd_hcic_reset"
+],
+"803E52F8": [
+"802EFB30",
+"btsnd_hcic_read_local_ver"
+],
+"803E53DC": [
+"802EFC14",
+"btsnd_hcic_read_bd_addr"
+],
+"803E5358": [
+"802EFB90",
+"btsnd_hcic_read_local_features"
+],
+"803E4AC8": [
+"802EF300",
+"btsnd_hcic_read_stored_key"
+],
+"803E4CE8": [
+"802EF520",
+"btsnd_hcic_delete_stored_key"
+],
+"803E4F84": [
+"802EF7BC",
+"btsnd_hcic_write_inqscan_cfg"
+],
+"803D9F20": [
+"802E4758",
+"BTM_ReadDeviceClass"
+],
+"803E5950": [
+"802F0188",
+"btsnd_hcic_write_inqscan_type"
+],
+"803E59B0": [
+"802F01E8",
+"btsnd_hcic_write_pagescan_type"
+],
+"803E5980": [
+"802F01B8",
+"btsnd_hcic_write_inquiry_mode"
+],
+"803E4F40": [
+"802EF778",
+"btsnd_hcic_write_pagescan_cfg"
+],
+"803E3460": [
+"802EDC98",
+"btsnd_hcic_inq_cancel"
+],
+"803E3F64": [
+"802EE79C",
+"btsnd_hcic_rmt_name_req_cancel"
+],
+"803E453C": [
+"802EED74",
+"btsnd_hcic_exit_sniff_mode"
+],
+"803E4674": [
+"802EEEAC",
+"btsnd_hcic_exit_park_mode"
+],
+"803E43BC": [
+"802EEBF4",
+"btsnd_hcic_hold_mode"
+],
+"803E45C0": [
+"802EEDF8",
+"btsnd_hcic_park_mode"
+],
+"803E435C": [
+"802EEB94",
+"btsnd_hcic_reject_esco_conn"
+],
+"803E3774": [
+"802EDFAC",
+"btsnd_hcic_accept_conn"
+],
+"803E4A54": [
+"802EF28C",
+"btsnd_hcic_write_pin_type"
+],
+"803E3C54": [
+"802EE48C",
+"btsnd_hcic_pin_code_neg_reply"
+],
+"803E3D84": [
+"802EE5BC",
+"btsnd_hcic_auth_request"
+],
+"803E4FC8": [
+"802EF800",
+"btsnd_hcic_write_auth_enable"
+],
+"803D0558": [
+"802DAD90",
+"LogMsg_5"
+],
+"803E503C": [
+"802EF874",
+"btsnd_hcic_write_encr_mode"
+],
+"803E39D0": [
+"802EE208",
+"btsnd_hcic_link_key_neg_reply"
+],
+"803E9578": [
+"802F3DB0",
+"L2CA_DisconnectReq"
+],
+"803E961C": [
+"802F3E54",
+"L2CA_DisconnectRsp"
+],
+"803EE7BC": [
+"802F8FF4",
+"l2cu_release_rcb"
+],
+"803EE9CC": [
+"802F9204",
+"l2cu_process_peer_cfg_rsp"
+],
+"803EEB1C": [
+"802F9354",
+"l2cu_process_our_cfg_rsp"
+],
+"803ED350": [
+"802F7B88",
+"l2cu_get_conn_role"
+],
+"803ED2C0": [
+"802F7AF8",
+"l2cu_find_lcb_by_handle"
+],
+"803CE3DC": [
+"802D833C",
+"fn_802D833C"
+],
+"803E50F4": [
+"802EF92C",
+"btsnd_hcic_write_auto_flush_tout"
+],
+"803F37B4": [
+"802FDFEC",
+"rfc_send_disc"
+],
+"803F3590": [
+"802FDDC8",
+"rfc_send_sabme"
+],
+"803F3AE4": [
+"802FE31C",
+"rfc_send_fcon"
+],
+"803F3B68": [
+"802FE3A0",
+"rfc_send_fcoff"
+],
+"803F2E68": [
+"802FD6A0",
+"rfc_process_test_rsp"
+],
+"803F99E0": [
+"80304218",
+"sdpu_find_ccb_by_cid"
+],
+"803F9AE4": [
+"8030431C",
+"sdpu_release_ccb"
+],
+"803CD104": [
+"802D71DC",
+"fn_802D71DC"
+],
+"803CD054": [
+"802D712C",
+"fn_802D712C"
+],
+"80408A4C": [
+"803133FC",
+"fn_803133FC"
+],
+"8040F2B8": [
+"80317D08",
+"WUD_DEBUGPrint"
+],
+"8047DF2C": [
+"80334974",
+"fn_80334974"
+],
+"8047DEC0": [
+"80334908",
+"fn_80334908"
+],
+"803C4D18": [
+"802CF5AC",
+"fn_802CF5AC"
+],
+"803C4D08": [
+"802CF59C",
+"fn_802CF59C"
+],
+"8047DE50": [
+"80334898",
+"fn_80334898"
+],
+"804661B0": [
+"8031D2C4",
+"fn_8031D2C4"
+],
+"804661BC": [
+"8031D2D0",
+"fn_8031D2D0"
+],
+"803FFFE4": [
+"8030A33C",
+"WPADIsSpeakerEnabled"
+],
+"803768B4": [
+"8028B3F4",
+"OSSetAlarmUserData"
+],
+"803768BC": [
+"8028B3FC",
+"OSGetAlarmUserData"
+],
+"804676F0": [
+"8031E700",
+"fn_8031E700"
+],
+"804143DC": [
+"8031B900",
+"ARCGetStartOffset"
+],
+"804143E4": [
+"8031B908",
+"ARCGetLength"
+],
+"803A7564": [
+"802B7E10",
+"GXSetTevColorOp"
+],
+"803A75BC": [
+"802B7E68",
+"GXSetTevAlphaOp"
+],
+"8047DD40": [
+"80334788",
+"fn_80334788"
+],
+"80478204": [
+"8032EC4C",
+"fn_8032EC4C"
+],
+"80401644": [
+"8030B99C",
+"WPADGetSpeakerVolume"
+],
+"804669AC": [
+"8031DA88",
+"setSpeakerVol__Q210homebutton10ControllerFf"
+],
+"80466998": [
+"8031DA74",
+"connect__Q210homebutton10ControllerFv"
+],
+"80466CF8": [
+"8031DDD4",
+"isPlayReady__Q210homebutton10ControllerCFv"
+],
+"80477948": [
+"8032E390",
+"fn_8032E390"
+],
+"80476BC0": [
+"8032D608",
+"fn_8032D608"
+],
+"80471AA8": [
+"803284F0",
+"fn_803284F0"
+],
+"80414578": [
+"8031BA9C",
+"fn_8031BA9C"
+],
+"80478244": [
+"8032EC8C",
+"fn_8032EC8C"
+],
+"803A5D38": [
+"802B6700",
+"GXSetChanMatColor"
+],
+"803A64D0": [
+"802B6DF8",
+"fn_802B6DF8"
+],
+"8047DE0C": [
+"80334854",
+"fn_80334854"
+],
+"8047DDC4": [
+"8033480C",
+"fn_8033480C"
+],
+"80476FB4": [
+"8032D9FC",
+"fn_8032D9FC"
+],
+"80472BC8": [
+"80329610",
+"fn_80329610"
+],
+"80471918": [
+"80328360",
+"fn_80328360"
+],
+"80471E10": [
+"80328858",
+"fn_80328858"
+],
+"803A64D8": [
+"802B6E00",
+"fn_802B6E00"
+],
+"803A6428": [
+"802B6DF0",
+"GXInitTexObjTlut"
+],
+"80471558": [
+"80327FA0",
+"fn_80327FA0"
+],
+"80471B30": [
+"80328578",
+"fn_80328578"
+],
+"80471D14": [
+"8032875C",
+"fn_8032875C"
+],
+"8047DF98": [
+"803349E0",
+"fn_803349E0"
+],
+"8047E02C": [
+"80334A74",
+"fn_80334A74"
+],
+"8047C414": [
+"80332E5C",
+"fn_80332E5C"
+],
+"8047F210": [
+"80335C58",
+"fn_80335C58"
+],
+"8047F218": [
+"80335C60",
+"fn_80335C60"
+],
+"8047825C": [
+"8032ECA4",
+"fn_8032ECA4"
+],
+"8047CE9C": [
+"803338E4",
+"fn_803338E4"
+],
+"8047F230": [
+"80335C78",
+"fn_80335C78"
+],
+"8047D668": [
+"803340B0",
+"fn_803340B0"
+],
+"8047F12C": [
+"80335B74",
+"fn_80335B74"
+],
+"8047D674": [
+"803340BC",
+"fn_803340BC"
+],
+"8047C41C": [
+"80332E64",
+"fn_80332E64"
+],
+"804791C0": [
+"8032FC08",
+"fn_8032FC08"
+],
+"8047F184": [
+"80335BCC",
+"fn_80335BCC"
+],
+"8047F238": [
+"80335C80",
+"fn_80335C80"
+],
+"8047D6A4": [
+"803340EC",
+"fn_803340EC"
+],
+"8047F220": [
+"80335C68",
+"fn_80335C68"
+],
+"8047D51C": [
+"80333F64",
+"fn_80333F64"
+],
+"8047D524": [
+"80333F6C",
+"fn_80333F6C"
+],
+"8047D310": [
+"80333D58",
+"fn_80333D58"
+],
+"80471DA8": [
+"803287F0",
+"fn_803287F0"
+],
+"80471E64": [
+"803288AC",
+"fn_803288AC"
+],
+"804724A8": [
+"80328EF0",
+"fn_80328EF0"
+],
+"8047D6AC": [
+"803340F4",
+"fn_803340F4"
+],
+"8047C3D4": [
+"80332E1C",
+"fn_80332E1C"
+],
+"8047D318": [
+"80333D60",
+"fn_80333D60"
+],
+"8047D684": [
+"803340CC",
+"fn_803340CC"
+],
+"8047D694": [
+"803340DC",
+"fn_803340DC"
+],
+"8047D67C": [
+"803340C4",
+"fn_803340C4"
+],
+"8047D4B8": [
+"80333F00",
+"fn_80333F00"
+],
+"8047E86C": [
+"803352B4",
+"fn_803352B4"
+],
+"8047EC54": [
+"8033569C",
+"fn_8033569C"
+],
+"8038DD20": [
+"8029E518",
+"VISetPreRetraceCallback"
+],
+"8038DD64": [
+"8029E55C",
+"VISetPostRetraceCallback"
+],
+"80507D90": [
+"8036C444",
+"List_GetNext__Q24nw4r2utFPCQ34nw4r2ut4ListPCv"
+],
+"80507B7C": [
+"8036C230",
+"fn_8036C230"
+],
+"80484E58": [
+"80373A70",
+"RetireEmitterAll__Q34nw4r2ef6EffectFv"
+],
+"80507B94": [
+"8036C248",
+"fn_8036C248"
+],
+"80507D24": [
+"8036C3D8",
+"List_Remove__Q24nw4r2utFPQ34nw4r2ut4ListPv"
+],
+"80495CA8": [
+"80383508",
+"fn_80383508"
+],
+"804862DC": [
+"80374C60",
+"fn_80374C60"
+],
+"804864FC": [
+"80374E80",
+"fn_80374E80"
+],
+"80484DD0": [
+"803739E8",
+"RetireEmitter__Q34nw4r2ef6EffectFPQ34nw4r2ef7Emitter"
+],
+"80493AE4": [
+"803816DC",
+"GetInstance__Q34nw4r2ef8ResourceFv"
+],
+"80493C54": [
+"8038184C",
+"breffSearchName__Q24nw4r2efFPQ34nw4r2ef13EffectProjectPCc"
+],
+"80493E2C": [
+"80381A24",
+"breftSearchName__Q24nw4r2efFPQ34nw4r2ef14TextureProjectPCc"
+],
+"8049C640": [
+"80389A58",
+"fn_80389A58"
+],
+"8049E6DC": [
+"8038BB44",
+"fn_8038BB44"
+],
+"804A097C": [
+"8038DD0C",
+"fn_8038DD0C"
+],
+"804A135C": [
+"8038E730",
+"fn_8038E730"
+],
+"804A193C": [
+"8038ED30",
+"fn_8038ED30"
+],
+"804A1D8C": [
+"8038F1A0",
+"fn_8038F1A0"
+],
+"804A5340": [
+"80392014",
+"fn_80392014"
+],
+"804A6C70": [
+"80393928",
+"GetStripeTexmapType__Q34nw4r2ef24DrawSmoothStripeStrategyCFRCQ34nw4r2ef18EmitterDrawSetting"
+],
+"804ACBAC": [
+"8033D044",
+"fn_8033D044"
+],
+"804B05B4": [
+"80340288",
+"DCStore__Q34nw4r3g3d7ResPlttFb"
+],
+"804B0524": [
+"803401F8",
+"DCStore__Q34nw4r3g3d9ResVtxPosFb"
+],
+"804B053C": [
+"80340210",
+"DCStore__Q34nw4r3g3d9ResVtxNrmFb"
+],
+"804B0554": [
+"80340228",
+"DCStore__Q34nw4r3g3d9ResVtxPosFb_80340228"
+],
+"804B056C": [
+"80340240",
+"DCStore__Q34nw4r3g3d9ResVtxNrmFb_80340240"
+],
+"804B0584": [
+"80340258",
+"DCStore__Q34nw4r3g3d9ResVtxClrFb"
+],
+"804B059C": [
+"80340270",
+"DCStore__Q34nw4r3g3d14ResVtxTexCoordFb"
+],
+"804AC584": [
+"8033CABC",
+"GetResVtxPos__Q34nw4r3g3d6ResMdlCFi"
+],
+"804B01F0": [
+"8033FEFC",
+"GetArray__Q34nw4r3g3d9ResVtxPosCFPPCvPUc"
+],
+"804AC6B0": [
+"8033CB98",
+"GetResVtxNrm__Q34nw4r3g3d6ResMdlCFi"
+],
+"804B02C0": [
+"8033FFCC",
+"GetArray__Q34nw4r3g3d9ResVtxNrmCFPPCvPUc"
+],
+"804AC7DC": [
+"8033CC74",
+"GetResVtxClr__Q34nw4r3g3d6ResMdlCFi"
+],
+"804B039C": [
+"803400A8",
+"GetArray__Q34nw4r3g3d9ResVtxClrCFPPCvPUc"
+],
+"804AC8B8": [
+"8033CD50",
+"GetResVtxTexCoord__Q34nw4r3g3d6ResMdlCFi"
+],
+"804B0470": [
+"80340144",
+"GetArray__Q34nw4r3g3d14ResVtxTexCoordCFPPCvPUc"
+],
+"804AA73C": [
+"8033B294",
+"fn_8033B294"
+],
+"804AA65C": [
+"8033B220",
+"fn_8033B220"
+],
+"804B3F68": [
+"80343D34",
+"fn_80343D34"
+],
+"804B40A8": [
+"80343E74",
+"fn_80343E74"
+],
+"804B3FC8": [
+"80343D94",
+"fn_80343D94"
+],
+"804B425C": [
+"803440A8",
+"fn_803440A8"
+],
+"804AC500": [
+"8033CA88",
+"GetResNodeNumEntries__Q34nw4r3g3d6ResMdlCFv"
+],
+"804AC4AC": [
+"8033CA34",
+"GetResNode__Q34nw4r3g3d6ResMdlCFUl"
+],
+"804AE634": [
+"8033E458",
+"DCStore__Q34nw4r3g3d14ResMatTevColorFb"
+],
+"804AE80C": [
+"8033E630",
+"GetTexObj__Q34nw4r3g3d9ResTexObjF11_GXTexMapID"
+],
+"804AE974": [
+"8033E764",
+"GetTlut__Q34nw4r3g3d10ResTlutObjF7_GXTlut"
+],
+"804BDBC0": [
+"8034A6BC",
+"SetAnmFlag__Q34nw4r3g3d6AnmObjFQ44nw4r3g3d6AnmObj7AnmFlagb"
+],
+"804BDBE8": [
+"8034A6E4",
+"TestAnmFlag__Q34nw4r3g3d6AnmObjCFQ44nw4r3g3d6AnmObj7AnmFlag"
+],
+"804AC62C": [
+"8033CA88",
+"GetResNodeNumEntries__Q34nw4r3g3d6ResMdlCFv"
+],
+"804D3600": [
+"8035EF3C",
+"InitLightSpot__Q34nw4r3g3d8LightObjFf9_GXSpotFn"
+],
+"804D3680": [
+"8035EFBC",
+"InitLightDistAttn__Q34nw4r3g3d8LightObjFff13_GXDistAttnFn"
+],
+"804D35C0": [
+"8035EEFC",
+"InitLightDir__Q34nw4r3g3d8LightObjFfff"
+],
+"804D3640": [
+"8035EF7C",
+"InitLightAttnA__Q34nw4r3g3d8LightObjFfff"
+],
+"804D36C0": [
+"8035EFFC",
+"InitLightAttnK__Q34nw4r3g3d8LightObjFfff"
+],
+"804B41DC": [
+"80343FA8",
+"fn_80343FA8"
+],
+"804B4390": [
+"803441DC",
+"fn_803441DC"
+],
+"804B44BC": [
+"80344308",
+"fn_80344308"
+],
+"804B45E8": [
+"803444B4",
+"fn_803444B4"
+],
+"804B4668": [
+"80344534",
+"fn_80344534"
+],
+"804B42E4": [
+"80344130",
+"fn_80344130"
+],
+"804B4130": [
+"80343EFC",
+"fn_80343EFC"
+],
+"804C7E3C": [
+"80353F88",
+"SetOrtho__Q34nw4r3g3d6CameraFffffff"
+],
+"804B46B4": [
+"80344580",
+"fn_80344580"
+],
+"804B4700": [
+"803445CC",
+"fn_803445CC"
+],
+"804B474C": [
+"80344618",
+"fn_80344618"
+],
+"804B4798": [
+"80344664",
+"fn_80344664"
+],
+"804B4410": [
+"8034425C",
+"fn_8034425C"
+],
+"804B453C": [
+"80344408",
+"fn_80344408"
+],
+"804D3810": [
+"8035F0F8",
+"GetLightDir__Q34nw4r3g3d8LightObjCFPQ34nw4r4math4VEC3"
+],
+"804D37F4": [
+"8035F0DC",
+"GetLightPos__Q34nw4r3g3d8LightObjCFPQ34nw4r4math4VEC3"
+],
+"804AE840": [
+"8033E664",
+"IsValidTexObj__Q34nw4r3g3d9ResTexObjCF11_GXTexMapID"
+],
+"804AE7D8": [
+"8033E5FC",
+"GetTexObj__Q34nw4r3g3d9ResTexObjCF11_GXTexMapID"
+],
+"804AE9A8": [
+"8033E798",
+"IsValidTlut__Q34nw4r3g3d10ResTlutObjCF7_GXTlut"
+],
+"804AE940": [
+"8033E730",
+"GetTlut__Q34nw4r3g3d10ResTlutObjCF7_GXTlut"
+],
+"804D317C": [
+"8035EC68",
+"__ct__Q34nw4r3g3d3FogFPQ34nw4r3g3d7FogData"
+],
+"804AED3C": [
+"8033E9D8",
+"fn_8033E9D8"
+],
+"804AFE68": [
+"8033FBAC",
+"GetResTev__Q34nw4r3g3d6ResMatFv"
+],
+"804BFD28": [
+"8034C57C",
+"LoadResMatPix__Q34nw4r3g3d8G3DStateFQ34nw4r3g3d9ResMatPix"
+],
+"804BFDD4": [
+"8034C628",
+"LoadResMatTevColor__Q34nw4r3g3d8G3DStateFQ34nw4r3g3d14ResMatTevColor"
+],
+"804AED08": [
+"8033E9B8",
+"fn_8033E9B8"
+],
+"804AFE88": [
+"8033FBCC",
+"GetResTev__Q34nw4r3g3d6ResMatCFv"
+],
+"804AD3BC": [
+"8033DBBC",
+"fn_8033DBBC"
+],
+"804B01BC": [
+"8033FEC8",
+"SetArray__Q34nw4r3g3d9ResVtxPosFv"
+],
+"804B028C": [
+"8033FF98",
+"SetArray__Q34nw4r3g3d9ResVtxNrmFv"
+],
+"804C9548": [
+"80355714",
+"CalcTexMtx_Maya__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag"
+],
+"804CA0E8": [
+"803562B0",
+"CalcTexMtx_Xsi__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag"
+],
+"804CAD4C": [
+"80356F10",
+"CalcTexMtx_3dsmax__Q44nw4r3g3d6detail3dccFPQ34nw4r4math5MTX34bRCQ34nw4r3g3d6TexSrtQ44nw4r3g3d6TexSrt4Flag"
+],
+"804AC380": [
+"8033C908",
+"GetResByteCode__Q34nw4r3g3d6ResMdlCFPCc"
+],
+"804C4FB8": [
+"8035132C",
+"fn_8035132C"
+],
+"804C4FC4": [
+"80351338",
+"fn_80351338"
+],
+"804C117C": [
+"8034D9FC",
+"fn_8034D9FC"
+],
+"804AE5F8": [
+"8033E41C",
+"GetParent__Q34nw4r3g3d6ResMatFv"
+],
+"804AC458": [
+"8033C9E0",
+"GetResNode__Q34nw4r3g3d6ResMdlCFi"
+],
+"804C17F8": [
+"8034DECC",
+"fn_8034DECC"
+],
+"804C7918": [
+"80353A1C",
+"__ct__Q34nw4r3g3d6CameraFPQ34nw4r3g3d10CameraData"
+],
+"803A3C44": [
+"802B472C",
+"fn_802B472C"
+],
+"804ACA48": [
+"8033CEE0",
+"fn_8033CEE0"
+],
+"804ACA9C": [
+"8033CF34",
+"fn_8033CF34"
+],
+"804ACB78": [
+"8033D010",
+"fn_8033D010"
+],
+"804AC5D8": [
+"8033CB10",
+"GetResVtxPos__Q34nw4r3g3d6ResMdlCFUl"
+],
+"804ACB24": [
+"8033CFBC",
+"fn_8033CFBC"
+],
+"804AC758": [
+"8033CC40",
+"GetResVtxNrmNumEntries__Q34nw4r3g3d6ResMdlCFv"
+],
+"804AC704": [
+"8033CBEC",
+"GetResVtxNrm__Q34nw4r3g3d6ResMdlCFUl"
+],
+"804AD298": [
+"8033DAFC",
+"fn_8033DAFC"
+],
+"804AC884": [
+"8033CD1C",
+"GetResVtxClrNumEntries__Q34nw4r3g3d6ResMdlCFv"
+],
+"804AC830": [
+"8033CCC8",
+"GetResVtxClr__Q34nw4r3g3d6ResMdlCFUl"
+],
+"804AD2F4": [
+"8033DB58",
+"fn_8033DB58"
+],
+"804B0230": [
+"8033FF3C",
+"CopyTo__Q34nw4r3g3d9ResVtxPosCFPv"
+],
+"804B0300": [
+"8034000C",
+"CopyTo__Q34nw4r3g3d9ResVtxNrmCFPv"
+],
+"804B03DC": [
+"803400E8",
+"CopyTo__Q34nw4r3g3d9ResVtxClrCFPv"
+],
+"804CFA68": [
+"8035BAC4",
+"GetViewTexMtxArray__Q34nw4r3g3d12ScnMdlSimpleFv"
+],
+"804CFA34": [
+"8035BA90",
+"GetViewNrmMtxArray__Q34nw4r3g3d12ScnMdlSimpleFv"
+],
+"804AE6E8": [
+"8033E50C",
+"CopyTo__Q34nw4r3g3d9ResMatPixCFPv"
+],
+"804AE618": [
+"8033E43C",
+"DCStore__Q34nw4r3g3d9ResMatPixFb"
+],
+"804AE724": [
+"8033E548",
+"CopyTo__Q34nw4r3g3d14ResMatTevColorCFPv"
+],
+"804AE760": [
+"8033E584",
+"CopyTo__Q34nw4r3g3d20ResMatIndMtxAndScaleCFPv"
+],
+"804AE650": [
+"8033E474",
+"DCStore__Q34nw4r3g3d20ResMatIndMtxAndScaleFb"
+],
+"804AE79C": [
+"8033E5C0",
+"CopyTo__Q34nw4r3g3d17ResMatTexCoordGenCFPv"
+],
+"804AE66C": [
+"8033E490",
+"DCStore__Q34nw4r3g3d17ResMatTexCoordGenFb"
+],
+"804AE5E0": [
+"8033E404",
+"DCStore__Q34nw4r3g3d6ResTevFb"
+],
+"804B624C": [
+"80345CC0",
+"fn_80345CC0"
+],
+"804B781C": [
+"803466EC",
+"fn_803466EC"
+],
+"804B54C8": [
+"80344F3C",
+"TestExistence__Q34nw4r3g3d12AnmObjMatClrCFUl"
+],
+"803A5BCC": [
+"802B6594",
+"GXInitLightColor"
+],
+"803A5A50": [
+"802B6418",
+"GXInitLightPos"
+],
+"803A5A60": [
+"802B6428",
+"GXGetLightPos"
+],
+"804BAD08": [
+"8034902C",
+"TestExistence__Q34nw4r3g3d9AnmObjShpCFUl"
+],
+"80507EDC": [
+"8036C590",
+"fn_8036C590"
+],
+"804DAFD0": [
+"803658B8",
+"fn_803658B8"
+],
+"804DC5B0": [
+"80366F68",
+"fn_80366F68"
+],
+"804DB380": [
+"80365D5C",
+"fn_80365D5C"
+],
+"804DC84C": [
+"803671EC",
+"fn_803671EC"
+],
+"804DBA28": [
+"803663E0",
+"fn_803663E0"
+],
+"804DBD20": [
+"803666D8",
+"fn_803666D8"
+],
+"804DBD18": [
+"803666D0",
+"fn_803666D0"
+],
+"804DBD10": [
+"803666C8",
+"fn_803666C8"
+],
+"804DBCF8": [
+"803666B0",
+"fn_803666B0"
+],
+"804DBCF0": [
+"803666A8",
+"fn_803666A8"
+],
+"804DBAD8": [
+"80366490",
+"fn_80366490"
+],
+"804DBACC": [
+"80366484",
+"fn_80366484"
+],
+"804DC5D0": [
+"80366F70",
+"fn_80366F70"
+],
+"804DBB20": [
+"803664D8",
+"fn_803664D8"
+],
+"804DBCE8": [
+"803666A0",
+"fn_803666A0"
+],
+"804DBB44": [
+"803664FC",
+"fn_803664FC"
+],
+"804DBCE0": [
+"80366698",
+"fn_80366698"
+],
+"804DBCD8": [
+"80366690",
+"fn_80366690"
+],
+"804DBB68": [
+"80366520",
+"fn_80366520"
+],
+"804DBB74": [
+"8036652C",
+"fn_8036652C"
+],
+"804DBCD0": [
+"80366688",
+"fn_80366688"
+],
+"804DBBA0": [
+"80366558",
+"fn_80366558"
+],
+"804DBCC8": [
+"80366680",
+"fn_80366680"
+],
+"804DBCC0": [
+"80366678",
+"fn_80366678"
+],
+"804DBC70": [
+"80366628",
+"fn_80366628"
+],
+"804DBCB8": [
+"80366670",
+"fn_80366670"
+],
+"804DBC94": [
+"8036664C",
+"fn_8036664C"
+],
+"80507DCC": [
+"8036C480",
+"fn_8036C480"
+],
+"804E00BC": [
+"8036A1FC",
+"fn_8036A1FC"
+],
+"803A6618": [
+"802B6FA4",
+"fn_802B6FA4"
+],
+"804DF790": [
+"80369990",
+"fn_80369990"
+],
+"804DF750": [
+"80369950",
+"fn_80369950"
+],
+"804D7CE0": [
+"80362E90",
+"fn_80362E90"
+],
+"804D8104": [
+"8036FD30",
+"GetCharStrmReader__Q34nw4r2ut4FontCFv"
+],
+"8050A0A0": [
+"8036DC0C",
+"fn_8036DC0C"
+],
+"805080BC": [
+"8036C770",
+"__ct__Q34nw4r2ut19TagProcessorBase<c>Fv"
+],
+"80508424": [
+"8036CAD8",
+"__ct__Q34nw4r2ut19TagProcessorBase<w>Fv"
+],
+"803C6568": [
+"802D0BF8",
+"fn_802D0BF8"
+],
+"803C662C": [
+"802D0CBC",
+"fn_802D0CBC"
+],
+"803C660C": [
+"802D0C9C",
+"fn_802D0C9C"
+],
+"803C6548": [
+"802D0BD8",
+"fn_802D0BD8"
+],
+"8047E29C": [
+"80334CE4",
+"fn_80334CE4"
+],
+"8047C024": [
+"80332A6C",
+"fn_80332A6C"
+],
+"8047E170": [
+"80334BB8",
+"fn_80334BB8"
+],
+"8047E320": [
+"80334D68",
+"fn_80334D68"
+],
+"8047DC98": [
+"803346E0",
+"fn_803346E0"
+],
+"80471F48": [
+"80328990",
+"fn_80328990"
+],
+"803A57BC": [
+"802B61A0",
+"GXInitLightAttnA"
+],
+"803A57E8": [
+"802B61B0",
+"GXInitLightAttnK"
+],
+"804AC90C": [
+"8033CDA4",
+"GetResVtxFurPos__Q34nw4r3g3d6ResMdlCFi"
+]
+}
