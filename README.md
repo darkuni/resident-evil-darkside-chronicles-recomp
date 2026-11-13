@@ -8,7 +8,9 @@ with a small runtime that replaces the Wii hardware, IOS and the DSP.
 
 ## Status
 
-In progress. Not released yet.
+Playable: boots through the logos, intro movie, title, saves and menus into the scenarios; chapter 1 (Game of
+Oblivion, South America) plays with the light-gun controls (pointer, Nunchuk camera, shake to reload). Auto-exposure
+works as on hardware. Optional 60 fps gameplay (the original runs at 30). Not every chapter has been played through yet.
 
 ## Download
 
